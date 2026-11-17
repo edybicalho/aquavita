@@ -1,0 +1,116 @@
+/* AquaVita Peças — "Monte seu sistema" e comparativos (assets/js/sistema.js) */
+
+/* ---------- Monte seu sistema ---------- */
+.sys{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.4fr);gap:24px;align-items:start}
+.sys__form{background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);padding:24px;display:grid;gap:22px;box-shadow:var(--sh-1);position:sticky;top:150px}
+.sys__lbl{font-family:var(--display);font-weight:700;font-size:1.02rem;display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.sys__lbl span{width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:var(--solid);color:#fff;font-size:.8rem;flex:none}
+.sys__lbl small{font-family:var(--font);font-weight:500;color:var(--ink-3);font-size:.78rem}
+.sys__opts{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.sys__opts--n{grid-template-columns:repeat(4,1fr)}
+.sys__opt{text-align:left;padding:12px 14px;border:1.5px solid var(--line);border-radius:12px;background:var(--card);display:grid;gap:1px;transition:.18s}
+.sys__opts--n .sys__opt{text-align:center;font-size:1.1rem}
+.sys__opt b{font-size:.95rem}
+.sys__opt small{color:var(--ink-3);font-size:.76rem}
+.sys__opt:hover{border-color:var(--blue-500)}
+.sys__opt[aria-pressed=true]{border-color:var(--blue-500);background:var(--aqua-soft);box-shadow:inset 0 0 0 1px var(--blue-500)}
+.sys__hint{color:var(--ink-3);font-size:.82rem;margin-top:8px}
+.sys__help{margin-top:8px;font-size:.84rem;color:var(--ink-2)}
+.sys__help summary{cursor:pointer;color:var(--accent);font-weight:600;width:max-content}
+.sys__help p{margin-top:6px}
+.sys__help a{color:var(--accent);text-decoration:underline}
+
+.sys__res{display:grid;gap:14px;min-width:0}
+.sys__empty{background:var(--card);border:1.5px dashed var(--line);border-radius:var(--r-lg);padding:36px 28px;text-align:center;display:grid;justify-items:center;gap:10px;color:var(--ink-2)}
+.sys__empty>.ic{width:34px;height:34px;color:var(--aqua)}
+.sys__empty b{font-family:var(--display);font-size:1.2rem;color:var(--ink)}
+.sys__empty p{max-width:46ch}
+.sys__step{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px;animation:sys-in .35s cubic-bezier(.2,.8,.2,1)}
+@keyframes sys-in{from{opacity:0;transform:translateY(8px)}}
+@media (prefers-reduced-motion:reduce){.sys__step{animation:none}}
+.sys__h{font-weight:700;display:flex;align-items:center;gap:8px;margin-bottom:12px}
+.sys__h .ic{color:var(--green)}
+.sys__cards{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.sys__card,.sys__mot{display:grid;grid-template-columns:64px minmax(0,1fr);gap:12px;align-items:start;text-align:left;padding:10px;border:1.5px solid var(--line);border-radius:12px;background:var(--card);transition:.18s}
+.sys__card:hover,.sys__mot:hover{border-color:var(--hover-line)}
+.sys__card[aria-pressed=true],.sys__mot[aria-pressed=true]{border-color:var(--blue-500);background:var(--aqua-soft)}
+.sys__card img,.sys__mot img{width:64px;height:64px;object-fit:contain;background:#fff;border-radius:8px;padding:3px}
+.sys__card b,.sys__mot b{display:block;font-size:.86rem;line-height:1.3}
+.sys__card small,.sys__mot small{display:block;color:var(--ink-2);font-size:.76rem;margin-top:3px}
+.sys__card em,.sys__mot em{font-style:normal;color:var(--ink-3)}
+.sys__tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
+.sys__tags i{font-style:normal;font-size:.68rem;font-weight:600;padding:2px 7px;border-radius:99px;background:var(--tint);color:var(--ink-2)}
+.sys__price{display:block;font-family:var(--display);font-weight:700;margin-top:6px;font-variant-numeric:tabular-nums}
+.sys__price small,.sys__card .sys__price small{display:inline;font-family:var(--font);font-weight:500;color:var(--ink-3);font-size:.74rem;margin:0}
+.sys__price em{font-family:var(--font);font-size:.74rem;color:var(--red);font-style:normal}
+.sys__mots{display:grid;gap:8px}
+.sys__mot{grid-template-columns:48px minmax(0,1fr) auto;align-items:center}
+.sys__mot img{width:48px;height:48px}
+.sys__mot .sys__price{margin:0}
+.sys__fora{margin-top:10px;font-size:.84rem;color:var(--ink-2)}
+.sys__fora summary{cursor:pointer;font-weight:600;color:var(--ink-2)}
+.sys__fora ul{margin-top:6px;display:grid;gap:4px;padding-left:18px;list-style:disc}
+
+.sys__elet{border-color:var(--hover-line)}
+.sys__elet .sys__h .ic{color:var(--accent)}
+.sys__elet dl{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:0 0 12px}
+.sys__elet dl div{background:var(--tint);border-radius:10px;padding:10px 12px}
+.sys__elet dt{font-size:.72rem;color:var(--ink-3);text-transform:uppercase;letter-spacing:.06em;font-weight:600}
+.sys__elet dd{margin:2px 0 0;font-family:var(--display);font-weight:700;font-size:1.02rem}
+.sys__elet ul{display:grid;gap:4px;padding-left:18px;list-style:disc;font-size:.84rem;color:var(--ink-2)}
+.sys__elet li b{color:var(--ink)}
+.sys__kit{font-size:.9rem;color:var(--ink-2)}
+.sys__kit .ic{vertical-align:-3px;margin-right:4px}
+.sys__mais{margin-top:8px;font-weight:600;color:var(--accent);font-size:.88rem;padding:6px 0}
+.sys__mais:hover{text-decoration:underline}
+.sys__kit .ic{color:var(--aqua)}
+.sys__kit a{color:var(--accent);font-weight:600;text-decoration:underline}
+
+.sys__sum{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;background:linear-gradient(135deg,var(--navy-900),var(--navy-700));color:#fff;border-radius:var(--r);padding:18px 20px}
+.sys__sum small{color:#a9bbdc;font-size:.76rem}
+.sys__sum>div:first-child{display:grid;gap:2px;min-width:0;flex:1 1 260px}
+.sys__sum b{font-size:.9rem;line-height:1.35}
+.sys__sum span{font-family:var(--display);font-weight:700;font-size:1.4rem;font-variant-numeric:tabular-nums}
+.sys__acts{display:flex;gap:8px;flex-wrap:wrap}
+
+/* ---------- Comparativos ---------- */
+#cmpTabs .chip[aria-selected=true]{background:var(--solid);border-color:var(--solid);color:#fff}
+.cmpt{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r);background:var(--card);-webkit-overflow-scrolling:touch}
+.cmpt table{border-collapse:separate;border-spacing:0;width:100%;min-width:860px;font-size:.88rem}
+.cmpt th,.cmpt td{padding:12px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:middle;font-variant-numeric:tabular-nums}
+.cmpt thead th{font-size:.74rem;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-3);font-weight:700;background:var(--tint);white-space:nowrap}
+.cmpt tbody tr:last-child>*{border-bottom:0}
+.cmpt tbody tr:hover>*{background:var(--tint)}
+.cmpt th[scope=row]{position:sticky;left:0;background:var(--card);z-index:1;min-width:230px;max-width:280px;font-weight:600}
+.cmpt thead th:first-child{position:sticky;left:0;z-index:2}
+.cmpt th[scope=row] a{display:flex;align-items:center;gap:10px}
+.cmpt th[scope=row] a:hover span{color:var(--accent)}
+.cmpt th[scope=row] img{width:48px;height:48px;object-fit:contain;background:#fff;border-radius:8px;padding:2px;flex:none}
+.cmpt th[scope=row] span{line-height:1.3;font-size:.84rem}
+.cmpt th[scope=row] em{display:block;font-style:normal;color:var(--red);font-size:.72rem;font-weight:500}
+.cmpt td small{color:var(--ink-3);font-size:.72rem;margin-left:4px}
+.cmpt td.best{font-weight:700;color:var(--green)}
+.cmpt td.best::after{content:"maior";display:inline-block;margin-left:6px;font-size:.62rem;text-transform:uppercase;letter-spacing:.06em;background:var(--green-soft);color:var(--green);padding:1px 6px;border-radius:99px;vertical-align:1px}
+.cmpt .ok{color:var(--green)}
+.cmpt .ok .ic{width:1.2em;height:1.2em;stroke-width:2.4}
+.cmpt .no{color:var(--ink-3)}
+.cmpt__p{font-family:var(--display);font-weight:700;white-space:nowrap}
+.cmpt__p small{display:block;font-family:var(--font);font-weight:500;margin:0!important}
+.cmpt__nota{font-size:.8rem;color:var(--ink-3);margin-top:10px;max-width:90ch}
+
+/* Páginas de destino /?monte e /?comparar= */
+body.landing--monte #monte,body.landing--comparar #comparar{order:-2;padding-top:40px}
+
+@media (max-width:960px){
+  .sys{grid-template-columns:1fr}
+  .sys__form{position:static}
+}
+@media (max-width:600px){
+  .sys__form{padding:18px}
+  .sys__cards{grid-template-columns:1fr}
+  .sys__elet dl{grid-template-columns:1fr 1fr}
+  .sys__mot{grid-template-columns:48px minmax(0,1fr)}
+  .sys__mot .sys__price{grid-column:2}
+  .sys__acts,.sys__acts .btn{width:100%}
+  .cmpt th[scope=row]{min-width:170px}
+}

@@ -1,0 +1,77 @@
+/* AquaVita Peças — pedido completo pelo WhatsApp (carrinho) e faixa de prova social */
+
+/* ---------- Carrinho: pagamento, CEP e nome ---------- */
+.ped{border:0;margin:14px 0 0;padding:0;min-width:0}
+.ped legend{font-size:.8rem;font-weight:600;color:var(--ink-2);margin-bottom:8px;padding:0}
+.ped legend small{font-weight:400;color:var(--ink-3)}
+.ped__pay{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.ped__pay label{position:relative;cursor:pointer}
+.ped__pay input{position:absolute;opacity:0;pointer-events:none}
+.ped__pay span{display:flex;flex-direction:column;gap:1px;padding:9px 12px;border:1.5px solid var(--line);border-radius:12px;background:var(--card);transition:border-color .2s,box-shadow .2s}
+.ped__pay b{font-size:.84rem}
+.ped__pay small{font-size:.76rem;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.ped__pay input:checked+span{border-color:var(--blue-500);box-shadow:0 0 0 3px rgba(43,130,246,.16)}
+.ped__pay input:focus-visible+span{outline:2px solid var(--blue-500);outline-offset:2px}
+.ped__row{display:grid;grid-template-columns:7.2rem 1fr;gap:8px;margin-top:8px}
+.ped__row label{display:flex;flex-direction:column;gap:3px;font-size:.74rem;color:var(--ink-3);min-width:0}
+.ped__row input{width:100%;min-width:0;padding:9px 11px;border:1.5px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);font:inherit;font-size:.9rem}
+.ped__row input:focus{outline:0;border-color:var(--blue-500);box-shadow:0 0 0 3px rgba(43,130,246,.14)}
+.ped__cidade{min-height:1.1rem;margin:6px 0 0;font-size:.78rem;color:var(--green);display:flex;align-items:center;gap:4px}
+.ped__cidade .ic{width:14px;height:14px}
+.drawer__foot .ped+.btn{margin-top:10px}
+@media (max-height:760px){
+  .drawer__foot .sum:not(.sum--total){display:none}   /* em telas baixas, só o total fica no rodapé */
+  .ped legend{margin-bottom:6px}
+}
+
+/* ---------- Faixa de prova social ---------- */
+.provas{padding:34px 0 30px;background:var(--bg)}
+.provas__in{display:grid;grid-template-columns:auto minmax(0,1.35fr) minmax(0,1fr);gap:28px;align-items:center}
+.provas__nota{display:flex;flex-direction:column;gap:6px;padding-right:28px;border-right:1px solid var(--line)}
+.provas__nota .stars{display:flex;gap:2px;color:var(--amber)}
+.provas__nota .stars .ic{width:20px;height:20px;fill:currentColor;stroke:none}
+.provas__nota b{font-family:var(--display);font-size:1.5rem;letter-spacing:-.02em;line-height:1.1}
+.provas__nota small{color:var(--ink-2);font-size:.84rem}
+.provas__nota a{font-size:.84rem;font-weight:600;color:var(--accent)}
+.provas__nota a:hover{text-decoration:underline}
+
+.provas__fala{position:relative;min-height:6.6rem;margin:0}
+.provas__fala figure{position:absolute;inset:0;margin:0;display:flex;flex-direction:column;justify-content:center;gap:8px;
+  opacity:0;transform:translateY(8px);transition:opacity .6s,transform .6s;pointer-events:none}
+.provas__fala figure.is-on{opacity:1;transform:none;pointer-events:auto}
+.provas__fala blockquote{margin:0;font-family:var(--display);font-size:1.12rem;line-height:1.4;letter-spacing:-.01em;color:var(--ink)}
+.provas__fala blockquote::before{content:"“";color:var(--blue-500);font-size:1.6em;line-height:0;vertical-align:-.32em;margin-right:2px}
+.provas__fala figcaption{display:flex;align-items:center;gap:8px;font-size:.84rem;color:var(--ink-2)}
+.provas__fala .avatar{width:26px;height:26px;border-radius:50%;display:grid;place-items:center;font-size:.75rem;font-weight:700;color:#fff;background:linear-gradient(135deg,var(--blue-500),var(--navy-700))}
+.provas__dots{position:absolute;right:0;bottom:-6px;display:flex;gap:6px}
+.provas__dots button{width:8px;height:8px;padding:0;border-radius:50%;background:var(--line);transition:background .3s,width .3s}
+.provas__dots button[aria-current=true]{background:var(--blue-500);width:20px;border-radius:99px}
+
+.provas__selos{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.provas__selos li{display:flex;gap:10px;align-items:flex-start;font-size:.86rem;color:var(--ink-2);line-height:1.35}
+.provas__selos b{display:block;color:var(--ink);font-size:.9rem}
+.provas__selos .ic{flex:none;width:30px;height:30px;padding:6px;border-radius:9px;background:var(--aqua-soft);color:var(--blue-600)}
+
+.provas__marcas{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;gap:8px 22px;padding-top:18px;border-top:1px solid var(--line);
+  font-size:.78rem;color:var(--ink-3);letter-spacing:.08em;text-transform:uppercase}
+.provas__marcas span{font-family:var(--display);font-size:1.02rem;font-weight:700;letter-spacing:.02em;text-transform:none;color:var(--ink-2);opacity:.85}
+
+:root[data-theme=dark] .provas__selos .ic{background:rgba(43,130,246,.16);color:var(--aqua)}
+
+@media (max-width:980px){
+  .provas__in{grid-template-columns:auto 1fr;gap:22px}
+  .provas__selos{grid-column:1/-1;grid-template-columns:repeat(3,1fr)}
+}
+@media (max-width:620px){
+  .provas{padding:24px 0 22px}
+  .provas__in{grid-template-columns:1fr;gap:18px}
+  .provas__nota{flex-direction:row;flex-wrap:wrap;align-items:center;gap:4px 10px;padding:0 0 16px;border-right:0;border-bottom:1px solid var(--line)}
+  .provas__nota b{font-size:1.2rem}
+  .provas__fala{min-height:8.4rem}
+  .provas__fala blockquote{font-size:1rem}
+  .provas__selos{grid-template-columns:1fr}
+  .provas__marcas{gap:6px 16px}
+  .provas__marcas span{font-size:.92rem}
+}
+body.landing .provas{order:-1}
+@media (prefers-reduced-motion:reduce){.provas__fala figure{transition:none}}

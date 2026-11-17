@@ -1,0 +1,394 @@
+/* AquaVita Peças — experiência de rolagem da página inicial (motor: scroll-craft).
+   O motor (assets/vendor/scrollcraft) não é editado; aqui ficam só o tema e a marcação própria. */
+
+:root{
+  --sc-canvas:#060c1a; --sc-surface:#0d172c;
+  --sc-ink:#eef3fb; --sc-ink-soft:#9fb0cd;
+  --sc-accent:#35c8f0; --sc-accent-ink:#04101f;
+  --sc-font-display:"Sora","Inter",system-ui,sans-serif;
+  --sc-font-text:"Inter",system-ui,sans-serif;
+  --xp-hdr:124px;                 /* altura do cabeçalho fixo da loja (o xp.js mede e corrige; os valores abaixo evitam o pulo até lá) */
+}
+
+.xp{background:var(--sc-canvas);color:var(--sc-ink);position:relative;isolation:isolate;
+  margin-top:calc(var(--xp-hdr) * -1)}   /* o palco começa atrás do cabeçalho fixo, como quando está preso */
+.xp ::selection{background:var(--sc-accent);color:var(--sc-accent-ink)}
+.xp :focus-visible{outline:2px solid var(--sc-accent);outline-offset:3px}
+body.landing .xp{display:none}
+body:not(.landing) .perks{margin-top:0;padding:28px 0 0}
+
+/* fundo de bancada: malha milimetrada */
+.xp-grid{position:absolute;inset:0;pointer-events:none;
+  background-image:
+    linear-gradient(to right,color-mix(in oklab,var(--sc-ink) 7%,transparent) 1px,transparent 1px),
+    linear-gradient(to bottom,color-mix(in oklab,var(--sc-ink) 7%,transparent) 1px,transparent 1px),
+    linear-gradient(to right,color-mix(in oklab,var(--sc-ink) 3.5%,transparent) 1px,transparent 1px),
+    linear-gradient(to bottom,color-mix(in oklab,var(--sc-ink) 3.5%,transparent) 1px,transparent 1px);
+  background-size:120px 120px,120px 120px,24px 24px,24px 24px;
+  mask-image:radial-gradient(120% 90% at 65% 45%,#000 30%,transparent 85%);
+  -webkit-mask-image:radial-gradient(120% 90% at 65% 45%,#000 30%,transparent 85%)}
+
+/* ================= ATO 1 · a peça, as vistas, as medidas ================= */
+.xp-bench{display:grid;grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr);gap:clamp(1.5rem,4vw,4rem);
+  padding:calc(var(--xp-hdr) + 1.5rem) var(--sc-gutter) 6.5rem;align-items:center;background:var(--sc-canvas)}
+.xp-bench::after{content:"";position:absolute;inset:auto 0 0 0;height:160px;pointer-events:none;z-index:6;
+  background:linear-gradient(to top,var(--sc-canvas),transparent)}
+
+.xp-copy{position:relative;z-index:8;min-height:23rem}
+.xp-plate{font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--sc-ink-soft);
+  display:flex;gap:.6rem 1.1rem;flex-wrap:wrap;align-items:center;padding-bottom:1rem;margin-bottom:1.5rem;
+  border-bottom:1px solid var(--sc-hairline-strong)}
+.xp-plate b{color:var(--sc-ink);font-weight:600}
+.xp-plate i{font-style:normal;color:var(--sc-accent)}
+.xp-states{position:relative}
+.xp-state{position:absolute;inset:0 0 auto 0}
+.xp-state:first-child{position:relative}
+.xp h1,.xp h2{font-family:var(--sc-font-display);letter-spacing:-.03em;line-height:1.04;text-wrap:balance;margin:0}
+.xp h1{font-size:clamp(2.2rem,1.3rem + 3.4vw,4.2rem);font-weight:700;max-width:13ch}
+.xp-state h2{font-size:clamp(1.7rem,1.2rem + 1.9vw,2.9rem);font-weight:700;max-width:16ch}
+.xp-lede{color:var(--sc-ink-soft);font-size:1.06rem;line-height:1.6;max-width:36ch;margin-top:1rem}
+.xp-spec{display:grid;gap:.1rem;margin-top:1.4rem;font-variant-numeric:tabular-nums}
+.xp-spec div{display:flex;justify-content:space-between;gap:1.5rem;padding:.7rem 0;border-top:1px solid var(--sc-hairline);max-width:27rem}
+.xp-spec dt{color:var(--sc-ink-soft);font-size:.92rem}
+.xp-spec dd{margin:0;font-family:var(--sc-font-display);font-weight:600;font-size:1.02rem;text-align:right}
+.xp-actions{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:1.6rem}
+.xp-btn{display:inline-flex;align-items:center;gap:.5em;padding:.85em 1.35em;border-radius:999px;font-weight:600;font-size:.95rem;
+  background:var(--sc-accent);color:var(--sc-accent-ink);transition:background .2s,transform .16s}
+.xp-btn:hover{background:#6bdcf8}
+.xp-btn:active{transform:translateY(1px)}
+.xp-btn--line{background:none;color:var(--sc-ink);box-shadow:inset 0 0 0 1.5px var(--sc-hairline-strong)}
+.xp-btn--line:hover{background:color-mix(in oklab,var(--sc-ink) 8%,transparent)}
+.xp-price{font-size:.92rem;color:var(--sc-ink-soft);margin-top:1rem}
+.xp-price b{color:var(--sc-ink);font-family:var(--sc-font-display);font-size:1.15rem;font-variant-numeric:tabular-nums}
+
+/* o objeto em planos */
+.xp-object{--oh:min(64vh,600px);position:relative;height:var(--oh);z-index:2;
+  transform:translate3d(calc(var(--mx,0)*-10px),calc(var(--my,0)*-8px),0);transition:transform .35s cubic-bezier(.23,1,.32,1)}
+.xp-plane{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}
+.xp-plane img{max-width:none}
+/* plano de fundo: o desenho como fantasma, some quando vira protagonista */
+.xp-ghost img{width:min(120%,1100px);height:auto;opacity:calc(.16 - var(--sc-p,0)*.16);filter:blur(1px)}
+/* plano do objeto: as vistas trocam por faixas de progresso */
+.xp-view{position:absolute;inset:0;display:grid;place-items:center;
+  --f:.035;
+  opacity:clamp(0,min(calc((var(--sc-p,0) - var(--a)) / var(--f)),calc((var(--b) - var(--sc-p,0)) / var(--f))),1);
+  transform:translate3d(calc((var(--sc-p,0) - var(--m)) * -260px),0,0) scale(calc(1 - (var(--sc-p,0) - var(--m)) * (var(--sc-p,0) - var(--m)) * 2.2))}
+.xp-view img{max-height:calc(var(--oh)*.94);max-width:92%;width:auto;height:auto;object-fit:contain;
+  filter:drop-shadow(0 28px 34px rgba(0,0,0,.5))}
+.xp-view--draw img{filter:none;max-width:104%;max-height:var(--oh)}
+.xp-view--draw{transform:scale(calc(.9 + var(--sc-p,0)*.1))}
+/* plano da frente: conexões desfocadas que ultrapassam o objeto */
+.xp-front{place-items:end;inset:auto -6% -16% auto;width:52%;height:auto;z-index:4;
+  opacity:calc(1 - var(--sc-p,0)*4.5)}
+.xp-front img{width:100%;height:auto;filter:blur(5px) brightness(.6)}
+/* linha de base: o objeto está apoiado, não flutuando */
+.xp-floor{position:absolute;left:8%;right:8%;bottom:9%;height:1px;background:linear-gradient(90deg,transparent,var(--sc-hairline-strong) 20%,var(--sc-hairline-strong) 80%,transparent);
+  opacity:calc(1 - var(--sc-p,0)*1.15)}
+
+/* régua de vistas (movimento-assinatura) */
+.xp-ruler{position:absolute;left:var(--sc-gutter);right:max(var(--sc-gutter),96px);bottom:1.6rem;z-index:9;height:3.4rem}
+.xp-ruler__scale{position:absolute;inset:auto 0 0 0;height:14px;
+  background-image:repeating-linear-gradient(to right,color-mix(in oklab,var(--sc-ink) 30%,transparent) 0 1px,transparent 1px 2%);
+  border-bottom:1px solid var(--sc-hairline-strong)}
+.xp-ruler__cursor{position:absolute;bottom:0;left:calc(var(--sc-p,0)*100%);width:2px;height:26px;background:var(--sc-accent);transform:translateX(-1px)}
+.xp-ruler__cursor::before{content:"";position:absolute;left:50%;top:-5px;width:9px;height:9px;border-radius:50%;background:var(--sc-accent);transform:translateX(-50%)}
+.xp-ruler ol{list-style:none;margin:0;padding:0}
+.xp-ruler li{position:absolute;bottom:20px;left:calc(var(--at)*100%);transform:translateX(-50%)}
+.xp-ruler li:first-child{transform:none}
+.xp-ruler li:last-child{transform:translateX(-100%)}
+.xp-ruler button{font:600 .74rem/1 var(--sc-font-text);letter-spacing:.09em;text-transform:uppercase;color:var(--sc-ink-soft);
+  padding:.55rem .5rem;border-radius:6px;white-space:nowrap;transition:color .2s}
+.xp-ruler button:hover{color:var(--sc-ink)}
+.xp-ruler button[aria-current=true]{color:var(--sc-accent)}
+
+/* ================= ATO 2 · as linhas (trilho) ================= */
+.xp-range{background:var(--sc-surface);display:flex;align-items:center;padding-top:var(--xp-hdr)}
+.xp-rail{gap:clamp(1.25rem,2.4vw,2.5rem);padding-inline:var(--sc-gutter);align-items:stretch}
+.xp-rail>*{flex:none}
+.xp-lead{width:min(30rem,80vw);align-self:center}
+.xp-lead h2{font-size:clamp(2rem,1.3rem + 2.6vw,3.6rem);font-weight:700}
+.xp-lead p{color:var(--sc-ink-soft);margin-top:1rem;max-width:30ch;line-height:1.6}
+.xp-obj{width:min(24rem,74vw);display:flex;flex-direction:column}
+.xp-obj__img{background:#fff;border-radius:18px;aspect-ratio:1/.82;display:grid;place-items:center;overflow:hidden;
+  box-shadow:0 2px 4px rgba(0,0,0,.25),0 22px 44px -12px rgba(0,0,0,.55)}
+.xp-obj__img img{width:86%;height:86%;object-fit:contain}
+.xp-obj h3{font-family:var(--sc-font-display);font-size:1.35rem;font-weight:700;letter-spacing:-.02em;margin:1.3rem 0 .2rem}
+.xp-obj dl{margin:.4rem 0 0;font-size:.9rem;font-variant-numeric:tabular-nums}
+.xp-obj dl div{display:flex;justify-content:space-between;gap:1rem;padding:.5rem 0;border-top:1px solid var(--sc-hairline)}
+.xp-obj dt{color:var(--sc-ink-soft)}
+.xp-obj dd{margin:0;text-align:right;font-weight:500}
+.xp-obj a{margin-top:1rem;font-weight:600;font-size:.92rem;color:var(--sc-accent);display:inline-flex;align-items:center;gap:.4em;padding:.4rem 0}
+.xp-obj a:hover{text-decoration:underline}
+.xp-note{width:min(22rem,74vw);align-self:center;border-left:1px solid var(--sc-hairline-strong);padding-left:clamp(1.25rem,2.4vw,2.5rem)}
+.xp-note h3{font-family:var(--sc-font-display);font-size:1.35rem;font-weight:700;letter-spacing:-.02em;margin:0}
+.xp-note p{color:var(--sc-ink-soft);margin:.8rem 0 1.2rem;line-height:1.6}
+@media (prefers-reduced-motion:no-preference){
+  /* os cartões assentam em sequência conforme o trilho corre; o primeiro já está presente */
+  .xp-obj{--k:calc((var(--sc-p,0) - var(--i,0)*.16 + .2) * 6);opacity:clamp(.78,var(--k),1);
+    transform:translate3d(0,calc((1 - clamp(0,var(--k),1)) * 22px),0)}
+}
+
+/* ================= ATO 3 · a loja ================= */
+.xp-store{background:var(--sc-canvas);padding:clamp(4rem,7vw,7rem) 0 clamp(4.5rem,8vw,8rem)}
+.xp-store__in{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(2rem,5vw,5rem);align-items:center}
+.xp-store figure{margin:0;border-radius:20px;overflow:hidden;box-shadow:0 30px 60px -20px rgba(0,0,0,.6)}
+.xp-store figure img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+.xp-store h2{font-size:clamp(1.9rem,1.3rem + 2.2vw,3.2rem);font-weight:700;max-width:15ch}
+.xp-store p{color:var(--sc-ink-soft);line-height:1.65;max-width:42ch;margin:1.1rem 0 0}
+.xp-figs{display:grid;grid-template-columns:repeat(3,auto);justify-content:start;gap:clamp(1.5rem,3.5vw,3.5rem);margin:2.2rem 0 0;padding-top:1.6rem;border-top:1px solid var(--sc-hairline-strong)}
+.xp-figs dt{font-family:var(--sc-font-display);font-weight:700;font-size:clamp(2rem,1.5rem + 1.6vw,3rem);letter-spacing:-.03em;line-height:1}
+.xp-figs dd{margin:.5rem 0 0;color:var(--sc-ink-soft);font-size:.88rem;max-width:14ch}
+
+/* ================= celular ================= */
+@media (max-width:860px){
+  .xp-bench{grid-template-columns:1fr;grid-template-rows:auto 1fr;align-items:start;gap:.25rem;
+    padding:calc(var(--xp-hdr) + .5rem) var(--sc-gutter) 5.2rem}
+  .xp-object{--oh:31svh;order:-1}
+  .xp-copy{min-height:0}
+  .xp-plate{font-size:.7rem;margin-bottom:.8rem;padding-bottom:.6rem;gap:.3rem .8rem}
+  .xp h1{font-size:clamp(1.8rem,7.2vw,2.5rem)}
+  .xp-state h2{font-size:clamp(1.45rem,5.8vw,2rem)}
+  .xp-lede{font-size:.95rem;margin-top:.5rem;line-height:1.5}
+  .xp-spec{margin-top:.7rem}
+  .xp-spec div{padding:.45rem 0}
+  .xp-actions{margin-top:.9rem}
+  .xp-btn{padding:.72em 1.05em;font-size:.88rem}
+  .xp-price{display:none}
+  .xp-front{display:none}   /* no celular o plano desfocado cobriria a peça */
+  .xp-view{transform:translate3d(calc((var(--sc-p,0) - var(--m)) * -120px),0,0)}
+  .xp-ruler{bottom:.9rem;height:3rem}
+  .xp-ruler button{font-size:.62rem;letter-spacing:.05em;padding:.5rem .15rem}
+  .xp-store__in{grid-template-columns:1fr}
+  .xp-figs{gap:1.25rem}
+}
+@media (max-width:620px){
+  /* a barra inferior do celular ocupa 64px: a régua e o texto sobem; o botão do WhatsApp não cobre os valores */
+  .xp-bench{padding-bottom:calc(64px + 4.4rem)}
+  .xp-ruler{bottom:calc(64px + .7rem);right:calc(var(--sc-gutter) + 62px)}
+  /* em tela estreita os rótulos se distribuem por igual para não encostar; o cursor continua proporcional */
+  .xp-ruler ol{position:absolute;inset:auto 0 20px 0;display:flex;justify-content:space-between}
+  .xp-ruler li,.xp-ruler li:first-child,.xp-ruler li:last-child{position:static;transform:none}
+  .xp-ruler button{padding:.5rem 0}
+  .xp-spec div{max-width:calc(100% - 62px)}
+  .xp-bench::after{height:210px}
+}
+@media (max-width:860px) and (max-height:700px){
+  .xp-object{--oh:21svh}
+  .xp-lede{display:none}
+  .xp-plate{margin-bottom:.5rem;padding-bottom:.45rem}
+  .xp h1{font-size:1.6rem}
+  .xp-state h2{font-size:1.3rem}
+  .xp-spec{margin-top:.4rem;font-size:.9rem}
+  .xp-spec div{padding:.32rem 0}
+  .xp-spec dd{font-size:.92rem}
+  .xp-actions{margin-top:.6rem}
+  .xp-btn{padding:.6em .9em;font-size:.82rem}
+}
+
+/* sem animação: as vistas trocam secas e nada desliza */
+@media (prefers-reduced-motion:reduce){
+  .xp-view,.xp-object{transform:none!important;transition:none}
+  .xp-view{--f:.001}
+}
+
+/* sem animação, o trilho deixa de ser trilho: vira uma grade comum, sem prender a rolagem */
+@media (prefers-reduced-motion:reduce){
+  #categorias{height:auto!important}
+  #categorias .xp-range{position:static;height:auto;overflow:visible;padding:calc(var(--xp-hdr) + 2rem) 0 4rem;display:block}
+  #categorias .xp-rail{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,17rem),1fr));gap:2.5rem 2rem}
+  #categorias .xp-rail>*{width:auto}
+  #categorias .xp-lead{grid-column:1/-1}
+  #categorias .xp-note{border-left:0;padding-left:0}
+}
+
+/* ================= ATO DE ABERTURA · a banheira que se desmonta ================= */
+@property --sx{syntax:"<percentage>";inherits:true;initial-value:60%}
+@property --sy{syntax:"<percentage>";inherits:true;initial-value:60%}
+@property --z{syntax:"<number>";inherits:true;initial-value:1}
+.tubp{grid-template-columns:minmax(0,.62fr) minmax(0,1.38fr);background:var(--sc-canvas)}
+.tubp::after{display:none}
+/* as fotos foram compostas com a banheira nos dois terços da direita: o terço da esquerda é do texto */
+.tubp-media{--open:0;--mh:calc(100svh - var(--xp-hdr) - 4.6rem);position:absolute;right:0;top:var(--xp-hdr);aspect-ratio:16/9;
+  height:var(--mh);width:auto;max-width:100%;z-index:1;overflow:hidden;
+  /* a borda esquerda da foto se dissolve no fundo da página */
+  mask-image:linear-gradient(90deg,transparent 0,#000 18%);-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 18%)}
+.tubp-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;max-width:none}
+.tubp-img--a{opacity:calc(1 - var(--open) * 2);transform:translate3d(0,calc(var(--open) * -5%),0) scale(calc(1 + var(--open) * .05))}
+.tubp-img--b{opacity:calc(var(--open) * 1.7 - .5);transform:translate3d(0,calc((1 - var(--open)) * 4%),0) scale(calc(1.05 - var(--open) * .05))}
+/* aproximação: na peça da vez, a foto amplia e leva a peça para o ponto de foco (--fx, --fy) */
+.tubp-zoom{--fx:56%;--fy:50%;position:absolute;inset:0;transform-origin:0 0;will-change:transform;
+  transform:translate(clamp(calc(100% - 100% * var(--z)),calc(var(--fx) - var(--sx) * var(--z)),0%),clamp(calc(100% - 100% * var(--z)),calc(var(--fy) - var(--sy) * var(--z)),0%)) scale(var(--z));
+  transition:--z .7s cubic-bezier(.32,.72,0,1),--sx .7s cubic-bezier(.32,.72,0,1),--sy .7s cubic-bezier(.32,.72,0,1)}
+#banheira.is-stepping .tubp-hots{opacity:0;pointer-events:none;transition:opacity .25s}
+/* peças em camadas: cada uma é uma imagem recortada que o banheira.js move (--ox/--oy em % da foto) */
+.tubp-zoom{container-type:size}
+.tubp-parts{position:absolute;inset:0;pointer-events:none}
+.tubp-part{--ox:0;--oy:0;--or:0;--os:1;--oo:1;position:absolute;opacity:var(--oo);
+  transform:translate3d(calc(var(--ox) * 1cqw),calc(var(--oy) * 1cqh),0) rotate(calc(var(--or) * 1deg)) scale(var(--os));
+  will-change:transform,opacity}
+.tubp-part img{position:relative;display:block;width:100%;height:auto;max-width:none;
+  transition:translate .6s cubic-bezier(.32,.72,0,1);animation:tubFloat 5.5s ease-in-out infinite alternate;animation-delay:var(--fd,0s)}
+@keyframes tubFloat{from{transform:translateY(-1.2%)}to{transform:translateY(1.2%)}}
+/* no peça-por-peça, uma película escurece a cena e a peça da vez fica acima dela, com um halo de luz
+   (película e halo só mudam de opacidade: não obrigam o navegador a redesenhar a foto) */
+.tubp-dim{position:absolute;inset:0;z-index:1;background:rgba(4,9,20,.62);opacity:0;transition:opacity .5s}
+#banheira.is-focus .tubp-dim{opacity:1}
+.tubp-part.is-on{z-index:2}
+.tubp-part::before{content:"";position:absolute;inset:-35%;border-radius:50%;opacity:0;transition:opacity .5s;
+  background:radial-gradient(closest-side,color-mix(in oklab,var(--sc-accent) 45%,transparent),transparent)}
+#banheira.is-focus .tubp-part.is-on::before{opacity:1}
+#banheira.is-focus .tubp-part.is-on img{translate:0 -6%}
+@media (prefers-reduced-motion:reduce){.tubp-part img{animation:none}}
+/* mira em volta da peça da vez, para não confundir com as vizinhas (só nas peças pequenas) */
+.tubp-ring{--d:9.5vw;position:absolute;left:var(--sx);top:var(--sy);width:var(--d);height:var(--d);translate:-50% -50%;
+  scale:calc(1 / var(--z));border-radius:50%;pointer-events:none;opacity:0;transition:opacity .4s .35s;
+  box-shadow:0 0 0 1.5px var(--sc-accent),0 0 0 7px color-mix(in oklab,var(--sc-accent) 18%,transparent)}
+#banheira.is-ring .tubp-ring{opacity:1}
+.tubp-hots{position:absolute;inset:0;opacity:clamp(0,calc((var(--open) - .75) * 4),1)}
+.tubp-hot{position:absolute;translate:-50% -50%;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;
+  font:600 12px/1 var(--sc-font-display);font-variant-numeric:tabular-nums;color:var(--sc-ink);
+  background:rgba(6,12,26,.72);box-shadow:inset 0 0 0 1.4px color-mix(in oklab,var(--sc-ink) 60%,transparent);
+  transition:background .25s,color .25s,scale .25s;cursor:pointer;backdrop-filter:blur(2px)}
+.tubp-hot::before{content:"";position:absolute;inset:-10px;border-radius:50%}
+.tubp-hot:hover{scale:1.12}
+.tubp-hot.is-on{background:var(--sc-accent);color:var(--sc-accent-ink);box-shadow:0 0 0 6px color-mix(in oklab,var(--sc-accent) 28%,transparent);scale:1.15}
+.tubp-note{position:absolute;right:1rem;bottom:.6rem;font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:color-mix(in oklab,var(--sc-ink) 45%,transparent)}
+.tubp-scrim{position:absolute;inset:0;z-index:2;pointer-events:none;
+  background:linear-gradient(90deg,rgba(6,12,26,.92) 0%,rgba(6,12,26,.7) 28%,rgba(6,12,26,0) 46%)}
+.tubp .xp-copy{z-index:8}
+.tubp .xp-ruler{z-index:9}
+@media (prefers-reduced-motion:reduce){.tubp-img{transform:none!important}.tubp-zoom{transition:none}}
+
+/* legenda: a lista de peças */
+.tub-legend{inset:0 0 auto 0}
+.tub-list{list-style:none;margin:0;padding:0;max-height:min(calc(100svh - var(--xp-hdr) - 18.5rem),560px);overflow:auto;scrollbar-width:none}
+.tub-list::-webkit-scrollbar{display:none}
+.tub-list li{border-top:1px solid var(--sc-hairline)}
+.tub-list li:last-child{border-bottom:1px solid var(--sc-hairline)}
+.tub-list button{display:flex;align-items:center;gap:.8rem;width:100%;text-align:left;padding:.48rem 0;color:var(--sc-ink-soft);font-size:.95rem;transition:color .2s}
+.tub-list button::before{content:var(--n);flex:none;width:1.65rem;height:1.65rem;border-radius:50%;display:grid;place-items:center;
+  font:600 .76rem var(--sc-font-display);box-shadow:inset 0 0 0 1.2px var(--sc-hairline-strong);color:var(--sc-ink-soft);font-variant-numeric:tabular-nums}
+.tub-list button b{font-weight:500}
+.tub-list button:hover{color:var(--sc-ink)}
+.tub-list li.is-on button{color:var(--sc-ink)}
+.tub-list li.is-on button b{font-family:var(--sc-font-display);font-weight:700;font-size:1.12rem;letter-spacing:-.01em}
+.tub-list li.is-on button::before{background:var(--sc-accent);color:var(--sc-accent-ink);box-shadow:none}
+.tub-info{display:none;padding:0 0 .8rem 2.45rem}
+.tub-list li.is-on .tub-info{display:block}
+.tub-info p{color:var(--sc-ink-soft);font-size:.93rem;line-height:1.5;margin:0 0 .45rem;max-width:34ch}
+.tub-info a{color:var(--sc-accent);font-weight:600;font-size:.9rem;display:inline-block;padding:.2rem 0}
+.tub-info a:hover{text-decoration:underline}
+.tub-hint{display:none;color:var(--sc-ink-soft);font-size:.95rem}
+
+@media (max-width:860px){
+  /* no celular a lista mostra só a peça da vez */
+  .tub-list{max-height:none;overflow:visible}
+  .tub-list li{display:none;border:0!important}
+  .tub-list li.is-on{display:block}
+  .tub-list li.is-on button{padding-top:0}
+  .tub-info{padding-left:2.45rem}
+  #banheira:not(.is-stepping) .tub-hint{display:block;position:relative;z-index:1;text-shadow:0 1px 3px #000,0 0 14px rgba(6,12,26,.95)}
+}
+
+@media (max-width:860px){
+  .tubp{grid-template-columns:1fr}
+  /* no celular a foto fica em cima, cortando o terço vazio da esquerda */
+  .tubp-media{top:var(--xp-hdr);width:150vw;height:auto;max-width:none;mask-image:none;-webkit-mask-image:none}
+  .tubp-scrim{background:linear-gradient(to bottom,transparent calc(var(--xp-hdr) + 70vw),var(--sc-canvas) calc(var(--xp-hdr) + 86vw))}
+  .tubp .xp-copy{margin-top:calc(80vw + .5rem)}
+  .tubp-note{bottom:auto;top:.5rem;right:.75rem;font-size:.6rem}
+  .tubp-hot{width:22px;height:22px;font-size:10px}
+  .tubp-ring{--d:25vw}
+  .tubp-zoom{--fx:66.7%;--fy:46%;   /* no celular só os dois terços da direita da foto ficam visíveis */
+    /* e a foto pode subir além da borda de baixo (a janela da peça cobre essa área), para as peças de baixo ficarem acima dela */
+    transform:translate(clamp(calc(100% - 100% * var(--z)),calc(var(--fx) - var(--sx) * var(--z)),0%),clamp(calc(100% - 100% * var(--z) - 30%),calc(var(--fy) - var(--sy) * var(--z)),0%)) scale(var(--z))}
+}
+/* celulares baixos (ex.: 360 x 640): foto um pouco menor e sem a plaqueta, para a peça e o link caberem acima da régua */
+@media (max-width:860px) and (max-height:700px){
+  .tubp-media{width:128vw}
+  .tubp-scrim{background:linear-gradient(to bottom,transparent calc(var(--xp-hdr) + 58vw),var(--sc-canvas) calc(var(--xp-hdr) + 72vw))}
+  .tubp .xp-copy{margin-top:calc(66vw + .25rem)}
+  .tubp .xp-plate{display:none}
+  .tubp .tub-info p{margin-bottom:.2rem}
+}
+
+/* ================= a janela da peça ================= */
+/* no peça-por-peça, a lista dá lugar à janela da peça da vez */
+#banheira.is-stepping .tub-list{max-height:none;overflow:visible}
+#banheira.is-stepping .tub-list li{display:none;border:0}
+#banheira.is-stepping .tub-list li.is-on{display:block;background:color-mix(in oklab,var(--sc-surface) 92%,transparent);
+  border:1px solid var(--sc-hairline-strong)!important;border-radius:18px;padding:1.1rem 1.2rem 1.2rem;
+  box-shadow:0 2px 4px rgba(0,0,0,.3),0 24px 48px -16px rgba(0,0,0,.6);backdrop-filter:blur(10px);
+  animation:tub-card .45s cubic-bezier(.23,1,.32,1)}
+@keyframes tub-card{from{opacity:0;transform:translateY(10px)}}
+#banheira.is-stepping .tub-list li.is-on button{padding:0 0 .5rem;cursor:default}
+#banheira.is-stepping .tub-list li.is-on button b{font-size:1.3rem}
+#banheira.is-stepping .tub-info{padding:0}
+#banheira.is-stepping .tub-info p{max-width:none;font-size:.95rem}
+.tub-tip{background:color-mix(in oklab,var(--sc-accent) 9%,transparent);border-radius:10px;padding:.6rem .75rem!important;margin:.6rem 0 .8rem!important;font-size:.86rem!important;line-height:1.45!important}
+.tub-tip b{display:block;color:var(--sc-accent);font-size:.68rem;letter-spacing:.09em;text-transform:uppercase;margin-bottom:.15rem}
+.tub-mods{display:grid;grid-template-columns:repeat(3,1fr);gap:.5rem;margin:0 0 .9rem}
+.tub-mods a{display:grid;gap:.3rem;padding:.4rem!important;border-radius:12px;background:color-mix(in oklab,var(--sc-ink) 5%,transparent);color:var(--sc-ink)!important;font-weight:400!important;transition:background .2s,transform .2s}
+.tub-mods a:hover{background:color-mix(in oklab,var(--sc-ink) 11%,transparent);transform:translateY(-2px);text-decoration:none!important}
+.tub-mods img{width:100%;height:auto;aspect-ratio:1;object-fit:contain;background:#fff;border-radius:8px}
+.tub-mods span{font-size:.72rem;line-height:1.3;color:var(--sc-ink-soft);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.tub-mods b{font-family:var(--sc-font-display);font-size:.84rem;font-variant-numeric:tabular-nums}
+.tub-mods small{font-family:var(--sc-font-text);font-weight:400;color:var(--sc-ink-soft);font-size:.66rem}
+.tub-info a.xp-btn{color:var(--sc-accent-ink);padding:.7em 1.2em;font-size:.9rem}
+.tub-info a.xp-btn:hover{text-decoration:none}
+.tub-info a.xp-btn--line{color:var(--sc-ink)}
+.tub-nav{display:none;align-items:center;gap:.6rem;margin-top:.8rem;color:var(--sc-ink-soft);font-size:.82rem;font-variant-numeric:tabular-nums}
+#banheira.is-stepping .tub-nav{display:flex}
+.tub-nav button{width:2.4rem;height:2.4rem;border-radius:50%;font-size:1.3rem;line-height:1;color:var(--sc-ink);box-shadow:inset 0 0 0 1.5px var(--sc-hairline-strong);transition:background .2s}
+.tub-nav button:hover{background:color-mix(in oklab,var(--sc-ink) 10%,transparent)}
+.tubp{grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr)}
+@media (max-width:860px){
+  .tubp{grid-template-columns:1fr}
+  #banheira.is-stepping .tub-list li.is-on{padding:.8rem .9rem .9rem;border-radius:14px}
+  #banheira.is-stepping .tub-list li.is-on button b{font-size:1.1rem}
+  #banheira.is-stepping .tub-info p{font-size:.88rem}
+  .tub-tip{margin:.4rem 0 .6rem!important;padding:.45rem .6rem!important;font-size:.8rem!important}
+  /* no celular a janela precisa caber acima da régua: os modelos viram uma fileira compacta */
+  .tub-mods{gap:.35rem;margin-bottom:.6rem}
+  .tub-mods span{display:none}
+  .tub-mods img{aspect-ratio:1.5}
+  .tub-mods b{font-size:.74rem}
+  .tub-nav{position:absolute;right:0;top:-2.9rem;margin:0}
+  .tub-nav span{display:none}
+  .tub-nav button{width:2.1rem;height:2.1rem;background:rgba(6,12,26,.7)}
+  .tubp .xp-plate{display:none}
+  .tubp .xp-copy{margin-top:calc(72vw + .25rem)}
+}
+@media (max-width:860px) and (max-height:700px){
+  .tubp .xp-copy{margin-top:calc(60vw + .25rem)}
+  .tub-mods{display:none}
+}
+@media (prefers-reduced-motion:reduce){#banheira.is-stepping .tub-list li.is-on{animation:none}}
+/* com a janela aberta, a régua sai de cena onde falta altura (as setas da janela fazem a navegação) */
+@media (max-width:860px){#banheira.is-stepping .tub-ruler{display:none}}
+@media (min-width:861px) and (max-height:780px){
+  #banheira.is-stepping .tub-ruler{display:none}
+  .tub-mods img{aspect-ratio:1.3}
+}
+@media (max-width:860px) and (max-height:700px){.tubp .xp-copy{margin-top:calc(54vw + .25rem)}}
+@media (min-width:621px) and (max-width:860px){.tub-mods{max-width:22rem}.tub-mods img{aspect-ratio:1.6}}
+/* com a janela aberta, as setas dela substituem a régua em qualquer tela */
+#banheira.is-stepping .tub-ruler{display:none}
+
+/* ================= espaço reservado antes do scroll-craft ligar =================
+   O motor só "prende" as seções (palco fixo + altura = data-sc-span telas) quando o JavaScript roda.
+   Até lá a página tinha outra altura e, ao ligar, tudo pulava (CLS alto no Google). Com a classe "js"
+   (posta no <head>), o espaço já nasce igual ao que o motor vai usar. Sem JavaScript nada disso vale. */
+.js #banheira{position:relative;height:550vh}
+.js #banheira > [data-sc-stage]{position:sticky;top:0;height:100vh;height:100svh;overflow:clip}
+@media (prefers-reduced-motion:no-preference){
+  .js #categorias{position:relative;height:460vh}
+  .js #categorias > [data-sc-stage]{position:sticky;top:0;height:100vh;height:100svh;overflow:clip}
+}
+/* com JavaScript, as peças soltas começam escondidas (o banheira.js as mostra ao desmontar);
+   sem isso elas apareciam por um instante por cima da banheira montada */
+.js .tubp-part{--oo:0}
+/* altura real do cabeçalho em cada faixa de largura (medida em 16/11); se o cabeçalho mudar, ajuste aqui */
+@media (max-width:860px){:root{--xp-hdr:125px}}
+@media (max-width:380px){:root{--xp-hdr:115px}}
+@media (max-width:340px){:root{--xp-hdr:159px}}

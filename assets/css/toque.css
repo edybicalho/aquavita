@@ -1,0 +1,48 @@
+/* AquaVita Peças — ajustes para o dedo (celular e tablet).
+   Só vale em telas de toque: no computador nada muda.
+   Regra: todo botão ou link isolado tem pelo menos 44 px de área de toque (recomendação de Apple e Google)
+   e texto de leitura não fica abaixo de 12 px. Onde o desenho é pequeno de propósito (bolinhas, coração),
+   a área de toque cresce por fora com um ::before invisível, sem mudar a aparência. */
+@media (pointer:coarse){
+  /* topo: menu, tema e busca */
+  .iconbtn{width:44px;height:44px}
+  .search input{align-self:stretch}
+
+  /* banheira: régua, setas e lista de peças */
+  .xp-btn{min-height:44px}
+  .xp-ruler button{min-height:40px;font-size:.68rem;letter-spacing:.02em}
+  .tub-nav button{width:44px;height:44px}
+  .tub-list button{min-height:44px}
+  .tubp-hot::before{inset:-12px}
+  .tubp-note{font-size:.7rem}
+
+  /* catálogo: coração e "Comparar" */
+  .fav::before{content:"";position:absolute;inset:-6px;border-radius:50%}
+  .cmpck{min-height:44px;font-size:.8rem}
+
+  .xp-obj a{min-height:44px}
+
+  /* diagnóstico e quantidade */
+  .diag__sintomas button{min-height:44px}
+  .qty button{width:40px;height:40px}
+  .buy__row .qty button{width:44px}
+
+  /* links soltos curtos: caminho da página de produto e "Ler avaliações" */
+  .crumbs{align-items:center}
+  .crumbs a{display:inline-block;padding:10px 0}
+  a[href="#avaliacoes"]{display:inline-block;padding:10px 0}
+
+  /* barra inferior: rótulos legíveis */
+  .tabbar a,.tabbar button{font-size:.72rem}
+
+  /* página de produto no celular: já tem "Comprar pelo WhatsApp" e "Tirar dúvida";
+     o botão flutuante cobriria os botões de compra e as fotos */
+  .pdp-page .fab{display:none}
+}
+
+/* avaliações: bolinhas do carrossel — o botão tem 24 px (mínimo do Google para toque) e a bolinha é desenhada dentro */
+.provas__dots{gap:4px}
+.provas__dots button,.provas__dots button[aria-current=true]{width:24px;height:24px;padding:0;border-radius:50%;background:none;display:grid;place-items:center}
+.provas__dots button::after{content:"";width:8px;height:8px;border-radius:99px;background:var(--line);transition:background .3s,width .3s}
+.provas__dots button[aria-current=true]::after{width:20px;background:var(--blue-500)}
+@media (prefers-reduced-motion:reduce){.provas__dots button::after{transition:none}}

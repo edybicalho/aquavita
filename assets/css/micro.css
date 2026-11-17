@@ -1,0 +1,49 @@
+/* AquaVita Peças — microanimações da loja (comportamento em assets/js/micro.js) */
+
+/* foto que voa até o carrinho */
+.mc-fly{position:fixed;z-index:200;object-fit:contain;background:#fff;border-radius:16px;padding:6px;pointer-events:none;
+  box-shadow:0 14px 34px rgba(10,30,70,.28);will-change:transform,opacity}
+
+/* o carrinho "recebe" o produto: salto e um anel que se espalha */
+.mc-hit{animation:mc-hit .45s cubic-bezier(.3,1.6,.5,1)}
+@keyframes mc-hit{30%{transform:scale(1.22) rotate(-8deg)}60%{transform:scale(.94) rotate(4deg)}}
+#cartBtn.mc-hit::after,.tabbar__cart.mc-hit::after{content:"";position:absolute;inset:0;border-radius:50%;pointer-events:none;
+  box-shadow:0 0 0 0 color-mix(in oklab,var(--blue-500,#2b82f6) 55%,transparent);animation:mc-ring .6s ease-out}
+.tabbar__cart{position:relative}
+@keyframes mc-ring{to{box-shadow:0 0 0 16px transparent}}
+
+/* número do carrinho */
+.mc-pop{animation:mc-pop .4s cubic-bezier(.3,1.8,.5,1)}
+@keyframes mc-pop{0%{transform:scale(.4)}60%{transform:scale(1.3)}}
+
+/* botão confirma "Adicionado" */
+.btn.mc-done{background:linear-gradient(135deg,#16a34a,#15803d)!important;color:#fff!important;box-shadow:0 8px 22px rgba(22,163,74,.35)!important}
+.mc-check path{stroke-dasharray:24;stroke-dashoffset:24;animation:mc-draw .35s .05s ease-out forwards}
+@keyframes mc-draw{to{stroke-dashoffset:0}}
+
+/* preço subindo até o valor final */
+.mc-count{color:var(--blue-600,#1667d9)}
+.price__pix b{transition:color .4s}
+
+/* faíscas do coração */
+.mc-burst{position:fixed;z-index:200;width:0;height:0;pointer-events:none}
+.mc-burst i{position:absolute;left:-3px;top:-3px;width:6px;height:6px;border-radius:50%;background:#e5484d;
+  transform:rotate(var(--a)) translateY(0);animation:mc-spark .6s ease-out forwards}
+.mc-burst i:nth-child(even){background:#ffb020;width:5px;height:5px}
+@keyframes mc-spark{to{transform:rotate(var(--a)) translateY(-26px) scale(.3);opacity:0}}
+
+/* onda no toque dos botões */
+.btn{overflow:hidden;isolation:isolate}
+.mc-rel{position:relative}
+.mc-wave{position:absolute;border-radius:50%;background:currentColor;opacity:.22;transform:scale(0);pointer-events:none;z-index:-1;
+  animation:mc-wave .6s ease-out forwards}
+@keyframes mc-wave{to{transform:scale(1);opacity:0}}
+
+/* cards: a foto sobe de leve, o botão acompanha */
+.card .btn--primary{transition:transform .2s,box-shadow .2s,background .2s}
+.card:hover .btn--primary{box-shadow:0 10px 26px rgba(22,103,217,.42)}
+
+@media (prefers-reduced-motion:reduce){
+  .mc-hit,.mc-pop,.mc-check path,.mc-wave{animation:none}
+  .mc-check path{stroke-dashoffset:0}
+}

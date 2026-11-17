@@ -1,0 +1,15 @@
+{
+  "name": "aquavita-pecas-ia",
+  "private": true,
+  "type": "module",
+  "description": "Servidor do chat de IA do site AquaVita Peças",
+  "scripts": {
+    "start": "node ia-proxy.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.8.0"
+  }
+}

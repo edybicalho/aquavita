@@ -1,0 +1,8 @@
+pesquisa/
+server/node_modules/
+server/package-lock.json
+.env
+.env.*
+node_modules/
+.DS_Store
+Thumbs.db

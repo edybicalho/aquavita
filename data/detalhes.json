@@ -1,0 +1,2972 @@
+{
+  "motobomba-komeco-aquajet-260-hidromassagem-e-spa": {
+    "descricao": "<p>A motobomba Komeco Aquajet 260 é uma bomba de 1 CV (750 W) para o circuito de hidromassagem de banheiras e spas. Segundo a tabela técnica do manual do fabricante, ela atinge vazão máxima de 15,6 m³/h (260 L/min) e pressão máxima de 10 m.c.a., com rotação de 3450 rpm.</p><h3>Construção</h3><ul><li>Voluta em PP com fibra e rotor em Noryl (PPO), um plástico de engenharia.</li><li>Selo mecânico de grafite e cerâmica. Para manutenção, motor, rotor e selo saem parafusando, sem desconectar a tubulação.</li><li>Corpo termoplástico que isola o motor elétrico do contato com a água. Grau de proteção IP44, para uso em área coberta.</li><li>Conexões de 1\" ou 1.1/4\" para tubo PVC colável de 32 mm ou 40 mm.</li></ul><h3>Instalação e uso</h3><ul><li>Instale o mais perto possível da hidromassagem, em local coberto, ventilado e seco, com dreno para escoamento de água.</li><li>A bomba não tem pré-filtro na sucção. Use apenas com água limpa e neutra, sem sólidos abrasivos.</li><li>Recomenda-se válvula de retenção no recalque. Ela é obrigatória quando a coluna de água no recalque for superior a 20 m.</li><li>Confira a tensão antes de ligar. A instalação precisa de chave de partida e disjuntor residual compatíveis com a corrente de operação: 6,75 A em 127 V e 3,40 A em 220 V.</li></ul><p>Antes de acionar, encha a banheira ou o spa e mantenha abertos os registros de sucção e recalque. Nunca deixe a bomba funcionar sem água.</p><h3>Perguntas frequentes</h3><p><strong>A bomba tem pré-filtro na sucção?</strong><br>Não. O manual informa que as motobombas Aquajet não possuem pré-filtro na sucção e devem ser usadas com líquido limpo e neutro, sem sólidos abrasivos.</p><p><strong>Qual a tensão?</strong><br>O manual do fabricante indica 127 V ou 220 V, 60 Hz. Confira a tensão da rede e a placa do motor antes de ligar; a variação aceitável é de ±10%.</p><p><strong>Precisa de válvula de retenção?</strong><br>O manual recomenda a válvula no recalque e a torna obrigatória quando a coluna de água no recalque for superior a 20 m.</p><p><strong>Qual o nível de ruído?</strong><br>55 dB, segundo a tabela técnica do manual.</p><p><strong>A que distância da banheira ou spa deve ficar?</strong><br>O manual pede instalação a no mínimo 4 m da piscina, spa ou banheira, com ventilação na traseira do motor (mínimo de 30 cm de qualquer objeto).</p>",
+    "resumo": "<ul><li>Potência de 1 CV (750 W) segundo o manual do fabricante</li><li>Vazão máxima de 15,6 m³/h (260 L/min) e pressão máxima de 10 m.c.a.</li><li>Tensão nominal 127 V ou 220 V, 60 Hz</li><li>Grau de proteção IP44 e nível de ruído de 55 dB</li><li>Sem pré-filtro na sucção: usar apenas com líquido limpo e neutro</li></ul>",
+    "ficha": [
+      [
+        "Potência",
+        "1 CV (750 W)"
+      ],
+      [
+        "Tensão nominal",
+        "127 V ou 220 V, 60 Hz"
+      ],
+      [
+        "Corrente de operação",
+        "6,75 A (127 V) / 3,40 A (220 V)"
+      ],
+      [
+        "Vazão máxima",
+        "15,6 m³/h (260 L/min)"
+      ],
+      [
+        "Pressão máxima",
+        "10 m.c.a."
+      ],
+      [
+        "Pressão máxima na sucção",
+        "30 m.c.a."
+      ],
+      [
+        "Rotação",
+        "3450 rpm"
+      ],
+      [
+        "Acionamento",
+        "Manual (botão de ar)"
+      ],
+      [
+        "Conexões entrada/saída",
+        "1\" x 1\" ou 1.1/4\" x 1.1/4\" (32 mm ou 40 mm), ABS"
+      ],
+      [
+        "Dimensões do produto (LxAxP)",
+        "350 x 180 x 145 mm"
+      ],
+      [
+        "Dimensões da embalagem (LxAxP)",
+        "370 x 200 x 200 mm"
+      ],
+      [
+        "Peso líquido",
+        "8,5 kg"
+      ],
+      [
+        "Peso bruto",
+        "9 kg"
+      ],
+      [
+        "Voluta",
+        "PP + fibra"
+      ],
+      [
+        "Rotor",
+        "Noryl (PPO)"
+      ],
+      [
+        "Selo mecânico",
+        "Grafite/cerâmica"
+      ],
+      [
+        "Grau de proteção",
+        "IP44"
+      ],
+      [
+        "Temperatura máxima da água",
+        "50 °C"
+      ],
+      [
+        "Temperatura máxima ambiente",
+        "45 °C"
+      ],
+      [
+        "Nível de ruído",
+        "55 dB"
+      ],
+      [
+        "Código de produto",
+        "0100033059 / 0100033058"
+      ],
+      [
+        "Código de barras",
+        "7899369839511 / 7899369839504"
+      ]
+    ],
+    "wooId": 5638,
+    "sku": "KA1CV220V",
+    "precoLd": 445.94,
+    "tipo": "simple",
+    "galeria": [
+      "assets/img/produtos/motobomba-komeco-aquajet-260-hidromassagem-e-spa-1.webp",
+      "assets/img/produtos/motobomba-komeco-aquajet-260-hidromassagem-e-spa-2.webp",
+      "assets/img/produtos/motobomba-komeco-aquajet-260-hidromassagem-e-spa-3.webp",
+      "assets/img/produtos/motobomba-komeco-aquajet-260-hidromassagem-e-spa-4.webp",
+      "assets/img/produtos/motobomba-komeco-aquajet-260-hidromassagem-e-spa-5.webp"
+    ],
+    "opcao": null
+  },
+  "motobomba-claw-3-4-cv-hidromassagem-e-spa": {
+    "descricao": "<strong>Motobomba para Hidromassagem Claw 3/4 CV – Eficiência e Silêncio</strong> <p>Ideal para banheiras de hidromassagem e spas, a motobomba WMBH-H de 3/4 CV é perfeita para quem busca alta eficiência com baixo nível de ruído. Indicada para residências, academias e clubes, esta motobomba combina qualidade e durabilidade.</p> <h3>Especificações Principais:</h3> <ul> <li><strong>Potência</strong>: 3/4 CV</li> <li><strong>Altura manométrica total máxima</strong>: até 10,0 m.c.a.</li> <li><strong>Vazão</strong>: até 19,9 m³/h</li> <li><strong>Pressão máxima</strong>: 10,5 m.c.a.</li> <li><strong>Corpo em tecnopolímero</strong> e carcaça intermediária em alumínio, oferecendo resistência e leveza.</li> <li><strong>Proteção IP44</strong> com rolamentos blindados e protetor térmico.</li> <li><strong>Entrada para botão acionador pneumático</strong> (vendido separadamente), oferecendo praticidade no acionamento.</li> <li><strong>Disponível com tensão de 220V.</strong></li> </ul> <h3>Limites de uso</strong>:</h3> <ul> <li>Temperatura máxima do líquido: 50°C</li> <li>Temperatura ambiente máxima: 40°C</li> </ul> <h3><strong>Garantia de 12 meses!</h3> <p>Perfeita para quem busca confiabilidade e desempenho superior em sistemas de hidromassagem.</p>",
+    "resumo": "",
+    "ficha": [
+      [
+        "Peso",
+        "7,6 kg"
+      ],
+      [
+        "Dimensões",
+        "35 × 20 × 21 cm"
+      ],
+      [
+        "Tensão",
+        "220 Volts"
+      ]
+    ],
+    "wooId": 5651,
+    "sku": "5-1-1-2",
+    "precoLd": 534.26,
+    "tipo": "variable",
+    "galeria": [
+      "assets/img/produtos/foto-ilustrativa.webp"
+    ],
+    "opcao": {
+      "nome": "Voltagem",
+      "itens": [
+        {
+          "valor": "220v",
+          "rotulo": "220 V",
+          "cheio": 534.26,
+          "estoque": true
+        }
+      ]
+    }
+  },
+  "motobomba-syllent-1-2-cv": {
+    "descricao": "<h3>Motobomba Syllent Geração II 1/2 CV para hidromassagem</h3><p>A motobomba Syllent Geração II de 1/2 CV é indicada para banheiras de hidromassagem, spas e ofurôs. Segundo o manual do fabricante, para outras aplicações é preciso consultar a empresa antes do uso.</p><h3>Especificações principais</h3><ul><li><strong>Potência nominal:</strong> 1/2 CV.</li><li><strong>Pressão máxima:</strong> 120 kPa (12,0 mca).</li><li><strong>Vazão:</strong> 11,5 m³/h com 2 mca de altura total, 9,8 m³/h com 4 mca e 5,4 m³/h com 8 mca.</li><li><strong>Tubulação:</strong> sucção de 50 mm externo (40 mm interno) e recalque de 40 mm externo (32 mm interno).</li><li><strong>Peso:</strong> 3,94 kg.</li></ul><h3>Tensão e instalação elétrica</h3><p>Disponível em 120 V (MB63E0112A/P, 6,0 A) e 220 V (MB63E0115A/P, 3,2 A). O manual exige interruptor diferencial residual de até 30 mA, aterramento conforme a NBR 5410 e instalação feita por profissional habilitado, com chave de partida ou disjuntor motor com relé de sobrecarga.</p><h3>Cuidados de uso</h3><p>Nunca ligue a motobomba sem que ela esteja completamente preenchida com água, pois isso causa danos irreversíveis. O fabricante veta o uso para bombear água de aquário, produtos alimentícios, produtos medicinais, líquidos inflamáveis e hemodiálise.</p><h3>Garantia</h3><p>O certificado do fabricante cobre dois anos contra defeitos de materiais e fabricação, a partir da data de compra, com nota fiscal.</p>",
+    "resumo": "<ul><li>Potência de 1/2 CV, linha Geração II (Fluxoturbo para hidromassagem)</li><li>Versões 120 V (MB63E0112A/P) e 220 V (MB63E0115A/P)</li><li>Vazão de 11,5 m³/h com 2 mca de altura total, segundo o manual</li><li>Pressão máxima de 12,0 mca (120 kPa)</li><li>Sucção de 50 mm e recalque de 40 mm (externos), conforme o manual</li></ul>",
+    "ficha": [
+      [
+        "Potência nominal",
+        "1/2 CV"
+      ],
+      [
+        "Modelos 60 Hz",
+        "MB63E0112A/P (120 V); MB63E0115A/P (220 V)"
+      ],
+      [
+        "Corrente",
+        "6,0 A (120 V); 3,2 A (220 V)"
+      ],
+      [
+        "Fator de potência médio",
+        "0,98 (120 V); 0,98 (220 V)"
+      ],
+      [
+        "Pressão máxima",
+        "120 kPa (12,0 mca)"
+      ],
+      [
+        "Vazão",
+        "11,5 m³/h a 2 mca; 9,8 m³/h a 4 mca; 7,7 m³/h a 6 mca; 5,4 m³/h a 8 mca; 2,7 m³/h a 10 mca; 0,0 a 12 mca"
+      ],
+      [
+        "Tubulação de sucção",
+        "50 mm externo x 40 mm interno"
+      ],
+      [
+        "Tubulação de recalque",
+        "40 mm externo x 32 mm interno"
+      ],
+      [
+        "Peso",
+        "3,94 kg"
+      ],
+      [
+        "Dimensões",
+        "24 × 17 × 21 cm"
+      ],
+      [
+        "Tensão",
+        "110 Volts, 220 Volts"
+      ]
+    ],
+    "wooId": 2010,
+    "sku": "9",
+    "precoLd": 1057.26,
+    "tipo": "variable",
+    "galeria": [
+      "assets/img/produtos/motobomba-syllent-1-2-cv-p1.webp",
+      "assets/img/produtos/motobomba-syllent-1-2-cv-p2.webp",
+      "assets/img/produtos/motobomba-syllent-1-2-cv-p3.webp",
+      "assets/img/produtos/motobomba-syllent-1-2-cv-p4.webp"
+    ],
+    "opcao": {
+      "nome": "Voltagem",
+      "itens": [
+        {
+          "valor": "110v",
+          "rotulo": "110 V",
+          "cheio": 1057.26,
+          "estoque": true
+        },
+        {
+          "valor": "220v",
+          "rotulo": "220 V",
+          "cheio": 1057.26,
+          "estoque": true
+        }
+      ]
+    }
+  },
+  "motobomba-syllent-3-4-cv": {
+    "descricao": "<h3>Motobomba Syllent Super 3/4 CV para hidromassagem</h3><p>A motobomba Syllent Super de 3/4 CV, da nova linha Super Syllent, é indicada para banheiras de hidromassagem, spas e ofurôs de maior volume, que exigem mais vazão. Segundo o manual do fabricante, para outras aplicações é preciso consultar a empresa antes do uso.</p><h3>Especificações principais</h3><ul><li><strong>Potência nominal:</strong> 3/4 CV.</li><li><strong>Pressão máxima:</strong> 120 kPa (12,0 mca).</li><li><strong>Vazão:</strong> 21,6 m³/h com 2 mca de altura total, 18,4 m³/h com 4 mca e 10,9 m³/h com 8 mca.</li><li><strong>Tubulação:</strong> sucção de 50 mm externo (40 mm interno) e recalque de 40 mm externo.</li><li><strong>Peso:</strong> 6,55 kg.</li></ul><h3>Tensão e instalação elétrica</h3><p>Modelo MB42E0213AS para 220 V, com corrente de 4,5 A e fator de potência de 0,99. Há também o modelo MB42E0210AS para 120 V, com corrente de 8,3 A. Confirme a tensão da tomada e a bitola da tubulação antes da instalação, conforme o manual.</p><h3>Garantia</h3><p>O site do fabricante informa garantia de 24 meses, com nota fiscal.</p>",
+    "resumo": "<ul><li>Potência de 3/4 CV, nova linha Super Syllent (Fluxoturbo para hidromassagem)</li><li>Versões 220 V (MB42E0213AS) e 120 V (MB42E0210AS)</li><li>Vazão de 21,6 m³/h com 2 mca de altura total, segundo o manual</li><li>Pressão máxima de 12,0 mca (120 kPa)</li><li>Sucção de 50 mm e recalque de 40 mm (externos), conforme o manual</li></ul>",
+    "ficha": [
+      [
+        "Potência nominal",
+        "3/4 CV"
+      ],
+      [
+        "Modelos 60 Hz",
+        "MB42E0213AS (220 V); MB42E0210AS (120 V)"
+      ],
+      [
+        "Corrente",
+        "4,5 A (220 V); 8,3 A (120 V)"
+      ],
+      [
+        "Fator de potência médio",
+        "0,99"
+      ],
+      [
+        "Pressão máxima",
+        "120 kPa (12,0 mca)"
+      ],
+      [
+        "Vazão",
+        "21,6 m³/h a 2 mca; 18,4 m³/h a 4 mca; 14,8 m³/h a 6 mca; 10,9 m³/h a 8 mca; 7,5 m³/h a 10 mca; 0,0 a 12 mca"
+      ],
+      [
+        "Tubulação de sucção",
+        "50 mm externo x 40 mm interno"
+      ],
+      [
+        "Tubulação de recalque",
+        "40 mm externo"
+      ],
+      [
+        "Peso",
+        "6,55 kg"
+      ],
+      [
+        "Dimensões",
+        "38 × 19 × 22 cm"
+      ],
+      [
+        "Tensão",
+        "220 Volts"
+      ]
+    ],
+    "wooId": 2023,
+    "sku": "10",
+    "precoLd": 1453.45,
+    "tipo": "variable",
+    "galeria": [
+      "assets/img/produtos/motobomba-syllent-3-4-cv-p1.webp",
+      "assets/img/produtos/motobomba-syllent-3-4-cv-p2.webp",
+      "assets/img/produtos/motobomba-syllent-3-4-cv-p3.webp"
+    ],
+    "opcao": {
+      "nome": "Voltagem",
+      "itens": [
+        {
+          "valor": "220v",
+          "rotulo": "220 V",
+          "cheio": 1453.45,
+          "estoque": true
+        }
+      ]
+    }
+  },
+  "motobomba-syllent-1-3-cv": {
+    "descricao": "<h3>Motobomba Syllent Geração II 1/3 CV para hidromassagem</h3><p>A motobomba Syllent Geração II de 1/3 CV é indicada para banheiras de hidromassagem, spas e ofurôs, com vazão menor que a versão de 1/2 CV. Segundo o manual do fabricante, para outras aplicações é preciso consultar a empresa antes do uso.</p><h3>Especificações principais</h3><ul><li><strong>Potência nominal:</strong> 1/3 CV.</li><li><strong>Pressão máxima:</strong> 100 kPa (10,0 mca).</li><li><strong>Vazão:</strong> 10,3 m³/h com 2 mca de altura total, 8,4 m³/h com 4 mca e 3,1 m³/h com 8 mca.</li><li><strong>Tubulação:</strong> sucção de 50 mm externo (40 mm interno) e recalque de 40 mm externo (32 mm interno).</li><li><strong>Peso:</strong> 3,52 kg.</li></ul><h3>Tensão e instalação elétrica</h3><p>Disponível em 120 V (MB63E0111A/P, 5,0 A) e 220 V (MB63E0114A/P, 2,6 A). O manual exige interruptor diferencial residual de até 30 mA, aterramento conforme a NBR 5410 e instalação feita por profissional habilitado, com chave de partida ou disjuntor motor com relé de sobrecarga.</p><h3>Cuidados de uso</h3><p>Nunca ligue a motobomba sem que ela esteja completamente preenchida com água, pois isso causa danos irreversíveis. O fabricante veta o uso para bombear água de aquário, produtos alimentícios, produtos medicinais, líquidos inflamáveis e hemodiálise.</p><h3>Garantia</h3><p>O certificado do fabricante cobre dois anos contra defeitos de materiais e fabricação, a partir da data de compra, com nota fiscal.</p>",
+    "resumo": "<ul><li>Potência de 1/3 CV, linha Geração II (Fluxoturbo para hidromassagem)</li><li>Versões 120 V (MB63E0111A/P) e 220 V (MB63E0114A/P)</li><li>Vazão de 10,3 m³/h com 2 mca de altura total, segundo o manual</li><li>Pressão máxima de 10,0 mca (100 kPa)</li><li>Sucção de 50 mm e recalque de 40 mm (externos), conforme o manual</li></ul>",
+    "ficha": [
+      [
+        "Potência nominal",
+        "1/3 CV"
+      ],
+      [
+        "Modelos 60 Hz",
+        "MB63E0111A/P (120 V); MB63E0114A/P (220 V)"
+      ],
+      [
+        "Corrente",
+        "5,0 A (120 V); 2,6 A (220 V)"
+      ],
+      [
+        "Fator de potência médio",
+        "0,97 (120 V); 1,00 (220 V)"
+      ],
+      [
+        "Pressão máxima",
+        "100 kPa (10,0 mca)"
+      ],
+      [
+        "Vazão",
+        "10,3 m³/h a 2 mca; 8,4 m³/h a 4 mca; 5,9 m³/h a 6 mca; 3,1 m³/h a 8 mca; 0,0 a 10 mca"
+      ],
+      [
+        "Tubulação de sucção",
+        "50 mm externo x 40 mm interno"
+      ],
+      [
+        "Tubulação de recalque",
+        "40 mm externo x 32 mm interno"
+      ],
+      [
+        "Peso",
+        "3,52 kg"
+      ],
+      [
+        "Dimensões",
+        "24 × 17 × 21 cm"
+      ],
+      [
+        "Tensão",
+        "110 Volts, 220 Volts"
+      ]
+    ],
+    "wooId": 2048,
+    "sku": "8",
+    "precoLd": 1030.43,
+    "tipo": "variable",
+    "galeria": [
+      "assets/img/produtos/motobomba-syllent-1-3-cv-3.webp",
+      "assets/img/produtos/motobomba-syllent-1-3-cv-4.webp",
+      "assets/img/produtos/motobomba-syllent-1-3-cv-p1.webp",
+      "assets/img/produtos/motobomba-syllent-1-3-cv-p2.webp",
+      "assets/img/produtos/motobomba-syllent-1-3-cv-p3.webp",
+      "assets/img/produtos/motobomba-syllent-1-3-cv-p4.webp"
+    ],
+    "opcao": {
+      "nome": "Voltagem",
+      "itens": [
+        {
+          "valor": "110v",
+          "rotulo": "110 V",
+          "cheio": 1030.43,
+          "estoque": true
+        },
+        {
+          "valor": "220v",
+          "rotulo": "220 V",
+          "cheio": 1030.43,
+          "estoque": true
+        }
+      ]
+    }
+  },
+  "motobomba-lepono-lspa-1-0-cv": {
+    "descricao": "<h3>Motobomba de Hidromassagem Lepono LSPA 1100</h3><p>Motobomba monofásica de 1,0 CV (1 HP, 745,7 W) para banheiras de hidromassagem e spas residenciais, alimentada em 220 V. A sucção fica deslocada para baixo, o que evita que a água fique parada dentro da bomba quando ela está desligada.</p><h3>Construção</h3><ul><li>Rotor centrífugo fechado em noryl, para resistência mecânica.</li><li>Ponta de eixo em aço inox AISI 304.</li><li>Selo mecânico em grafite cerâmica e borracha buna.</li><li>Corpo em polipropileno, sem cesta de filtro e não autoescorvante.</li><li>Proteção IPX5 e classe de isolação F.</li></ul><h3>Desempenho</h3><p>A vazão máxima é de 15,1 m³/h e a pressão máxima de 15 mca. A temperatura máxima do líquido é de 50 °C e a do ambiente, de 40 °C.</p><h3>Indicação</h3><p>Indicada para banheiras residenciais e spas que precisam de circulação mais forte do que a de 1/2 CV. Para banheiras maiores ou uso intenso, consulte a vazão necessária antes de comprar.</p><h3>Antes de comprar</h3><p> Recomenda-se circuito elétrico exclusivo com proteção adequada.</p><h3>Perguntas frequentes</h3><p><strong>Precisa de disjuntor exclusivo?</strong><br>Sim.</p><p><strong>Pode ficar instalada abaixo do nível da banheira?</strong><br>Sim.</p><p><strong>Aquece a água da hidromassagem?</strong><br>Não. A bomba só circula e pressuriza a água. Para aquecer, é preciso um aquecedor separado.</p><p><strong>1 CV é suficiente para hidromassagem forte?</strong><br>Para banheiras maiores ou uso intenso, pode ser necessário um modelo de maior potência.</p><p><strong>Serve para spa ou ofurô?</strong><br>Sim, desde que o sistema seja compatível com uma bomba de 1 CV.</p>",
+    "resumo": "<ul><li>Potência de 1,0 CV (1 HP, 745,7 W), monofásica, 220 V</li><li>Rotor centrífugo fechado em noryl, eixo em aço inox AISI 304 e selo em grafite cerâmica</li><li>Sucção e recalque de 32 mm ou 40 mm; líquido até 50 °C</li><li>Sucção deslocada para baixo, que evita água parada na bomba quando desligada</li></ul>",
+    "ficha": [
+      [
+        "Potência",
+        "1,0 CV (1 HP), 745,7 W (0,75 kW)"
+      ],
+      [
+        "Alimentação",
+        "Monofásica, 220 V"
+      ],
+      [
+        "Sucção",
+        "32 mm ou 40 mm"
+      ],
+      [
+        "Recalque",
+        "32 mm ou 40 mm"
+      ],
+      [
+        "Pressão máxima",
+        "15 mca"
+      ],
+      [
+        "Vazão máxima",
+        "15,1 m³/h"
+      ],
+      [
+        "Temperatura máxima do líquido",
+        "50 °C"
+      ],
+      [
+        "Temperatura máxima do ambiente",
+        "40 °C"
+      ],
+      [
+        "Classe de isolação",
+        "F"
+      ],
+      [
+        "Grau de proteção",
+        "IPX5"
+      ],
+      [
+        "Material",
+        "Polipropileno (carcaça)"
+      ],
+      [
+        "Peso (embalagem)",
+        "8,24 kg"
+      ],
+      [
+        "Peso",
+        "7 kg"
+      ],
+      [
+        "Dimensões da embalagem",
+        "20 x 37 x 17 cm"
+      ],
+      [
+        "Autoescorvante",
+        "Não"
+      ],
+      [
+        "Cesta de filtro",
+        "Não"
+      ],
+      [
+        "Garantia",
+        "1 ano e 6 meses (descrição); 2 anos"
+      ],
+      [
+        "Código de barras",
+        "7908172501154"
+      ],
+      [
+        "Tensão",
+        "110 Volts, 220 Volts"
+      ]
+    ],
+    "wooId": 2071,
+    "sku": "4",
+    "precoLd": 689.0,
+    "tipo": "variable",
+    "galeria": [
+      "assets/img/produtos/motobomba-lepono-lspa-1-0-cv-p1.webp",
+      "assets/img/produtos/motobomba-lepono-lspa-1-0-cv-p2.webp",
+      "assets/img/produtos/motobomba-lepono-lspa-1-0-cv-p3.webp"
+    ],
+    "opcao": {
+      "nome": "Voltagem",
+      "itens": [
+        {
+          "valor": "110v",
+          "rotulo": "110 V",
+          "cheio": 794.84,
+          "estoque": true
+        },
+        {
+          "valor": "220v",
+          "rotulo": "220 V",
+          "cheio": 689.0,
+          "estoque": true
+        }
+      ]
+    }
+  },
+  "motobomba-lepono-lspa-1-5-cv": {
+    "descricao": "<h3>Motobomba de hidromassagem Lepono LSPA1300 - 1,5 CV</h3><p>A LSPA1300 é indicada para banheiras de hidromassagem e spas que precisam de mais vazão do que as motobombas de 1 CV. Tem potência de 1,1 kW, cerca de 1,5 CV, e é vendida em duas versões: 220 V e 110 V, cada uma com código próprio. Antes de comprar, confirme a tensão da sua rede.</p><h3>Características</h3><ul><li>Corpo em ABS, selo mecânico de grafite cerâmica e buna e rotor centrífugo fechado em noryl.</li><li>Grau de proteção IPX5 e classe de isolação F.</li><li>Conexões de 32 mm (interno) e 40 mm (externo); o kit inclui jogo de conexões.</li><li>Temperatura máxima do líquido de 50 ºC e temperatura ambiente máxima de 40 ºC.</li></ul><h3>Desempenho</h3><p> A unidade da vazão ainda não foi confirmada por fonte independente, então vale conferir a curva com o vendedor antes da compra.</p><h3>Garantia</h3><p>18 meses de garantia de fábrica, com nota fiscal.</p><h3>O que vem na caixa</h3><ul><li>Motobomba</li><li>Jogo de conexões</li></ul><h3>Perguntas frequentes</h3><p><strong>Essa motobomba funciona em 110 V e em 220 V?</strong><br>São dois códigos diferentes, ambos com 1,1 kW) e 51416709000 (110 V). Confirme a tensão ao comprar.</p><p><strong>Qual é a garantia?</strong><br>18 meses de garantia de fábrica, com nota fiscal.</p><p><strong>Qual é a vazão real da bomba?</strong><br>Não encontrei a curva de vazão do fabricante. Peça a curva ao vendedor.</p>",
+    "resumo": "– Marca: Lepono",
+    "ficha": [
+      [
+        "Potência",
+        "1,5 CV (1,1 kW)"
+      ],
+      [
+        "Tensão",
+        "220 V (código 51416709100) ou 110 V (código 51416709000)"
+      ],
+      [
+        "Pressão máxima",
+        "13 mca"
+      ],
+      [
+        "Vazão máxima",
+        "23,7 a 4 m"
+      ],
+      [
+        "Vazão mínima",
+        "4,2 a 12 m"
+      ],
+      [
+        "Conexões",
+        "32 mm (interno) e 40 mm (externo)"
+      ],
+      [
+        "Grau de proteção",
+        "IPX5"
+      ],
+      [
+        "Classe de isolação",
+        "F"
+      ],
+      [
+        "Temperatura máxima do líquido",
+        "50 ºC"
+      ],
+      [
+        "Temperatura máxima ambiente",
+        "40 ºC"
+      ],
+      [
+        "Corpo da bomba",
+        "ABS"
+      ],
+      [
+        "Selo mecânico",
+        "Grafite cerâmica e buna"
+      ],
+      [
+        "Rotor",
+        "Centrífugo fechado em noryl"
+      ],
+      [
+        "Peso",
+        "8,0 kg"
+      ],
+      [
+        "Dimensões",
+        "16 × 15 × 19 cm"
+      ],
+      [
+        "Garantia de fábrica",
+        "18 meses"
+      ]
+    ],
+    "wooId": 2086,
+    "sku": "5",
+    "precoLd": 969.03,
+    "tipo": "variable",
+    "galeria": [
+      "assets/img/produtos/motobomba-lepono-lspa-1-0-cv-p1.webp",
+      "assets/img/produtos/motobomba-lepono-lspa-1-0-cv-p2.webp",
+      "assets/img/produtos/motobomba-lepono-lspa-1-0-cv-p3.webp"
+    ],
+    "opcao": {
+      "nome": "Voltagem",
+      "itens": [
+        {
+          "valor": "110v",
+          "rotulo": "110 V",
+          "cheio": 969.03,
+          "estoque": true
+        },
+        {
+          "valor": "220v",
+          "rotulo": "220 V",
+          "cheio": 969.03,
+          "estoque": true
+        }
+      ]
+    }
+  },
+  "motobomba-lepono-lspa-1-2-cv": {
+    "descricao": "<h3>Motobomba de Hidromassagem Lepono LSPA 600</h3><p>Motobomba monofásica de 1/2 CV (0,5 HP, 0,37 kW) da linha Lepono para banheiras de hidromassagem e spas de menor porte. A sucção fica deslocada para baixo, o que impede que a água fique parada dentro da bomba quando ela está desligada.</p><h3>Construção</h3><ul><li>Rotor centrífugo fechado em noryl.</li><li>Ponta de eixo em aço inox AISI 304.</li><li>Selo mecânico em grafite cerâmica e borracha buna.</li><li>Proteção IPX5 e classe de isolação F.</li><li>Temperatura máxima do líquido de 50 °C e do ambiente de 40 °C.</li></ul><h3>Desempenho</h3><p>A vazão é de 15,7 m³/h a 4 mca, 14,0 m³/h a 6 mca e 2,9 m³/h a 11 mca, com pressão máxima de 12 mca. Como as fontes divergem, use a curva como referência e confirme com o fabricante antes de dimensionar a instalação.</p><h3>Indicação</h3><p>Indicada para banheiras de menor volume, em que a circulação de 1/2 CV atende. Se a banheira exigir mais vazão, a LSPA 1100 (1 CV) é a opção de maior potência da mesma linha.</p><h3>Antes de comprar</h3><p> Confirme a tensão do seu local antes de comprar.</p>",
+    "resumo": "<ul><li>Potência de 1/2 CV (0,5 HP, 0,37 kW), monofásica</li><li>Rotor centrífugo fechado em noryl, eixo inox AISI 304 e selo em grafite cerâmica</li><li>Sucção e recalque de 32 mm ou 40 mm; líquido até 50 °C</li></ul>",
+    "ficha": [
+      [
+        "Potência",
+        "1/2 CV (0,5 HP), 0,37 kW"
+      ],
+      [
+        "Alimentação",
+        "Monofásica, 220 V (ficha); seletor da página também tem 110 V"
+      ],
+      [
+        "Sucção",
+        "32 mm ou 40 mm"
+      ],
+      [
+        "Recalque",
+        "32 mm ou 40 mm"
+      ],
+      [
+        "Vazão a 4 mca",
+        "15,7 m³/h"
+      ],
+      [
+        "Vazão a 6 mca",
+        "14,0 m³/h"
+      ],
+      [
+        "Vazão a 11 mca",
+        "2,9 m³/h"
+      ],
+      [
+        "Pressão máxima",
+        "12 mca"
+      ],
+      [
+        "Temperatura máxima do líquido",
+        "50 °C"
+      ],
+      [
+        "Temperatura máxima do ambiente",
+        "40 °C"
+      ],
+      [
+        "Classe de isolação",
+        "F"
+      ],
+      [
+        "Grau de proteção",
+        "IPX5"
+      ],
+      [
+        "Diâmetro do selo",
+        "21 mm"
+      ],
+      [
+        "Peso (embalagem)",
+        "4,00 kg"
+      ],
+      [
+        "Dimensões da embalagem",
+        "19 x 17 x 35 cm"
+      ],
+      [
+        "Garantia",
+        "18 meses (descrição) ou 1 ano (ficha)"
+      ],
+      [
+        "Código do produto na loja",
+        "COD. 2542707"
+      ],
+      [
+        "Tensão",
+        "110 Volts, 220 Volts"
+      ]
+    ],
+    "wooId": 2261,
+    "sku": "",
+    "precoLd": 549.01,
+    "tipo": "variable",
+    "galeria": [
+      "assets/img/produtos/motobomba-lepono-lspa-1-2-cv-p1.webp",
+      "assets/img/produtos/motobomba-lepono-lspa-1-0-cv-p2.webp",
+      "assets/img/produtos/motobomba-lepono-lspa-1-0-cv-p3.webp"
+    ],
+    "opcao": {
+      "nome": "Voltagem",
+      "itens": [
+        {
+          "valor": "110v",
+          "rotulo": "110 V",
+          "cheio": 549.01,
+          "estoque": true
+        },
+        {
+          "valor": "220v",
+          "rotulo": "220 V",
+          "cheio": 549.01,
+          "estoque": true
+        }
+      ]
+    }
+  },
+  "motobomba-syllent-super-2-0-cv": {
+    "descricao": "<h3>Motobomba Syllent Super 2,0 CV 220 V</h3><p>Motobomba para banheiras de hidromassagem, spas e ofurôs da linha Super Syllent, com potência nominal de 2,0 CV e alimentação em 220 V, código MB42E0216AS. É o modelo de maior potência da linha Super, indicado para banheiras que exigem mais circulação de água.</p><h3>Desempenho segundo o manual</h3><p>Com altura manométrica de 2 m, a bomba entrega até 26,8 m³/h. A vazão cai conforme a altura aumenta: 14,4 m³/h a 10 m e 6,5 m³/h a 14 m. A pressão máxima é de 16,5 mca. Os valores valem ao nível do mar, a 20 °C, sem perdas de carga na tubulação.</p><h3>Destaques</h3><ul><li>Linha de operação silenciosa e autodrenante, que evita o acúmulo de água na bomba e na tubulação, segundo o fabricante.</li><li>Sucção de 50 mm (externo) e recalque de 40 mm (externo). Uniões para 40 mm são vendidas separadamente.</li><li>Sensor que desliga a bomba em cerca de 12 segundos sem água.</li><li>Corrente de 6,5 A em 220 V, fator de potência 0,99.</li></ul><h3>Instalação</h3><p>Instale a bomba no ponto mais baixo da banheira, com o primeiro jato acima do nível da bomba, para permitir a saída do ar durante o enchimento. Use tubulação de no mínimo 40 mm. Nunca ligue a bomba sem água, pois isso causa danos irreversíveis. O manual exige DR de 30 mA e recomenda relé de sobrecarga no circuito elétrico.</p><h3>Perguntas frequentes</h3><p><strong>Pode ligar a bomba sem água?</strong><br>Não. O manual proíbe ligar a bomba sem que ela esteja completamente cheia de água, pois isso causa danos irreversíveis. O sensor desliga a bomba em cerca de 12 segundos sem água, mas isso não substitui o enchimento correto.</p><p><strong>Qual a diferença entre o 120 V e o 220 V?</strong><br>São códigos diferentes: MB42E0217AS para 120 V (13,5 A) e MB42E0216AS para 220 V (6,5 A). Os dados de desempenho do manual são os mesmos da tabela.</p><p><strong>Precisa de proteção elétrica?</strong><br>Sim. O manual exige DR de 30 mA e recomenda chave de partida ou disjuntor com relé de sobrecarga. A bitola do cabo depende da distância, conforme a tabela do manual (pág. 7).</p><p><strong>Onde deve ficar instalada?</strong><br>No ponto mais baixo da banheira. O primeiro jato que recebe água deve estar acima do nível da bomba, para que a bomba não fique com ar ao ser ligada.</p><p><strong>Qual a garantia?</strong><br>2 anos a partir da data da compra, pela Eberle (Syllent), conforme o certificado do manual. Não cobre lacre rompido, má instalação ou uso de líquido diferente de água limpa.</p>",
+    "resumo": "<ul><li>Vazão máxima de 26,8 m³/h com altura manométrica de 2 m</li><li>Pressão máxima de 16,5 mca (165 kPa)</li><li>Potência nominal 2,0 CV, 220 V, 60 Hz; código MB42E0216AS</li><li>Sucção de 50 mm (externo) e recalque de 40 mm (externo)</li><li>Garantia de 2 anos, Eberle/Syllent</li></ul>",
+    "ficha": [
+      [
+        "Potência nominal",
+        "2,0 CV"
+      ],
+      [
+        "Modelo 220 V",
+        "MB42E0216AS"
+      ],
+      [
+        "Modelo 120 V",
+        "MB42E0217AS"
+      ],
+      [
+        "Frequência",
+        "60 Hz"
+      ],
+      [
+        "Corrente (220 V)",
+        "6,5 A"
+      ],
+      [
+        "Fator de potência",
+        "0,99"
+      ],
+      [
+        "Consumo (tensão x corrente x fator de potência)",
+        "cerca de 1,4 kW"
+      ],
+      [
+        "Pressão máxima",
+        "165 kPa (16,5 mca)"
+      ],
+      [
+        "Vazão máxima",
+        "26,8 m³/h (altura de 2 m)"
+      ],
+      [
+        "Vazão a 10 m de altura",
+        "14,4 m³/h"
+      ],
+      [
+        "Vazão a 14 m de altura",
+        "6,5 m³/h"
+      ],
+      [
+        "Altura máxima (vazão zero)",
+        "18 m"
+      ],
+      [
+        "Sucção",
+        "50 mm externo / 40 mm interno"
+      ],
+      [
+        "Recalque",
+        "40 mm externo"
+      ],
+      [
+        "Peso",
+        "8,30 kg"
+      ],
+      [
+        "Dimensões",
+        "204,5 mm x 151 mm (comprimento x largura)"
+      ],
+      [
+        "Garantia",
+        "2 anos a partir da compra (Eberle)"
+      ],
+      [
+        "Aplicação",
+        "Banheiras de hidromassagem, spas e ofurôs"
+      ]
+    ],
+    "wooId": 4538,
+    "sku": "124",
+    "precoLd": 1716.68,
+    "tipo": "variable",
+    "galeria": [
+      "assets/img/produtos/motobomba-syllent-super-2-0-cv-p1.webp",
+      "assets/img/produtos/motobomba-syllent-super-2-0-cv-p2.webp",
+      "assets/img/produtos/motobomba-syllent-super-2-0-cv-p3.webp",
+      "assets/img/produtos/motobomba-syllent-super-2-0-cv-p4.webp"
+    ],
+    "opcao": {
+      "nome": "Voltagem",
+      "itens": [
+        {
+          "valor": "110v",
+          "rotulo": "110 V",
+          "cheio": 1716.68,
+          "estoque": true
+        },
+        {
+          "valor": "220v",
+          "rotulo": "220 V",
+          "cheio": 1716.68,
+          "estoque": false
+        }
+      ]
+    }
+  },
+  "motobomba-claw-1-2cv": {
+    "descricao": "<p><strong>Motobomba para Hidromassagem WMBH-H 1/2 CV – Eficiência e Silêncio</strong></p> <p>Ideal para banheiras de hidromassagem e spas, a motobomba WMBH-H de 1/2 CV é perfeita para quem busca alta eficiência com baixo nível de ruído. Indicada para residências, academias e clubes, esta motobomba combina qualidade e durabilidade.</p> <p><strong>Especificações Principais:</strong></p> <ul> <li><strong>Potência</strong>: 1/2 CV</li> <li><strong>Altura manométrica total máxima</strong>: até 9 m.c.a.</li> <li><strong>Vazão</strong>: até 18,2 m³/h</li> <li><strong>Pressão máxima</strong>: 10 m.c.a.</li> <li><strong>Corpo em tecnopolímero</strong> e carcaça intermediária em alumínio, oferecendo resistência e leveza.</li> <li><strong>Proteção IP44</strong> com rolamentos blindados e protetor térmico.</li> <li><strong>Entrada para botão acionador pneumático</strong> (vendido separadamente), oferecendo praticidade no acionamento.</li> <li><strong>Disponível com tensões de 127V ou 220V.</strong></li> </ul> <p><strong>Limites de uso</strong>:</p> <ul> <li>Temperatura máxima do líquido: 50°C</li> <li>Temperatura ambiente máxima: 40°C</li> </ul> <p><strong>Garantia de 12 meses!</strong></p> <p>Perfeita para quem busca confiabilidade e desempenho superior em sistemas de hidromassagem.</p>",
+    "resumo": "",
+    "ficha": [
+      [
+        "Peso",
+        "5,7 kg"
+      ],
+      [
+        "Dimensões",
+        "35 × 20 × 21 cm"
+      ],
+      [
+        "Tensão",
+        "110 Volts, 220 Volts"
+      ]
+    ],
+    "wooId": 5262,
+    "sku": "5-1",
+    "precoLd": 425.02,
+    "tipo": "variable",
+    "galeria": [
+      "assets/img/produtos/foto-ilustrativa.webp"
+    ],
+    "opcao": {
+      "nome": "Voltagem",
+      "itens": [
+        {
+          "valor": "110v",
+          "rotulo": "110 V",
+          "cheio": 425.02,
+          "estoque": true
+        },
+        {
+          "valor": "220v",
+          "rotulo": "220 V",
+          "cheio": 425.02,
+          "estoque": true
+        }
+      ]
+    }
+  },
+  "controlador-sinapse-spamax-5-home-8000w-220": {
+    "descricao": "<h3>Controlador Sinapse Spamax 5 Home: funções intermediárias</h3><p>O Spamax 5 Home controla aquecedores de 8.000 W em 220 V para banheiras de hidromassagem e spas. O aquecimento é rápido e não reduz a vazão dos jatos. A temperatura do banho pode ser ajustada entre 21 °C e 40 °C.</p><h3>Diferença entre os modelos 4, 5 e 8</h3><ul><li><strong>Spamax 4:</strong> 7 funções e até 2 motobombas.</li><li><strong>Spamax 5:</strong> 8 funções e até 3 motobombas.</li><li><strong>Spamax 8:</strong> 9 funções e até 4 motobombas.</li></ul><p>Em relação ao Spamax 4, o 5 acrescenta uma função e uma motobomba. Em relação ao Spamax 8, tem uma função e uma motobomba a menos. É a opção para instalações com três motobombas.</p><h3>Iluminação e controle</h3><p>O sistema aciona pontos de luz RGB para cromoterapia, de 0 a 4 spots, conforme o projeto da sua banheira. O painel digital tem teclas e bordas iluminadas e pode ser fixado na borda da banheira ou na parede. A fonte tem dupla isolação para reduzir o risco de choque elétrico.</p>",
+    "resumo": "– Marca: Sinapse",
+    "ficha": [
+      [
+        "Funções",
+        "8"
+      ],
+      [
+        "Motobombas",
+        "até 3"
+      ],
+      [
+        "Aquecedor",
+        "8.000 W, 220 V"
+      ],
+      [
+        "Faixa de temperatura",
+        "21 °C a 40 °C"
+      ],
+      [
+        "Pontos de luz RGB",
+        "0 a 4"
+      ],
+      [
+        "Peso",
+        "3,5 kg"
+      ],
+      [
+        "Dimensões",
+        "40 × 32 × 19 cm"
+      ],
+      [
+        "Garantia de fábrica",
+        "12 meses"
+      ],
+      [
+        "Tensão",
+        "220V"
+      ]
+    ],
+    "wooId": 5286,
+    "sku": "SPAMAX5",
+    "precoLd": 2687.14,
+    "tipo": "variable",
+    "galeria": [
+      "assets/img/produtos/controlador-sinapse-spamax-5-home-8000w-220-1.webp",
+      "assets/img/produtos/controlador-sinapse-spamax-5-home-8000w-220-2.webp",
+      "assets/img/produtos/controlador-sinapse-spamax-5-home-8000w-220-3.webp",
+      "assets/img/produtos/controlador-sinapse-spamax-5-home-8000w-220-4.webp",
+      "assets/img/produtos/controlador-sinapse-spamax-5-home-8000w-220-5.webp"
+    ],
+    "opcao": {
+      "nome": "Pontos de luz (spots)",
+      "itens": [
+        {
+          "valor": "0",
+          "rotulo": "Sem spots",
+          "cheio": 2687.14,
+          "estoque": true
+        },
+        {
+          "valor": "1",
+          "rotulo": "1 spot",
+          "cheio": 2873.58,
+          "estoque": true
+        },
+        {
+          "valor": "2",
+          "rotulo": "2 spots",
+          "cheio": 3060.02,
+          "estoque": true
+        },
+        {
+          "valor": "3",
+          "rotulo": "3 spots",
+          "cheio": 3246.46,
+          "estoque": true
+        },
+        {
+          "valor": "4",
+          "rotulo": "4 spots",
+          "cheio": 3432.9,
+          "estoque": true
+        }
+      ]
+    }
+  },
+  "controlador-sinapse-spamax-4-home-8000w-220": {
+    "descricao": "<h3>Controlador Sinapse Spamax 4 Home: o modelo de entrada da linha</h3><p>O Spamax 4 Home controla aquecedores de 8.000 W em 220 V para banheiras de hidromassagem e spas. O aquecimento é rápido e não reduz a vazão dos jatos. A temperatura do banho pode ser ajustada entre 21 °C e 40 °C.</p><h3>Funções e motobombas</h3><p>Entre os três modelos da linha, o Spamax 4 é o que tem menos funções: 7. Ele comanda até 2 motobombas e aciona de 1 a 4 pontos de luz RGB.</p><h3>Diferença entre os modelos 4, 5 e 8</h3><ul><li><strong>Spamax 4:</strong> 7 funções e até 2 motobombas.</li><li><strong>Spamax 5:</strong> 8 funções e até 3 motobombas.</li><li><strong>Spamax 8:</strong> 9 funções e até 4 motobombas.</li></ul><p>A escolha depende do número de motobombas da sua banheira ou spa. Se o equipamento usa até duas, o Spamax 4 atende e tem o menor número de funções da linha.</p><h3>Painel e instalação</h3><p>O painel digital é resistente à água e antichoque, com teclas iluminadas, e pode ser fixado na borda da banheira ou na parede. A fonte tem dupla isolação, e o sistema desliga sozinho quando fica ocioso. Entrada e saída de água são de 50 mm.</p><h3>O que vem na caixa</h3><ul><li>Aquecedor para hidromassagem</li><li>Painel de controle digital</li><li>Caixa de comando</li><li>Sensor de nível</li><li>4 abraçadeiras</li><li>2 mangotes</li><li>Manual de instruções</li><li>Pontos de luz (opcional, 1 a 4)</li></ul>",
+    "resumo": "– Marca: Sinapse",
+    "ficha": [
+      [
+        "Funções",
+        "7"
+      ],
+      [
+        "Motobombas",
+        "até 2 (5 CV em 220 V cada)"
+      ],
+      [
+        "Aquecedor",
+        "8.000 W, 220 V"
+      ],
+      [
+        "Faixa de temperatura",
+        "21 °C a 40 °C"
+      ],
+      [
+        "Pontos de luz RGB",
+        "1 a 4"
+      ],
+      [
+        "Entrada e saída de água",
+        "50 mm"
+      ],
+      [
+        "Peso",
+        "4 kg"
+      ],
+      [
+        "Dimensões",
+        "34 × 32 × 19 cm"
+      ],
+      [
+        "Garantia de fábrica",
+        "12 meses"
+      ],
+      [
+        "Tensão",
+        "220V"
+      ]
+    ],
+    "wooId": 5297,
+    "sku": "SPAMAX4",
+    "precoLd": 2306.8,
+    "tipo": "variable",
+    "galeria": [
+      "assets/img/produtos/controlador-sinapse-spamax-4-home-8000w-220-1.webp",
+      "assets/img/produtos/controlador-sinapse-spamax-4-home-8000w-220-2.webp",
+      "assets/img/produtos/controlador-sinapse-spamax-4-home-8000w-220-3.webp",
+      "assets/img/produtos/controlador-sinapse-spamax-4-home-8000w-220-4.webp",
+      "assets/img/produtos/controlador-sinapse-spamax-4-home-8000w-220-5.webp"
+    ],
+    "opcao": {
+      "nome": "Pontos de luz (spots)",
+      "itens": [
+        {
+          "valor": "0",
+          "rotulo": "Sem spots",
+          "cheio": 2306.8,
+          "estoque": true
+        },
+        {
+          "valor": "1",
+          "rotulo": "1 spot",
+          "cheio": 2493.24,
+          "estoque": true
+        },
+        {
+          "valor": "2",
+          "rotulo": "2 spots",
+          "cheio": 2679.68,
+          "estoque": true
+        },
+        {
+          "valor": "3",
+          "rotulo": "3 spots",
+          "cheio": 2866.12,
+          "estoque": true
+        },
+        {
+          "valor": "4",
+          "rotulo": "4 spots",
+          "cheio": 3052.56,
+          "estoque": true
+        }
+      ]
+    }
+  },
+  "controlador-sinapse-spamax-8-home-8000w-220": {
+    "descricao": "<h3>Controlador Sinapse Spamax 8 Home: o modelo com mais funções da linha</h3><p>O Spamax 8 Home é o modelo com mais funções e mais saídas para motobombas entre os três analisados. Ele tem 9 funções e comanda até 4 motobombas. Controla aquecedores de 8.000 W em 220 V e mantém a temperatura do banho entre 21 °C e 40 °C.</p><h3>Diferença entre os modelos 4, 5 e 8</h3><ul><li><strong>Spamax 4:</strong> 7 funções e até 2 motobombas.</li><li><strong>Spamax 5:</strong> 8 funções e até 3 motobombas.</li><li><strong>Spamax 8:</strong> 9 funções e até 4 motobombas.</li></ul><p>Para spas com quatro motobombas, o Spamax 8 é a opção indicada. Para duas ou três, os modelos 4 e 5 atendem, com menos funções.</p><h3>Aquecimento e iluminação</h3><p>O aquecimento é rápido e não reduz a vazão dos jatos de hidromassagem. O sistema aciona pontos de luz RGB para cromoterapia, de 0 a 4 spots. O painel digital pode ser fixado na borda da banheira ou na parede.</p>",
+    "resumo": "– Marca: Sinapse",
+    "ficha": [
+      [
+        "Funções",
+        "9"
+      ],
+      [
+        "Motobombas",
+        "até 4"
+      ],
+      [
+        "Aquecedor",
+        "8.000 W, 220 V"
+      ],
+      [
+        "Faixa de temperatura",
+        "21 °C a 40 °C"
+      ],
+      [
+        "Pontos de luz RGB",
+        "0 a 4"
+      ],
+      [
+        "Peso",
+        "4,3 kg"
+      ],
+      [
+        "Dimensões",
+        "58 × 30 × 16 cm"
+      ],
+      [
+        "Garantia de fábrica",
+        "12 meses"
+      ],
+      [
+        "Tensão",
+        "220V"
+      ],
+      [
+        "Spots",
+        "0, 1, 2, 3, 4"
+      ]
+    ],
+    "wooId": 5307,
+    "sku": "SPAMAX8",
+    "precoLd": 2914.72,
+    "tipo": "variable",
+    "galeria": [
+      "assets/img/produtos/controlador-sinapse-spamax-8-home-8000w-220-1.webp",
+      "assets/img/produtos/controlador-sinapse-spamax-8-home-8000w-220-2.webp",
+      "assets/img/produtos/controlador-sinapse-spamax-8-home-8000w-220-3.webp",
+      "assets/img/produtos/controlador-sinapse-spamax-8-home-8000w-220-4.webp",
+      "assets/img/produtos/controlador-sinapse-spamax-8-home-8000w-220-5.webp"
+    ],
+    "opcao": {
+      "nome": "Pontos de luz (spots)",
+      "itens": [
+        {
+          "valor": "0",
+          "rotulo": "Sem spots",
+          "cheio": 2914.72,
+          "estoque": true
+        },
+        {
+          "valor": "1",
+          "rotulo": "1 spot",
+          "cheio": 3101.16,
+          "estoque": true
+        },
+        {
+          "valor": "2",
+          "rotulo": "2 spots",
+          "cheio": 3287.6,
+          "estoque": true
+        },
+        {
+          "valor": "3",
+          "rotulo": "3 spots",
+          "cheio": 3474.04,
+          "estoque": true
+        },
+        {
+          "valor": "4",
+          "rotulo": "4 spots",
+          "cheio": 3660.48,
+          "estoque": true
+        }
+      ]
+    }
+  },
+  "controlador-sinapse-spamax-home-9-8000w-220": {
+    "descricao": "Controlador Sinapse Spamax 9 – 220V Linha Sinapse Home, você tem o poder de controlar o seu spa de qualquer lugar, a qualquer momento. Nessa tecnologia avançada oferece uma interface intuitiva e de fácil navegação, permitindo que você ajuste a temperatura, programe horários, controle a iluminação e muito mais, tudo através do seu dispositivo móvel ou assistente pessoal virtual. Fonte de alimentação com dupla isolação, o que evita a possibilidade de choques elétricos. Sensor de nível capacitivo, evita danos à motobomba caso falte água na banheira. *CARACTERÍSTICAS* – Fonte de alimentação com dupla isolação, o que evita a possibilidade de choques elétricos; – Termostato mecânico de segurança; – Painel digital resistente à água, antichoque, com teclas e bordas iluminadas, possibilita fixação na borda da banheira ou na parede; – Aciona de 1 a 4 pontos de iluminação RGB; – Podem ser ligadas até 7 motobombas de até 1,5 CV (1150W) cada; – Sensor de nível capacitivo; *COMPONENTES* 01 – Painel de controle digital 01 – Bojo hotmax 01 – Caixa de Comando 01 – Sensor de nível 01 – Manual de instruções 01 a 04 – Pontos de luz *ESPECIFICAÇÕES TÉCNICAS* – Marca: Sinapse – Modelo: Spamax – 9<br> – Potência: 8000W<br> – Voltagem: 220v Garantia de fábrica de 12 meses Para dúvidas e mais informações, entre em contato conosco!",
+    "resumo": "– Marca: Sinapse",
+    "ficha": [
+      [
+        "Peso",
+        "3,500 kg"
+      ],
+      [
+        "Dimensões",
+        "59 × 30 × 17 cm"
+      ],
+      [
+        "Tensão",
+        "220V"
+      ],
+      [
+        "Garantia de fábrica",
+        "12 meses"
+      ],
+      [
+        "Spots",
+        "0, 1, 2, 3, 4"
+      ]
+    ],
+    "wooId": 5314,
+    "sku": "SPAMAX98000W220V",
+    "precoLd": 3211.89,
+    "tipo": "variable",
+    "galeria": [
+      "assets/img/produtos/controlador-sinapse-spamax-home-9-8000w-220-1.webp",
+      "assets/img/produtos/controlador-sinapse-spamax-home-9-8000w-220-2.webp",
+      "assets/img/produtos/controlador-sinapse-spamax-home-9-8000w-220-3.webp",
+      "assets/img/produtos/controlador-sinapse-spamax-home-9-8000w-220-4.webp",
+      "assets/img/produtos/controlador-sinapse-spamax-home-9-8000w-220-5.webp"
+    ],
+    "opcao": {
+      "nome": "Pontos de luz (spots)",
+      "itens": [
+        {
+          "valor": "0",
+          "rotulo": "Sem spots",
+          "cheio": 3211.89,
+          "estoque": true
+        },
+        {
+          "valor": "1",
+          "rotulo": "1 spot",
+          "cheio": 3398.33,
+          "estoque": true
+        },
+        {
+          "valor": "2",
+          "rotulo": "2 spots",
+          "cheio": 3584.77,
+          "estoque": true
+        },
+        {
+          "valor": "3",
+          "rotulo": "3 spots",
+          "cheio": 3771.21,
+          "estoque": true
+        },
+        {
+          "valor": "4",
+          "rotulo": "4 spots",
+          "cheio": 3957.65,
+          "estoque": true
+        }
+      ]
+    }
+  },
+  "aquecedor-digital-smart-sanspray-8f-pro-8-000w-220": {
+    "descricao": "<p>O Aquecedor Digital Smart Sanspray 8F PRO é um aquecedor de 8.000 W para banheiras de hidromassagem e spas, com painel digital colorido e controle pelo aplicativo e Wi-Fi. Segundo o fabricante, a temperatura é ajustada de 20 °C a 40 °C, em passos de 1 °C, e permanece em torno de ±1 °C depois que a água estabiliza.</p><h3>Saídas e funções</h3><ul><li>Saídas para motobombas Hidro 1 e Hidro 2, além da saída auxiliar</li><li>Controle do borbulhador</li><li>Saída de filtro, com filtragem imediata por tempo ou filtragem automática programada</li><li>Cromoterapia com até 4 pontos de luz e programação de strobo</li></ul><h3>Segurança e construção</h3><ul><li>Resistência blindada, com a parte em contato com a água em aço inox 304</li><li>Sensor de nível, que impede o acionamento sem água</li><li>Proteção contra superaquecimento</li><li>Display que exibe mensagens de erro</li></ul><h3>Instalação e certificação</h3><p>Antes de instalar, confira o esquema hidráulico e a bitola da fiação no manual do fabricante. A Sanspray informa certificação voluntária anual conforme a Portaria 371 do Inmetro e as normas NBR 60335-1 e IEC 60335-2-35. A garantia contra defeitos de fabricação é de 1 ano.</p><h3>O que vem na caixa</h3><ul><li>1 bojo (aquecedor)</li><li>1 painel acionador 8F PRO</li><li>1 sensor de nível</li><li>4 abraçadeiras de metal</li><li>2 mangotes</li><li>1 caixa de comando</li><li>1 manual de instruções</li><li>Pontos de luz: 1 a 4 (opcional)</li></ul><h3>Perguntas frequentes</h3><p><strong>Controla pelo celular?</strong><br>Sim. O fabricante informa automação com Wi-Fi e aplicativo para ligar e desligar as saídas e ajustar a temperatura.</p><p><strong>Tem borbulhador?</strong><br>Sim. O painel tem a saída Borbulhador, confirmada no site do fabricante e na imagem do painel.</p><p><strong>Quanto tempo leva para aquecer?</strong><br>Pelo exemplo do fabricante, em uma SPA de 400 litros com 8.000 W, de 25 °C a 35 °C leva cerca de 1 hora e 6 minutos. Fatores como a temperatura ambiente mudam o tempo.</p><p><strong>Tem modo Eco ou desligamento automático por inatividade?</strong><br>Não. Segundo o fabricante, o aquecedor só liga e desliga a resistência conforme a temperatura da água.</p><p><strong>Qual a bitola mínima da fiação?</strong><br>10 mm². O fabricante remete à tabela do manual; confirme com o eletricista.</p><p><strong>Qual a garantia?</strong><br>1 ano contra defeitos de fabricação, incluindo 90 dias do CDC, segundo o fabricante.</p>",
+    "resumo": "<ul><li>Potência de 8.000 W em 220 V, com faixa de temperatura de 20 °C a 40 °C</li><li>Saídas para motobombas Hidro 1 e Hidro 2, saída auxiliar, borbulhador e filtro</li><li>Automação com Wi-Fi e aplicativo, confirmada no site do fabricante</li><li>Cromoterapia com até 4 pontos de luz e programação de strobo</li><li>Garantia de 1 ano contra defeitos de fabricação; certificação voluntária Inmetro (Portaria 371)</li></ul>",
+    "ficha": [
+      [
+        "Potência",
+        "8.000 W"
+      ],
+      [
+        "Tensão",
+        "220 V"
+      ],
+      [
+        "Frequência",
+        "50 a 60 Hz"
+      ],
+      [
+        "Corrente nominal",
+        "36,4 A"
+      ],
+      [
+        "Faixa de temperatura",
+        "20 °C a 40 °C (ajuste de 1 em 1 °C)"
+      ],
+      [
+        "Estabilidade da temperatura",
+        "± 1 °C após estabilizar"
+      ],
+      [
+        "Saídas",
+        "Hidro 1, Hidro 2, auxiliar, borbulhador e filtro"
+      ],
+      [
+        "Pontos de luz",
+        "até 4"
+      ],
+      [
+        "Resistência",
+        "blindada, com contato com a água em aço inox 304"
+      ],
+      [
+        "Conectividade",
+        "Wi-Fi e aplicativo"
+      ],
+      [
+        "Bitola mínima da alimentação",
+        "10 mm²"
+      ],
+      [
+        "Disjuntor DR",
+        "63 A"
+      ],
+      [
+        "Entrada e saída de água",
+        "40 mm"
+      ],
+      [
+        "Peso",
+        "4,5 kg"
+      ],
+      [
+        "Dimensões",
+        "46 × 30 × 27 cm"
+      ],
+      [
+        "Garantia de fábrica",
+        "1 ano (inclui 90 dias do CDC)"
+      ],
+      [
+        "Certificação",
+        "Inmetro Portaria 371; NBR 60335-1; IEC 60335-2-35"
+      ],
+      [
+        "Spots",
+        "0, 1, 2, 3, 4"
+      ]
+    ],
+    "wooId": 5321,
+    "sku": "AS8FPRO8000W220V",
+    "precoLd": 2711.5,
+    "tipo": "variable",
+    "galeria": [
+      "assets/img/produtos/aquecedor-digital-smart-sanspray-8f-pro-8-000w-220-1.webp",
+      "assets/img/produtos/aquecedor-digital-smart-sanspray-8f-pro-8-000w-220-2.webp",
+      "assets/img/produtos/aquecedor-digital-smart-sanspray-8f-pro-8-000w-220-3.webp",
+      "assets/img/produtos/aquecedor-digital-smart-sanspray-8f-pro-8-000w-220-4.webp",
+      "assets/img/produtos/aquecedor-digital-smart-sanspray-8f-pro-8-000w-220-5.webp",
+      "assets/img/produtos/aquecedor-digital-smart-sanspray-8f-pro-8-000w-220-p1.webp",
+      "assets/img/produtos/aquecedor-digital-smart-sanspray-8f-pro-8-000w-220-p2.webp",
+      "assets/img/produtos/aquecedor-digital-smart-sanspray-8f-pro-8-000w-220-p3.webp",
+      "assets/img/produtos/aquecedor-digital-smart-sanspray-8f-pro-8-000w-220-p4.webp"
+    ],
+    "opcao": {
+      "nome": "Pontos de luz (spots)",
+      "itens": [
+        {
+          "valor": "0",
+          "rotulo": "Sem spots",
+          "cheio": 2711.5,
+          "estoque": true
+        },
+        {
+          "valor": "1",
+          "rotulo": "1 spot",
+          "cheio": 2800.26,
+          "estoque": true
+        },
+        {
+          "valor": "2",
+          "rotulo": "2 spots",
+          "cheio": 2889.02,
+          "estoque": true
+        },
+        {
+          "valor": "3",
+          "rotulo": "3 spots",
+          "cheio": 2977.78,
+          "estoque": true
+        },
+        {
+          "valor": "4",
+          "rotulo": "4 spots",
+          "cheio": 3066.54,
+          "estoque": true
+        }
+      ]
+    }
+  },
+  "aquecedor-digital-smart-sanspray-5f-pro-8-000w-220": {
+    "descricao": "<p>O Aquecedor Digital Smart Sanspray 5F PRO é um aquecedor de 8.000 W para banheiras de hidromassagem e spas, com painel digital e controle pelo aplicativo e Wi-Fi. Segundo o fabricante, a temperatura é ajustada de 20 °C a 40 °C, em passos de 1 °C, e fica em torno de ±1 °C depois que a água estabiliza.</p><h3>Saídas e funções</h3><ul><li>Acionamento de até 3 motobombas: Hidro 1, Hidro 2 e saída auxiliar</li><li>Saída auxiliar para uma motobomba adicional ou outro dispositivo hidráulico</li><li>Cromoterapia com até 4 pontos de luz e programação de strobo</li><li>Menu de opções no painel</li></ul><h3>Segurança e construção</h3><ul><li>Resistência blindada, com a parte em contato com a água em aço inox 304</li><li>Sensor de nível, que impede o acionamento sem água</li><li>Proteção contra superaquecimento</li></ul><h3>Instalação e certificação</h3><p>Antes de instalar, confira o esquema hidráulico e a bitola da fiação no manual do fabricante. A Sanspray informa certificação voluntária anual conforme a Portaria 371 do Inmetro e as normas NBR 60335-1 e IEC 60335-2-35. A garantia contra defeitos de fabricação é de 1 ano.</p><h3>O que vem na caixa</h3><ul><li>1 bojo (aquecedor)</li><li>1 painel acionador 5F PRO</li><li>1 sensor de nível</li><li>4 abraçadeiras de metal</li><li>2 mangotes</li><li>1 caixa de comando</li><li>1 manual de instruções</li><li>Pontos de luz: 1 a 4 (opcional)</li></ul><h3>Perguntas frequentes</h3><p><strong>Controla pelo celular?</strong><br>Sim. O fabricante informa automação com Wi-Fi e aplicativo para ligar a motobomba, a cromoterapia e ajustar a temperatura.</p><p><strong>Tem borbulhador?</strong><br>A lista de recursos do site cita borbulhador para o 5F PRO, mas o painel e o texto da página do 5F PRO mostram só H1, H2 e AUX. Confirme com o fabricante antes de anunciar.</p><p><strong>Funciona com Alexa?</strong><br>As páginas do fabricante para o 5F PRO não citam Alexa.</p><p><strong>Quanto tempo leva para aquecer?</strong><br>Pelo exemplo do fabricante, em uma SPA de 400 litros com 8.000 W, de 25 °C a 35 °C leva cerca de 1 hora e 6 minutos. Fatores como a temperatura ambiente mudam o tempo.</p><p><strong>Qual a bitola mínima da fiação?</strong><br>10 mm². O fabricante remete à tabela do manual; confirme com o eletricista.</p><p><strong>Qual a garantia?</strong><br>1 ano contra defeitos de fabricação, incluindo 90 dias do CDC, segundo o fabricante.</p>",
+    "resumo": "<ul><li>Potência de 8.000 W em 220 V, com faixa de temperatura de 20 °C a 40 °C</li><li>Saídas para motobombas Hidro 1 e Hidro 2 e saída auxiliar, segundo o fabricante</li><li>Automação com Wi-Fi e aplicativo, citada no site do fabricante</li><li>Cromoterapia com até 4 pontos de luz e programação de strobo</li><li>Garantia de 1 ano contra defeitos de fabricação; certificação voluntária Inmetro (Portaria 371)</li></ul>",
+    "ficha": [
+      [
+        "Potência",
+        "8.000 W"
+      ],
+      [
+        "Tensão",
+        "220 V"
+      ],
+      [
+        "Frequência",
+        "50 a 60 Hz"
+      ],
+      [
+        "Corrente nominal",
+        "36,4 A"
+      ],
+      [
+        "Faixa de temperatura",
+        "20 °C a 40 °C (ajuste de 1 em 1 °C)"
+      ],
+      [
+        "Estabilidade da temperatura",
+        "± 1 °C após estabilizar"
+      ],
+      [
+        "Saídas para motobomba",
+        "Hidro 1, Hidro 2 e auxiliar"
+      ],
+      [
+        "Pontos de luz",
+        "até 4"
+      ],
+      [
+        "Resistência",
+        "blindada, com contato com a água em aço inox 304"
+      ],
+      [
+        "Conectividade",
+        "Wi-Fi e aplicativo"
+      ],
+      [
+        "Bitola mínima da alimentação",
+        "10 mm²"
+      ],
+      [
+        "Disjuntor DR",
+        "63 A"
+      ],
+      [
+        "Entrada e saída de água",
+        "40 mm"
+      ],
+      [
+        "Peso",
+        "4,0 kg"
+      ],
+      [
+        "Dimensões",
+        "46 × 30 × 27 cm"
+      ],
+      [
+        "Garantia de fábrica",
+        "1 ano (inclui 90 dias do CDC)"
+      ],
+      [
+        "Certificação",
+        "Inmetro Portaria 371; NBR 60335-1; IEC 60335-2-35"
+      ],
+      [
+        "Spots",
+        "0, 1, 2, 3, 4"
+      ]
+    ],
+    "wooId": 5327,
+    "sku": "AS5FPRO8000W220V",
+    "precoLd": 2160.49,
+    "tipo": "variable",
+    "galeria": [
+      "assets/img/produtos/aquecedor-digital-smart-sanspray-5f-pro-8-000w-220-1.webp",
+      "assets/img/produtos/aquecedor-digital-smart-sanspray-5f-pro-8-000w-220-2.webp",
+      "assets/img/produtos/aquecedor-digital-smart-sanspray-5f-pro-8-000w-220-3.webp",
+      "assets/img/produtos/aquecedor-digital-smart-sanspray-5f-pro-8-000w-220-4.webp",
+      "assets/img/produtos/aquecedor-digital-smart-sanspray-5f-pro-8-000w-220-5.webp",
+      "assets/img/produtos/aquecedor-digital-smart-sanspray-5f-pro-8-000w-220-p1.webp"
+    ],
+    "opcao": {
+      "nome": "Pontos de luz (spots)",
+      "itens": [
+        {
+          "valor": "0",
+          "rotulo": "Sem spots",
+          "cheio": 2160.49,
+          "estoque": true
+        },
+        {
+          "valor": "1",
+          "rotulo": "1 spot",
+          "cheio": 2249.25,
+          "estoque": true
+        },
+        {
+          "valor": "2",
+          "rotulo": "2 spots",
+          "cheio": 2338.01,
+          "estoque": true
+        },
+        {
+          "valor": "3",
+          "rotulo": "3 spots",
+          "cheio": 2426.77,
+          "estoque": true
+        },
+        {
+          "valor": "4",
+          "rotulo": "4 spots",
+          "cheio": 2515.53,
+          "estoque": true
+        }
+      ]
+    }
+  },
+  "aquecedor-digital-smart-wave-ultra-s": {
+    "descricao": "<p>O Aquecedor Digital Smart Sanspray Controll Wave Ultra S é um aquecedor de 8.000 W para banheiras de hidromassagem e spas, com painel digital, controle pelo aplicativo e integração com assistentes de voz. Segundo o fabricante, a temperatura é ajustada de 20 °C a 40 °C, e pode ser comandada pela Alexa ou pelo Google Home. O comando de voz depende de um dispositivo que não acompanha o kit.</p><h3>Controle e automação</h3><ul><li>Controle de até 4 motobombas, além da saída auxiliar</li><li>Saídas para borbulhador e filtro, com até 3 agendamentos de filtragem</li><li>Até 3 modos de uso personalizados, com dia, hora, duração e intervalo</li><li>Modo Eco: desliga a SPA ao atingir a temperatura e religa quando a água esfria</li><li>Standby: desliga sozinho após 3 minutos sem função ativa</li></ul><h3>Iluminação e conforto</h3><ul><li>13 modos de iluminação, com strobo e várias cores</li><li>Até 4 spots de luz, opcionais</li><li>Bloqueio de teclas, para evitar acionamentos por crianças</li><li>Compartilhamento da configuração por QR code e atualização de firmware</li></ul><h3>Segurança e instalação</h3><p>Sensores de nível alto e baixo impedem o acionamento sem água. Encher e esvaziar exigem dispositivos extras, que não acompanham o produto. A garantia de fábrica é de 12 meses.</p><h3>O que vem na caixa</h3><ul><li>1 aquecedor Ultra S</li><li>1 painel controlador Control Wave Ultra S</li><li>1 sensor de nível alto e baixo</li><li>Spots de luz: 1 a 4 (opcional)</li></ul><h3>Perguntas frequentes</h3><p><strong>Funciona com Alexa?</strong><br>Sim, segundo o fabricante, com integração com Alexa e Google Home. O dispositivo de voz (como a Alexa) não acompanha o kit.</p><p><strong>Precisa de Wi-Fi?</strong><br>A página do fabricante cita aplicativo, mas não menciona Wi-Fi de forma explícita para o Ultra S. Confirme no manual.</p><p><strong>Tem borbulhador e filtro?</strong><br>Sim. O fabricante lista a saída de borbulhador (efeito champanhe) e a função de filtro, com até 3 agendamentos.</p><p><strong>Quantas motobombas posso ligar?</strong><br>Até 4 motobombas, segundo o fabricante, mais a saída auxiliar, com opção de uma motobomba extra.</p><p><strong>Qual a bitola mínima da fiação?</strong><br>16 mm². Não encontrei esse valor nas páginas do fabricante lidas; confirme com o eletricista.</p><p><strong>Consegue encher e esvaziar a SPA sozinho?</strong><br>Só com dispositivos adicionais, que não acompanham o produto.</p>",
+    "resumo": "<ul><li>Temperatura de 20 °C a 40 °C, com modo Eco que desliga a SPA ao atingir a temperatura</li><li>Integração com Alexa e Google Home, segundo o fabricante; o dispositivo de voz não acompanha o kit</li><li>Controle de até 4 motobombas, mais saída auxiliar, borbulhador e filtro com até 3 agendamentos</li><li>13 modos de iluminação com strobo; garantia de 12 meses</li></ul>",
+    "ficha": [
+      [
+        "Potência",
+        "8.000 W"
+      ],
+      [
+        "Tensão",
+        "220 V"
+      ],
+      [
+        "Corrente nominal",
+        "36,4 A"
+      ],
+      [
+        "Faixa de temperatura",
+        "20 °C a 40 °C"
+      ],
+      [
+        "Motobombas controladas",
+        "até 4"
+      ],
+      [
+        "Saídas",
+        "Hidro 1, Hidro 2, auxiliar, borbulhador e filtro"
+      ],
+      [
+        "Funções extras",
+        "encher e esvaziar (exigem dispositivos adicionais, não inclusos)"
+      ],
+      [
+        "Iluminação",
+        "13 modos, com strobo; até 4 spots (opcional)"
+      ],
+      [
+        "Modo Eco",
+        "sim"
+      ],
+      [
+        "Standby",
+        "desliga após 3 minutos sem função ativa"
+      ],
+      [
+        "Controle",
+        "painel e aplicativo"
+      ],
+      [
+        "Assistentes de voz",
+        "Alexa e Google Home (dispositivo de voz não incluso)"
+      ],
+      [
+        "Sensores de nível",
+        "alto e baixo"
+      ],
+      [
+        "Fiação mínima",
+        "16 mm²"
+      ],
+      [
+        "Disjuntor",
+        "63 A"
+      ],
+      [
+        "Peso",
+        "5,5 kg"
+      ],
+      [
+        "Dimensões",
+        "46 × 30 × 27 cm"
+      ],
+      [
+        "Garantia de fábrica",
+        "12 meses"
+      ],
+      [
+        "Spots",
+        "0, 1, 2, 3, 4"
+      ]
+    ],
+    "wooId": 5375,
+    "sku": "ASWUS8000W220V",
+    "precoLd": 3230.69,
+    "tipo": "variable",
+    "galeria": [
+      "assets/img/produtos/aquecedor-digital-smart-wave-ultra-s-1.webp",
+      "assets/img/produtos/aquecedor-digital-smart-wave-ultra-s-2.webp",
+      "assets/img/produtos/aquecedor-digital-smart-wave-ultra-s-3.webp",
+      "assets/img/produtos/aquecedor-digital-smart-wave-ultra-s-4.webp",
+      "assets/img/produtos/aquecedor-digital-smart-wave-ultra-s-5.webp",
+      "assets/img/produtos/aquecedor-digital-smart-wave-ultra-s-p1.webp",
+      "assets/img/produtos/aquecedor-digital-smart-wave-ultra-s-p2.webp",
+      "assets/img/produtos/aquecedor-digital-smart-wave-ultra-s-p3.webp"
+    ],
+    "opcao": {
+      "nome": "Pontos de luz (spots)",
+      "itens": [
+        {
+          "valor": "0",
+          "rotulo": "Sem spots",
+          "cheio": 3230.69,
+          "estoque": false
+        },
+        {
+          "valor": "1",
+          "rotulo": "1 spot",
+          "cheio": 3319.45,
+          "estoque": false
+        },
+        {
+          "valor": "2",
+          "rotulo": "2 spots",
+          "cheio": 3408.21,
+          "estoque": false
+        },
+        {
+          "valor": "3",
+          "rotulo": "3 spots",
+          "cheio": 3496.97,
+          "estoque": false
+        },
+        {
+          "valor": "4",
+          "rotulo": "4 spots",
+          "cheio": 3585.73,
+          "estoque": false
+        }
+      ]
+    }
+  },
+  "kit-motobombalepono-aquecedor3f": {
+    "descricao": "<h3>Kit Lepono LSPA600 + Aquecedor Sanspray 3F</h3><p>Conjunto para banheira de hidromassagem e spa que reúne a motobomba Lepono LSPA600, de 0,5 HP, e o aquecedor Sanspray 3F, com opção de 5000 W ou 8000 W em 220 V. A motobomba tem sucção deslocada para baixo, o que evita que a água fique parada no corpo da bomba quando ela está desligada.</p><h3>Motobomba Lepono LSPA600</h3><ul><li>Potência de 0,5 HP (0,37 kW), monofásica, 220 V.</li><li>Vazão máxima de 15,7 m³/h com 4 mca; 2,9 m³/h com 11 mca.</li><li>Pressão máxima de 12 mca.</li><li>Conexões de 32 mm ou 40 mm.</li><li>Grau de proteção IPX5, classe de isolação F; líquido até 50 °C.</li></ul><h3>Aquecedor Sanspray 3F</h3><ul><li>Potências de 5000 W ou 8000 W em 220 V.</li><li>Resistência elétrica blindada em aço inox 304.</li><li>Painel digital com controle de temperatura grau a grau.</li><li>Sensor de nível incluso no kit.</li><li>Certificação voluntária do INMETRO (Portaria 371), com as normas NBR 60335-1 e IEC 60335-2-35.</li></ul><h3>Instalação</h3><p>Antes de instalar, confira a bitola mínima da fiação na tabela do manual do aquecedor, conforme a potência escolhida. O aquecedor é compatível com banheiras e spas desde que a tubulação hidráulica siga as especificações do manual.</p><h3>O que vem na caixa</h3><ul><li>Motobomba Lepono LSPA600</li><li>Bojo</li><li>Painel acionador</li><li>Sensor de nível</li><li>4 abraçadeiras de metal</li><li>2 mangotes</li><li>Manual de instruções</li></ul><h3>Perguntas frequentes</h3><p><strong>Qual a potência do aquecedor 3F?</strong><br>Segundo o fabricante, 4700 W (127 V), 5000 W (220 V) e 8000 W (220 V).</p><p><strong>Qual a voltagem e a frequência de operação?</strong><br>4700 W para 127 V; 5000 W e 8000 W para 220 V; 50 a 60 Hz. A bitola mínima da fiação está na tabela do item 2.1 do manual.</p><p><strong>Quanto tempo leva para aquecer a água?</strong><br>Exemplo do fabricante: banheira de 400 litros com aquecedor de 8000 W, de 25 °C a 35 °C, em cerca de 1 h 06 min. Temperatura ambiente e ventilação alteram o tempo.</p><p><strong>O aquecedor é compatível com qualquer banheira?</strong><br>O fabricante informa compatibilidade com SPAs e banheiras, desde que a tubulação hidráulica siga as especificações do manual.</p><p><strong>O aquecedor tem certificação?</strong><br>Certificação voluntária do INMETRO (Portaria 371), com as normas NBR 60335-1 e IEC 60335-2-35.</p>",
+    "resumo": "<ul><li>Motobomba Lepono LSPA600, 0,5 HP (0,37 kW), monofásica 220 V, com vazão máxima de 15,7 m³/h a 4 mca</li><li>Pressão máxima de 12 mca; 2,9 m³/h a 11 mca (curva na ficha)</li><li>Aquecedor Sanspray 3F em 5000 W ou 8000 W (220 V), com sensor de nível e painel digital</li><li>Aquecedor com certificação voluntária do INMETRO</li></ul>",
+    "ficha": [
+      [
+        "Motobomba – Modelo",
+        "Lepono LSPA600"
+      ],
+      [
+        "Motobomba – Potência",
+        "0,5 HP (1/2 CV), 0,37 kW"
+      ],
+      [
+        "Motobomba – Tensão",
+        "220 V monofásico"
+      ],
+      [
+        "Motobomba – Vazão máxima",
+        "15,7 m³/h a 4 mca"
+      ],
+      [
+        "Motobomba – Pressão máxima",
+        "12 mca"
+      ],
+      [
+        "Motobomba – Curva (m³/h a mca)",
+        "15,7 a 4; 15,5 a 5; 14,0 a 6; 12,1 a 7; 10,3 a 8; 8,1 a 9; 5,5 a 10; 2,9 a 11"
+      ],
+      [
+        "Motobomba – Conexões",
+        "32 mm ou 40 mm (sucção/recalque)"
+      ],
+      [
+        "Motobomba – Grau de proteção",
+        "IPX5"
+      ],
+      [
+        "Motobomba – Classe de isolação",
+        "F"
+      ],
+      [
+        "Motobomba – Temperatura máx. do líquido",
+        "50 °C"
+      ],
+      [
+        "Motobomba – Temperatura ambiente máx.",
+        "40 °C"
+      ],
+      [
+        "Motobomba – Diâmetro do selo",
+        "21 mm"
+      ],
+      [
+        "Motobomba – Garantia",
+        "18 meses (220 V)"
+      ],
+      [
+        "Motobomba – Peso (embalagem)",
+        "4,00 kg"
+      ],
+      [
+        "Motobomba – Dimensões (embalagem)",
+        "19 × 17 × 35 cm"
+      ],
+      [
+        "Aquecedor – Modelo",
+        "Sanspray 3F (3 funções digital)"
+      ],
+      [
+        "Aquecedor – Potências",
+        "4700 W (127 V); 5000 W e 8000 W (220 V)"
+      ],
+      [
+        "Aquecedor – Frequência",
+        "50 a 60 Hz"
+      ],
+      [
+        "Aquecedor – Resistência",
+        "elétrica blindada, aço inox 304"
+      ],
+      [
+        "Aquecedor – Dimensões",
+        "112 × 82 × 176 mm"
+      ],
+      [
+        "Aquecedor – Conexões de água",
+        "Ø 42 mm; 40 mm no site, ver conflitos"
+      ],
+      [
+        "Aquecedor – Certificação",
+        "INMETRO, voluntária (Portaria 371); NBR 60335-1; IEC 60335-2-35"
+      ],
+      [
+        "Aquecedor – Garantia",
+        "12 meses"
+      ],
+      [
+        "Kit – Peso",
+        "8 kg"
+      ],
+      [
+        "Kit – Dimensões",
+        "37 × 37 × 20 cm"
+      ]
+    ],
+    "wooId": 4156,
+    "sku": "",
+    "precoLd": 1300.48,
+    "tipo": "variable",
+    "galeria": [
+      "assets/img/produtos/kit-motobombalepono-aquecedor3f-1.webp",
+      "assets/img/produtos/kit-motobombalepono-aquecedor3f-p1.webp",
+      "assets/img/produtos/kit-motobombalepono-aquecedor3f-p2.webp",
+      "assets/img/produtos/kit-motobombalepono-aquecedor3f-p3.webp"
+    ],
+    "opcao": {
+      "nome": "Potência do aquecedor",
+      "itens": [
+        {
+          "valor": "5000-whatts",
+          "rotulo": "5.000 W",
+          "cheio": 1300.48,
+          "estoque": true
+        },
+        {
+          "valor": "8000-watts",
+          "rotulo": "8.000 W",
+          "cheio": 1300.48,
+          "estoque": true
+        }
+      ]
+    }
+  },
+  "aquecedor-sanspray-line-clean-3-funcoes": {
+    "descricao": "<h3>Aquecedor Sanspray 3F - Line Clean</h3><p>O aquecedor Sanspray 3F foi feito para banheiras de hidromassagem e spas de fibra ou acrílico. Ele vem com acionador Line Clean de 3 funções e controle digital de temperatura, que vai de 20 a 40 ºC em passos de 1 ºC. Depois que a água estabiliza, a variação é de cerca de ±1 ºC.</p><h3>Versões</h3><ul><li>4.700 W em 127 V (corrente nominal de 37,0 A).</li><li>5.000 W em 220 V (corrente nominal de 22,7 A).</li><li>8.000 W em 220 V (corrente nominal de 36,4 A).</li></ul><p>O aparelho não é bivolt: escolha a versão compatível com a sua rede. Para fiação e disjuntor DR, siga a tabela do item 2.1 do manual.</p><h3>Segurança</h3><ul><li>Sensor de nível que impede o aquecedor e a motobomba de ligar sem água suficiente.</li><li>Termostato de segurança contra superaquecimento.</li><li>Resistência elétrica blindada em aço inox 304.</li></ul><h3>Instalação</h3><p>O manual exige aterramento e disjuntor DR exclusivo de 30 mA para o circuito do aquecedor. Sem eles, a garantia é extinta. Os primeiros jatos podem sair muito quentes: deixe a água circular por alguns instantes depois de ligar. O produto é indicado para fibra e acrílico, não para banheiras de alvenaria nem piscinas.</p><h3>Garantia</h3><p>1 ano de garantia de fábrica, contado a partir da nota fiscal de compra, segundo o manual da Sanspray.</p><h3>O que vem na caixa</h3><ul><li>1 aquecedor (bojo)</li><li>1 acionador Line Clean de 3 funções</li><li>1 sensor de nível</li><li>4 abraçadeiras de metal</li><li>2 mangotes</li><li>1 manual de instruções</li></ul><h3>Perguntas frequentes</h3><p><strong>Qual versão escolher?</strong><br>4.700 W é 127 V; 5.000 W e 8.000 W são 220 V. A tabela do item 2.1 do manual traz corrente, fiação e disjuntor DR de cada versão.</p><p><strong>Precisa de aterramento e disjuntor DR?</strong><br>Sim. O manual exige aterramento e disjuntor DR exclusivo de 30 mA. Sem eles, a garantia é extinta.</p><p><strong>A água sai quente logo que o aquecedor é ligado?</strong><br>Os primeiros jatos podem estar acima da temperatura adequada. Deixe a água circular por alguns instantes antes de usar.</p><p><strong>O aquecedor liga sem água?</strong><br>Não. O sensor de nível impede o acionamento sem água suficiente na banheira, segundo o manual.</p><p><strong>Serve para banheira de alvenaria?</strong><br>Não. O manual indica o produto apenas para banheiras de fibra e/ou acrílico.</p>",
+    "resumo": "<ul><li>Versões de 4.700 W (127 V), 5.000 W (220 V) e 8.000 W (220 V), segundo o fabricante</li><li>Acionador Line Clean de 3 funções; ajuste de temperatura de 20 a 40 ºC</li><li>Sensor de nível, termostato de segurança e resistência blindada em aço inox 304</li><li>Certificação voluntária Inmetro (Portaria 371) e normas NBR 60335-1 e IEC 60335-2-35</li><li>Garantia de fábrica de 1 ano</li></ul>",
+    "ficha": [
+      [
+        "Potência",
+        "4.700 W (127 V), 5.000 W (220 V) ou 8.000 W (220 V)"
+      ],
+      [
+        "Tensão",
+        "127 V ou 220 V, conforme a versão; não é bivolt"
+      ],
+      [
+        "Corrente nominal",
+        "37,0 A (4.700 W / 127 V); 22,7 A (5.000 W / 220 V); 36,4 A (8.000 W / 220 V)"
+      ],
+      [
+        "Fiação mínima (fios flexíveis)",
+        "10 mm² (4.700 W e 8.000 W); 6 mm² (5.000 W)"
+      ],
+      [
+        "Disjuntor DR",
+        "63 A (4.700 W e 8.000 W); 40 A (5.000 W); sensibilidade de 30 mA"
+      ],
+      [
+        "Frequência",
+        "50 a 60 Hz"
+      ],
+      [
+        "Faixa de ajuste de temperatura",
+        "20 a 40 ºC, em passos de 1 ºC"
+      ],
+      [
+        "Conexões",
+        "Entrada e saída de água de 40 mm"
+      ],
+      [
+        "Acionador",
+        "Line Clean, 3 funções"
+      ],
+      [
+        "Tipo de banheira",
+        "Fibra e/ou acrílico (não indicado para alvenaria e piscinas)"
+      ],
+      [
+        "Certificação",
+        "Inmetro, Portaria 371 (voluntária); NBR 60335-1; IEC 60335-2-35"
+      ],
+      [
+        "Peso",
+        "1,6 kg; 1,700 kg"
+      ],
+      [
+        "Dimensões",
+        "25 × 12 × 19 cm; 17 × 12 × 25 cm"
+      ],
+      [
+        "Garantia de fábrica",
+        "1 ano"
+      ]
+    ],
+    "wooId": 2359,
+    "sku": "",
+    "precoLd": 829.03,
+    "tipo": "variable",
+    "galeria": [
+      "assets/img/produtos/aquecedor-sanspray-line-clean-3-funcoes-1.webp",
+      "assets/img/produtos/aquecedor-sanspray-line-clean-3-funcoes-2.webp",
+      "assets/img/produtos/aquecedor-sanspray-line-clean-3-funcoes-3.webp",
+      "assets/img/produtos/aquecedor-sanspray-line-clean-3-funcoes-4.webp",
+      "assets/img/produtos/aquecedor-sanspray-line-clean-3-funcoes-5.webp",
+      "assets/img/produtos/aquecedor-sanspray-line-clean-3-funcoes-p1.webp",
+      "assets/img/produtos/aquecedor-sanspray-line-clean-3-funcoes-p2.webp",
+      "assets/img/produtos/aquecedor-sanspray-line-clean-3-funcoes-p3.webp"
+    ],
+    "opcao": {
+      "nome": "Potência do aquecedor",
+      "itens": [
+        {
+          "valor": "4700W/110V",
+          "rotulo": "4700W/110V",
+          "cheio": 829.03,
+          "estoque": true
+        },
+        {
+          "valor": "5000W/220V",
+          "rotulo": "5000W/220V",
+          "cheio": 829.03,
+          "estoque": true
+        },
+        {
+          "valor": "8000W/220V",
+          "rotulo": "8000W/220V",
+          "cheio": 829.03,
+          "estoque": true
+        }
+      ]
+    }
+  },
+  "kit-motobomba-lepono-lspa-1-0-cv-aquecedor-sanspray-3-funcoes-digital-220v": {
+    "descricao": "<h3>Kit Lepono LSPA1100 + Aquecedor Sanspray 3F</h3><p>Conjunto para banheira de hidromassagem e spa com a motobomba Lepono LSPA1100, de 1 HP (0,75 kW), e o aquecedor Sanspray 3F, com opção de 5000 W ou 8000 W em 220 V. A motobomba foi desenvolvida para circulação contínua de água em sistemas de hidromassagem e é indicada para banheiras residenciais.</p><h3>Motobomba Lepono LSPA1100</h3><ul><li>Potência de 1 HP (0,75 kW), monofásica, 220 V.</li><li>Vazão máxima de 15,1 m³/h e pressão máxima de 15 mca.</li><li>Rotor em noryl, eixo em aço inox AISI 304 e selo mecânico de grafite, cerâmica e buna.</li><li>Conexões de 32 mm ou 40 mm.</li><li>Grau de proteção IPX5, classe de isolação F; líquido até 50 °C.</li></ul><h3>Aquecedor Sanspray 3F</h3><ul><li>Potências de 5000 W ou 8000 W em 220 V.</li><li>Resistência elétrica blindada em aço inox 304.</li><li>Painel digital com controle de temperatura grau a grau.</li><li>Sensor de nível incluso no kit.</li><li>Certificação voluntária do INMETRO (Portaria 371), com as normas NBR 60335-1 e IEC 60335-2-35.</li></ul><h3>Instalação</h3><p>Antes de instalar, confira a bitola mínima da fiação na tabela do manual do aquecedor, conforme a potência escolhida. O aquecedor é compatível com banheiras e spas desde que a tubulação hidráulica siga as especificações do manual.</p><h3>O que vem na caixa</h3><ul><li>Motobomba Lepono LSPA1100</li><li>Bojo</li><li>Painel acionador</li><li>Sensor de nível</li><li>4 abraçadeiras de metal</li><li>2 mangotes</li><li>Manual de instruções</li></ul><h3>Perguntas frequentes</h3><p><strong>Qual a potência do aquecedor 3F?</strong><br>Segundo o fabricante, 4700 W (127 V), 5000 W (220 V) e 8000 W (220 V).</p><p><strong>Qual a voltagem e a frequência de operação?</strong><br>4700 W para 127 V; 5000 W e 8000 W para 220 V; 50 a 60 Hz. A bitola mínima da fiação está na tabela do item 2.1 do manual.</p><p><strong>Quanto tempo leva para aquecer a água?</strong><br>Exemplo do fabricante: banheira de 400 litros com aquecedor de 8000 W, de 25 °C a 35 °C, em cerca de 1 h 06 min. Temperatura ambiente e ventilação alteram o tempo.</p><p><strong>O aquecedor é compatível com qualquer banheira?</strong><br>O fabricante informa compatibilidade com SPAs e banheiras, desde que a tubulação hidráulica siga as especificações do manual.</p><p><strong>O aquecedor tem certificação?</strong><br>Certificação voluntária do INMETRO (Portaria 371), com as normas NBR 60335-1 e IEC 60335-2-35.</p>",
+    "resumo": "<ul><li>Motobomba Lepono LSPA1100, 1 HP (0,75 kW), monofásica 220 V, vazão máxima de 15,1 m³/h</li><li>Pressão máxima de 15 mca, grau IPX5 e classe de isolação F</li><li>Aquecedor Sanspray 3F em 5000 W ou 8000 W (220 V), com sensor de nível e painel digital</li><li>Aquecedor com certificação voluntária do INMETRO</li></ul>",
+    "ficha": [
+      [
+        "Motobomba – Modelo",
+        "Lepono LSPA1100"
+      ],
+      [
+        "Motobomba – Potência",
+        "1 HP (1,0 CV), 0,75 kW"
+      ],
+      [
+        "Motobomba – Tensão",
+        "220 V monofásico"
+      ],
+      [
+        "Motobomba – Vazão máxima",
+        "15,1 m³/h"
+      ],
+      [
+        "Motobomba – Pressão máxima",
+        "15 mca"
+      ],
+      [
+        "Motobomba – Vazão mínima",
+        "3,4 m³/h a 14 m"
+      ],
+      [
+        "Motobomba – Conexões",
+        "32 mm ou 40 mm (sucção/recalque)"
+      ],
+      [
+        "Motobomba – Grau de proteção",
+        "IPX5"
+      ],
+      [
+        "Motobomba – Classe de isolação",
+        "F"
+      ],
+      [
+        "Motobomba – Temperatura máx. do líquido",
+        "50 °C"
+      ],
+      [
+        "Motobomba – Materiais",
+        "rotor em noryl; eixo em aço inox AISI 304; selo mecânico de grafite, cerâmica e buna"
+      ],
+      [
+        "Motobomba – Peso (embalagem)",
+        "8,24 kg"
+      ],
+      [
+        "Motobomba – Dimensões (embalagem)",
+        "20 × 37 × 17 cm"
+      ],
+      [
+        "Aquecedor – Modelo",
+        "Sanspray 3F (3 funções digital)"
+      ],
+      [
+        "Aquecedor – Potências",
+        "4700 W (127 V); 5000 W e 8000 W (220 V)"
+      ],
+      [
+        "Aquecedor – Frequência",
+        "50 a 60 Hz"
+      ],
+      [
+        "Aquecedor – Resistência",
+        "elétrica blindada, aço inox 304"
+      ],
+      [
+        "Aquecedor – Dimensões",
+        "112 × 82 × 176 mm"
+      ],
+      [
+        "Aquecedor – Conexões de água",
+        "Ø 42 mm; 40 mm no site, ver conflitos"
+      ],
+      [
+        "Aquecedor – Certificação",
+        "INMETRO, voluntária (Portaria 371); NBR 60335-1; IEC 60335-2-35"
+      ],
+      [
+        "Aquecedor – Garantia",
+        "12 meses"
+      ],
+      [
+        "Kit – Dimensões",
+        "30 × 30 × 45 cm"
+      ]
+    ],
+    "wooId": 4174,
+    "sku": "",
+    "precoLd": 1379.34,
+    "tipo": "variable",
+    "galeria": [
+      "assets/img/produtos/kit-motobomba-lepono-lspa-1-0-cv-aquecedor-sanspray-3-funcoe-1.webp",
+      "assets/img/produtos/kit-motobomba-lepono-lspa-1-0-cv-aquecedor-sanspray-3-funcoes-digital-220v-p1.webp",
+      "assets/img/produtos/kit-motobomba-lepono-lspa-1-0-cv-aquecedor-sanspray-3-funcoes-digital-220v-p2.webp",
+      "assets/img/produtos/kit-motobomba-lepono-lspa-1-0-cv-aquecedor-sanspray-3-funcoes-digital-220v-p3.webp"
+    ],
+    "opcao": {
+      "nome": "Potência do aquecedor",
+      "itens": [
+        {
+          "valor": "5000-whatts",
+          "rotulo": "5.000 W",
+          "cheio": 1379.34,
+          "estoque": true
+        },
+        {
+          "valor": "8000-watts",
+          "rotulo": "8.000 W",
+          "cheio": 1380.45,
+          "estoque": true
+        }
+      ]
+    }
+  },
+  "aquecedor-sanspray-line-clean-4-funcoes-8-000w-220v": {
+    "descricao": "<h3>Aquecedor Sanspray 4F - Line Clean 8.000 W 220 V</h3><p>Versão de 8.000 W em 220 V para banheiras de hidromassagem e spas de fibra ou acrílico. O painel acionador 4F tem 4 funções e controle digital de temperatura, que vai de 20 a 40 ºC em passos de 1 ºC. Depois que a água estabiliza, a variação é de cerca de ±1 ºC.</p><h3>Iluminação e cromoterapia</h3><p>O kit inclui a caixa de cromoterapia Acqua Color e pontos de luz. Confirme a quantidade antes de comprar.</p><h3>Elétrica</h3><ul><li>Corrente nominal de 36,4 A.</li><li>Fiação mínima de 10 mm², para fios flexíveis.</li><li>Disjuntor DR de 63 A, com sensibilidade de 30 mA, exclusivo para o aquecedor.</li></ul><h3>Segurança</h3><ul><li>Sensor de nível que impede o aquecedor e a motobomba de ligar sem água suficiente.</li><li>Termostato de segurança contra superaquecimento.</li><li>Resistência elétrica blindada.</li></ul><h3>Instalação e garantia</h3><p>Aterramento e disjuntor DR são obrigatórios; sem eles, a garantia é extinta. Os primeiros jatos podem sair muito quentes, então deixe a água circular por alguns instantes. O produto não é indicado para banheiras de alvenaria nem piscinas. Garantia de 1 ano de fábrica, segundo o manual.</p><h3>O que vem na caixa</h3><ul><li>1 aquecedor (bojo)</li><li>1 painel acionador 4 funções (4F)</li><li>1 sensor de nível</li><li>4 abraçadeiras de metal</li><li>2 abraçadeiras de nylon</li><li>2 mangotes</li><li>1 caixa de cromoterapia (Acqua Color)</li><li>1 manual de instruções</li></ul><h3>Perguntas frequentes</h3><p><strong>Precisa de aterramento e disjuntor DR?</strong><br>Sim. O manual exige aterramento e disjuntor DR de 30 mA, exclusivo para o aquecedor. Para este modelo, o DR é de 63 A. Sem eles, a garantia é extinta.</p><p><strong>Qual a bitola da fiação?</strong><br>10 mm², para fios flexíveis, segundo a tabela do item 2.1.</p><p><strong>Quantas luzes vêm no kit?</strong><br>O manual diz que o número de pontos de luz varia de 1 a 4, conforme o produto.</p><p><strong>A água sai quente logo que o aquecedor é ligado?</strong><br>Os primeiros jatos podem estar acima da temperatura adequada. Deixe a água circular por alguns instantes antes de usar.</p><p><strong>O aquecedor liga sem água?</strong><br>Não. O sensor de nível impede o acionamento sem água suficiente na banheira, segundo o manual.</p><p><strong>Serve para banheira de alvenaria?</strong><br>Não. O manual indica o produto apenas para banheiras de fibra e/ou acrílico.</p>",
+    "resumo": "<ul><li>Potência de 8.000 W em 220 V; corrente nominal de 36,4 A</li><li>Fiação mínima de 10 mm² e disjuntor DR de 63 A, com sensibilidade de 30 mA</li><li>Painel acionador 4F com 4 funções; ajuste de 20 a 40 ºC</li><li>Cromoterapia Acqua Color e pontos de luz de 1 a 4, conforme a versão</li><li>Sensor de nível, termostato de segurança e garantia de 1 ano</li></ul>",
+    "ficha": [
+      [
+        "Potência",
+        "8.000 W"
+      ],
+      [
+        "Tensão",
+        "220 V (não é bivolt)"
+      ],
+      [
+        "Corrente nominal",
+        "36,4 A"
+      ],
+      [
+        "Fiação mínima (fios flexíveis)",
+        "10 mm²"
+      ],
+      [
+        "Disjuntor DR",
+        "63 A, sensibilidade de 30 mA"
+      ],
+      [
+        "Frequência",
+        "50 a 60 Hz"
+      ],
+      [
+        "Faixa de ajuste de temperatura",
+        "20 a 40 ºC, em passos de 1 ºC"
+      ],
+      [
+        "Acionador",
+        "Painel 4F, 4 funções"
+      ],
+      [
+        "Iluminação",
+        "Cromoterapia Acqua Color (1 caixa); pontos de luz de 1 a 4"
+      ],
+      [
+        "Conexões",
+        "Entrada e saída de água de 40 mm"
+      ],
+      [
+        "Tipo de banheira",
+        "Fibra e/ou acrílico (não indicado para alvenaria e piscinas)"
+      ],
+      [
+        "Certificação",
+        "Inmetro, Portaria 371 (voluntária); NBR 60335-1; IEC 60335-2-35"
+      ],
+      [
+        "Peso",
+        "2,5 kg"
+      ],
+      [
+        "Dimensões",
+        "28 × 19 × 24 cm"
+      ],
+      [
+        "Garantia de fábrica",
+        "1 ano"
+      ]
+    ],
+    "wooId": 2361,
+    "sku": "AS4F8000W220V",
+    "precoLd": 1304.67,
+    "tipo": "simple",
+    "galeria": [
+      "assets/img/produtos/aquecedor-sanspray-line-clean-4-funcoes-8-000w-220v-1.webp",
+      "assets/img/produtos/aquecedor-sanspray-line-clean-4-funcoes-8-000w-220v-2.webp",
+      "assets/img/produtos/aquecedor-sanspray-line-clean-4-funcoes-8-000w-220v-3.webp",
+      "assets/img/produtos/aquecedor-sanspray-line-clean-4-funcoes-8-000w-220v-4.webp",
+      "assets/img/produtos/aquecedor-sanspray-line-clean-4-funcoes-8-000w-220v-5.webp",
+      "assets/img/produtos/aquecedor-sanspray-line-clean-4-funcoes-8-000w-220v-p1.webp"
+    ],
+    "opcao": null
+  },
+  "kit-motobomba-syllent-1-0-cv-aquecedor-sanspray-3-funcoes-digital-220v": {
+    "descricao": "<h3>Kit motobomba Syllent Super 1 CV com aquecedor Sanspray 3 Funções Digital 220V</h3><p>Kit para banheiras de hidromassagem e spas de fibra ou acrílico. Reúne a motobomba Syllent da linha Super, de 1 CV, que faz a circulação da água, e o aquecedor Sanspray de três funções com painel digital, que mantém a temperatura programada.</p><h3>Motobomba</h3><p>Motor monofásico de 220 V, 1 CV (745,7 W), corrente de 4,9 A e proteção IP68. É autoescorvante, com vazão máxima de 22,9 m³/h a 2 m, segundo o manual da Syllent. Conexões de 50 mm na sucção e de 40 mm no recalque.</p><h3>Aquecedor</h3><ul><li>Painel digital 3F para ajuste da temperatura do banho.</li><li>Sensor de nível, que protege a motobomba e a resistência contra falta de água.</li><li>Proteção contra superaquecimento.</li><li>Potência de 5.000 W ou 8.000 W em 220 V, conforme a versão do kit.</li></ul><h3>Instalação</h3><p>A instalação exige aterramento e disjuntor DR de 30 mA exclusivo para o aquecedor. Para 5.000 W, o manual indica fiação de 6 mm² com disjuntor de 40 A. Para 8.000 W, 10 mm² com disjuntor de 63 A. A corrente da motobomba não pode passar de 10,9 A.</p><h3>O que vem na caixa</h3><ul><li>01 Motobomba Syllent</li><li>01 Bojo</li><li>01 Acionador Line Clean</li><li>01 Sensor de Nível</li><li>04 Abraçadeiras de Metal</li><li>02 Mangote</li><li>01 Manual de Instruções</li></ul><h3>Perguntas frequentes</h3><p><strong>Qual potência do aquecedor vem no kit, 5.000 W ou 8.000 W?</strong><br>O aquecedor 3 funções digital existe em 5.000 W e 8.000 W, ambos em 220 V. Nem o site da Syllent nem o da Sanspray informam qual vem no kit. Confirme antes da venda.</p><p><strong>Preciso de disjuntor DR?</strong><br>Sim. O manual exige disjuntor DR de 30 mA exclusivo para o aquecedor, além do aterramento. Sem ele, a garantia do produto se extingue.</p><p><strong>Qual corrente máxima da motobomba?</strong><br>O manual do aquecedor indica no máximo 10,9 A. As motobombas deste kit consomem entre 4,9 A e 6,5 A em 220 V. Mais de uma motobomba na mesma saída também extingue a garantia.</p><p><strong>O kit serve para banheira de alvenaria ou piscina?</strong><br>Não. O manual indica uso apenas em banheiras de hidromassagem de fibra e/ou acrílico, vedado o uso em banheiras de alvenaria e em piscinas.</p><p><strong>Qual é a garantia?</strong><br>Motobomba: 2 anos. Aquecedor: 1 ano, incluído o prazo legal de 90 dias.</p>",
+    "resumo": "<ul><li>Motobomba Syllent Super de 1,0 CV (MB42E0214AS), 220 V monofásica, corrente de 4,9 A, IP68</li><li>Vazão máxima de 22,9 m³/h a 2 m e pressão máxima de 13,2 mca</li><li>Aquecedor 3 funções digital, 5.000 W ou 8.000 W em 220 V</li><li>Corrente de 4,9 A fica abaixo do limite de 10,9 A do aquecedor</li><li>Garantia: motobomba 2 anos (certificado Syllent) e aquecedor 1 ano</li></ul>",
+    "ficha": [
+      [
+        "Motobomba – Código",
+        "MB42E0214AS (220 V), segundo manual Syllent"
+      ],
+      [
+        "Motobomba – Potência",
+        "1,0 CV (745, 7 W)"
+      ],
+      [
+        "Motobomba – Tensão e fase",
+        "220 V, monofásica, 60 Hz, motor de capacitor permanente"
+      ],
+      [
+        "Motobomba – Corrente",
+        "4,9 A, fator de potência 0,99"
+      ],
+      [
+        "Motobomba – Proteção",
+        "IP68"
+      ],
+      [
+        "Motobomba – Conexão sucção/recalque",
+        "sucção 50 mm ext. / 40 mm int.; recalque 40 mm ext."
+      ],
+      [
+        "Motobomba – Pressão máxima",
+        "13,2 mca (132 kPa)"
+      ],
+      [
+        "Motobomba – Pressão máxima na sucção",
+        "8 mca"
+      ],
+      [
+        "Motobomba – Vazão máxima",
+        "22,9 m³/h a 2 m"
+      ],
+      [
+        "Motobomba – Vazão a 4 m / 10 m / 12 m",
+        "19,3 / 9,6 / 4,6 m³/h; zero a 14 m"
+      ],
+      [
+        "Motobomba – Autoescorvante",
+        "Sim"
+      ],
+      [
+        "Motobomba – Peso",
+        "7,40 kg"
+      ],
+      [
+        "Motobomba – Dimensões",
+        "368 mm de altura; 204,5 mm e 151 mm nas outras medidas (p. 9)"
+      ],
+      [
+        "Motobomba – Temperatura da água",
+        "5 °C a 45 °C"
+      ],
+      [
+        "Motobomba – Garantia de fábrica",
+        "2 anos"
+      ],
+      [
+        "Aquecedor – Modelo",
+        "Sanspray 3 Funções Digital 220V (linha Line Clean, etiqueta CLEAN-3F na foto)"
+      ]
+    ],
+    "wooId": 4193,
+    "sku": "",
+    "precoLd": 2089.87,
+    "tipo": "variable",
+    "galeria": [
+      "assets/img/produtos/kit-motobomba-syllent-1-0-cv-aquecedor-sanspray-3-funcoes-di-1.webp",
+      "assets/img/produtos/kit-motobomba-syllent-1-0-cv-aquecedor-sanspray-3-funcoes-digital-220v-p1.webp",
+      "assets/img/produtos/kit-motobomba-syllent-1-0-cv-aquecedor-sanspray-3-funcoes-digital-220v-p2.webp",
+      "assets/img/produtos/kit-motobomba-syllent-1-0-cv-aquecedor-sanspray-3-funcoes-digital-220v-p3.webp"
+    ],
+    "opcao": {
+      "nome": "Potência do aquecedor",
+      "itens": [
+        {
+          "valor": "5000-whatts",
+          "rotulo": "5.000 W",
+          "cheio": 2089.87,
+          "estoque": false
+        },
+        {
+          "valor": "8000-watts",
+          "rotulo": "8.000 W",
+          "cheio": 2089.87,
+          "estoque": false
+        }
+      ]
+    }
+  },
+  "aquecedor-sinapse-avantime-serial": {
+    "descricao": "<h3>Aquecedor Avantime Serial 8000 W para banheiras e spas</h3><p>O Avantime Serial aquece a água de banheiras de hidromassagem com 8000 W em 220 V. A resistência é blindada em aço inox com proteção contra choque, instalada em bojo de alumínio fundido. O painel digital tem teclas e borda iluminadas, é resistente à água e a impactos e pode ser fixado na borda da banheira ou na parede.</p><h3>Como funciona</h3><p>O controle é programado para manter a água entre 21 °C e 40 °C e aciona uma motobomba de até 1,5 CV em 220 V. Um sensor de nível capacitivo impede o funcionamento sem água, e um termostato mecânico de segurança limita o superaquecimento. O aparelho também desliga sozinho quando fica ocioso.</p><h3>Instalação</h3><p>As conexões são de 40 mm, para tubulação de PVC. O kit traz painel, sensor de nível, 2 mangotes e 4 abraçadeiras. Confira a voltagem da rede antes de comprar e instale com eletricista qualificado, com aterramento e proteção DR.</p><h3>O que vem na caixa</h3><ul><li>Aquecedor Avantime Serial 8000 W 220 V</li><li>Painel de acionamento digital</li><li>Sensor de nível</li><li>2 mangotes</li><li>4 abraçadeiras</li><li>Manual de instruções</li></ul><h3>Perguntas frequentes</h3><p><strong>Quais potências existem?</strong><br>As versões 5000 W não foram confirmadas em fonte própria (ver observações).</p><p><strong>Qual motobomba posso ligar?</strong><br>Uma motobomba de até 1 CV em 127 V ou de até 1,5 CV em 220 V.</p><p><strong>Tem proteção contra falta de água?</strong><br>Sim. O sensor de nível capacitivo impede que a banheira seja ligada sem água.</p><p><strong>Tem proteção contra superaquecimento?</strong><br>Sim. O aparelho tem proteção contra superaquecimento e termostato mecânico de segurança.</p>",
+    "resumo": "<ul><li>Aquecedor de 8000 W em 220 V para banheiras de hidromassagem, bojo de alumínio fundido</li><li>Aquecimento programável entre 21 °C e 40 °C</li><li>Sensor de nível capacitivo, termostato mecânico de segurança e proteção contra superaquecimento</li></ul>",
+    "ficha": [
+      [
+        "Potência",
+        "8000 W"
+      ],
+      [
+        "Tensão",
+        "220 V"
+      ],
+      [
+        "Faixa de aquecimento",
+        "21 °C a 40 °C (programável)"
+      ],
+      [
+        "Motobomba acionada",
+        "1: até 1 CV em 127 V ou até 1,5 CV em 220 V"
+      ],
+      [
+        "Sensor de nível",
+        "Capacitivo"
+      ],
+      [
+        "Proteções",
+        "Superaquecimento; termostato mecânico de segurança; auto desligamento quando ocioso"
+      ],
+      [
+        "Compatível com DR",
+        "Sim"
+      ],
+      [
+        "Bojo",
+        "Alumínio fundido"
+      ],
+      [
+        "Resistência",
+        "Blindada, aço inox, com proteção contra choque"
+      ],
+      [
+        "Conexões de água",
+        "Entrada e saída de 40 mm (PVC)"
+      ],
+      [
+        "Painel",
+        "Digital, resistente à água e a impactos, teclas e borda iluminadas; fixação na borda ou na parede"
+      ],
+      [
+        "Peso",
+        "3 kg (9 kg)"
+      ],
+      [
+        "Dimensões",
+        "29 × 17 × 20 cm"
+      ],
+      [
+        "Garantia de fábrica",
+        "12 meses"
+      ]
+    ],
+    "wooId": 2367,
+    "sku": "",
+    "precoLd": 1109.16,
+    "tipo": "variable",
+    "galeria": [
+      "assets/img/produtos/aquecedor-sinapse-avantime-serial-1.webp",
+      "assets/img/produtos/aquecedor-sinapse-avantime-serial-2.webp",
+      "assets/img/produtos/aquecedor-sinapse-avantime-serial-3.webp",
+      "assets/img/produtos/aquecedor-sinapse-avantime-serial-4.webp",
+      "assets/img/produtos/aquecedor-sinapse-avantime-serial-5.webp",
+      "assets/img/produtos/aquecedor-sinapse-avantime-serial-p1.webp",
+      "assets/img/produtos/aquecedor-sinapse-avantime-serial-p2.webp"
+    ],
+    "opcao": {
+      "nome": "Potência do aquecedor",
+      "itens": [
+        {
+          "valor": "5000W/110V",
+          "rotulo": "5000W/110V",
+          "cheio": 1109.16,
+          "estoque": true
+        },
+        {
+          "valor": "5000W/220V",
+          "rotulo": "5000W/220V",
+          "cheio": 1109.16,
+          "estoque": true
+        },
+        {
+          "valor": "8000W/220V",
+          "rotulo": "8000W/220V",
+          "cheio": 1109.16,
+          "estoque": true
+        }
+      ]
+    }
+  },
+  "kit-motobomba-syllent-1-2-cv-aquecedor-sanspray-3-funcoes-digital-220v": {
+    "descricao": "<h3>Kit motobomba Syllent 1/2 CV + aquecedor Sanspray 3F digital 220 V</h3><p>Kit para aquecer e fazer circular a água de banheiras de hidromassagem e spas. Reúne a motobomba Syllent de 1/2 CV, da linha Geração II, ao aquecedor Sanspray de 3 funções com painel digital, em 220 V.</p><h3>Motobomba Syllent 1/2 CV (MB63E0115A/P)</h3><p>Motobomba de 1/2 CV, em 220 V e 60 Hz, com corrente nominal de 3,2 A e fator de potência 0,98. Segundo o manual do fabricante, ela entrega 11,5 m³/h com 2 m de altura manométrica, 9,8 m³/h com 4 m e 7,7 m³/h com 6 m. A pressão máxima é de 12,0 mca. A sucção é de 50 mm (externo) e o recalque de 40 mm (externo). A motobomba pesa 3,94 kg. O fabricante indica o uso em banheiras de hidromassagem e spas.</p><h3>Aquecedor Sanspray 3F</h3><p>Aquecedor com resistência blindada em aço inox 304 e painel digital à prova d'água. Você programa a temperatura entre 20 °C e 40 °C, em passos de 1 °C. Trabalha com 5.000 W ou 8.000 W, em 220 V, e tem certificação Inmetro. Tem sensor de nível, que impede o funcionamento sem água. Segundo o fabricante, o painel também liga e desliga a motobomba, a saída auxiliar e o borbulhador.</p><h3>Instalação</h3><ul><li>Circuito exclusivo com disjuntor DR de 30 mA, conforme a NBR 5410 e o manual.</li><li>Fiação flexível mínima: 6 mm² para 5.000 W e 10 mm² para 8.000 W.</li><li>Corrente nominal da motobomba de no máximo 10,9 A.</li><li>Aterramento obrigatório do equipamento.</li></ul><h3>O que vem na caixa</h3><ul><li>Motobomba Syllent MB63E0115A/P</li><li>Bojo</li><li>Painel acionador</li><li>Sensor de nível</li><li>4 abraçadeiras de metal</li><li>2 mangotes</li><li>Manual de instruções</li></ul><h3>Perguntas frequentes</h3><p><strong>Qual o modelo exato da motobomba?</strong><br>MB63E0115A/P, 1/2 CV, 220 V, segundo a tabela do manual do fabricante.</p><p><strong>Qual a vazão da motobomba?</strong><br>11,5 m³/h com 2 m de altura manométrica, segundo o manual. Com 12 m a vazão é zero.</p><p><strong>O aquecedor liga sem água?</strong><br>Não. O sensor de nível impede que o aquecimento e a motobomba funcionem sem água suficiente na banheira. O LED do sensor acende quando a água chega à altura dele.</p><p><strong>Qual a voltagem do kit?</strong><br>220 V. As potências são 5.000 W ou 8.000 W.</p><p><strong>Qual fiação e disjuntor preciso?</strong><br>Para 5.000 W: fio flexível de 6 mm² e disjuntor DR de 40 A. Para 8.000 W: fio flexível de 10 mm² e disjuntor DR de 63 A. O manual exige um DR de 30 mA exclusivo para o aquecedor, conforme a NBR 5410.</p><p><strong>A motobomba do kit pode ser ligada no aquecedor?</strong><br>Sim, desde que a corrente nominal da motobomba seja de no máximo 10,9 A. As três motobombas do kit ficam abaixo desse limite: 2,6 A (1/3 CV), 3,2 A (1/2 CV) e 4,5 A (3/4 CV).</p><p><strong>Qual a temperatura programável?</strong><br>Entre 20 °C e 40 °C, em passos de 1 °C, pelo painel digital.</p><p><strong>Qual a garantia do aquecedor?</strong><br>1 ano contra defeitos de fabricação, segundo o manual e o site da Sanspray. A garantia não vale se o disjuntor DR não for usado.</p>",
+    "resumo": "<ul><li>Motobomba Syllent Geração II de 1/2 CV, modelo MB63E0115A/P, 220 V, 60 Hz</li><li>Vazão de 11,5 m³/h a 2 m de altura manométrica e pressão máxima de 12,0 mca</li><li>Aquecedor Sanspray 3F digital, 5.000 W ou 8.000 W em 220 V</li><li>Temperatura programável de 20 °C a 40 °C, em passos de 1 °C</li><li>Sensor de nível impede o aquecedor de funcionar sem água</li></ul>",
+    "ficha": [
+      [
+        "Motobomba – Linha",
+        "Geração II (Syllent)"
+      ],
+      [
+        "Motobomba – Modelo",
+        "MB63E0115A/P"
+      ],
+      [
+        "Motobomba – Potência",
+        "1/2 CV"
+      ],
+      [
+        "Motobomba – Tensão e frequência",
+        "220 V · 60 Hz"
+      ],
+      [
+        "Motobomba – Corrente",
+        "3,2 A"
+      ],
+      [
+        "Motobomba – Fator de potência",
+        "0,98"
+      ],
+      [
+        "Motobomba – Pressão máxima",
+        "12,0 mca (120 kPa)"
+      ],
+      [
+        "Motobomba – Vazão",
+        "11,5 m³/h a 2 m · 9,8 m³/h a 4 m · 7,7 m³/h a 6 m · 5,4 m³/h a 8 m · 2,7 m³/h a 10 m · 0 m³/h a 12 m"
+      ],
+      [
+        "Motobomba – Tubulação",
+        "sucção 50 mm externo / 40 mm interno; recalque 40 mm externo / 32 mm interno"
+      ],
+      [
+        "Motobomba – Peso",
+        "3,94 kg"
+      ],
+      [
+        "Motobomba – Condições do ensaio",
+        "nível do mar, 20 °C, sucção 0 kPa, sem perdas de carga"
+      ],
+      [
+        "Aquecedor – Linha",
+        "Sanspray 3F (3 funções digital), linha Line Clean"
+      ],
+      [
+        "Aquecedor – Potências disponíveis no kit",
+        "5.000 W e 8.000 W (220 V)"
+      ],
+      [
+        "Aquecedor – Corrente em 220 V",
+        "5.000 W: 22,7 A · 8.000 W: 36,4 A"
+      ],
+      [
+        "Aquecedor – Fiação mínima (fio flexível)",
+        "5.000 W: 6 mm², disjuntor DR de 40 A · 8.000 W: 10 mm², disjuntor DR de 63 A"
+      ],
+      [
+        "Aquecedor – Conexões de água",
+        "40 mm (entrada e saída)"
+      ],
+      [
+        "Aquecedor – Dimensões",
+        "aprox. 168 × 112 × 176 mm (comprimento × largura × altura)"
+      ],
+      [
+        "Aquecedor – Faixa de temperatura",
+        "20 °C a 40 °C, em passos de 1 °C"
+      ],
+      [
+        "Aquecedor – Estabilidade",
+        "cerca de ±1 °C após a água estabilizar"
+      ],
+      [
+        "Aquecedor – Resistência",
+        "blindada, com parte em contato com a água em aço inox 304"
+      ],
+      [
+        "Aquecedor – Demais peças em contato com a água",
+        "nylon com fibra de alta resistência"
+      ],
+      [
+        "Aquecedor – Certificação",
+        "Inmetro (Portaria 371); NBR 60335-1 e IEC 60335-2-35"
+      ],
+      [
+        "Aquecedor – Proteção",
+        "contra respingos e raios solares"
+      ],
+      [
+        "Aquecedor – Corrente máxima da motobomba",
+        "10,9 A (acima disso a garantia não vale)"
+      ],
+      [
+        "Aquecedor – Painel acionador",
+        "Ø 58 mm × 45 mm de profundidade"
+      ],
+      [
+        "Aquecedor – Garantia",
+        "1 ano contra defeitos de fabricação"
+      ]
+    ],
+    "wooId": 4226,
+    "sku": "",
+    "precoLd": 1695.28,
+    "tipo": "variable",
+    "galeria": [
+      "assets/img/produtos/kit-motobomba-syllent-1-2-cv-aquecedor-sanspray-3-funcoes-di-1.webp",
+      "assets/img/produtos/kit-motobomba-syllent-1-2-cv-aquecedor-sanspray-3-funcoes-di-3.webp",
+      "assets/img/produtos/kit-motobomba-syllent-1-2-cv-aquecedor-sanspray-3-funcoes-di-4.webp",
+      "assets/img/produtos/kit-motobomba-syllent-1-2-cv-aquecedor-sanspray-3-funcoes-digital-220v-p1.webp",
+      "assets/img/produtos/kit-motobomba-syllent-1-2-cv-aquecedor-sanspray-3-funcoes-digital-220v-p2.webp",
+      "assets/img/produtos/kit-motobomba-syllent-1-2-cv-aquecedor-sanspray-3-funcoes-digital-220v-p3.webp",
+      "assets/img/produtos/kit-motobomba-syllent-1-2-cv-aquecedor-sanspray-3-funcoes-digital-220v-p4.webp",
+      "assets/img/produtos/kit-motobomba-syllent-1-2-cv-aquecedor-sanspray-3-funcoes-digital-220v-p5.webp",
+      "assets/img/produtos/kit-motobomba-syllent-1-2-cv-aquecedor-sanspray-3-funcoes-digital-220v-p6.webp"
+    ],
+    "opcao": {
+      "nome": "Potência do aquecedor",
+      "itens": [
+        {
+          "valor": "5000-whatts",
+          "rotulo": "5.000 W",
+          "cheio": 1695.28,
+          "estoque": true
+        },
+        {
+          "valor": "8000-watts",
+          "rotulo": "8.000 W",
+          "cheio": 1695.28,
+          "estoque": true
+        }
+      ]
+    }
+  },
+  "aquecedor-sanspray-duo-digital-8000-w-220v": {
+    "descricao": "<h3>Aquecedor Sanspray Duo Colors 8000 W, 220 V</h3><p>O Duo Colors é o aquecedor de 8000 W em 220 V da Sanspray para banheiras de hidromassagem e spas. A resistência é blindada em aço inox 304, e o controle digital mantém a temperatura escolhida entre 20 °C e 40 °C, em passos de 1 °C, com variação de cerca de ±1 °C depois que a água estabiliza.</p><h3>Painel e iluminação</h3><p>O painel circular tem botões de liga/desliga, duas hidromassagens (Hidro 1 e Hidro 2), luz e as teclas + e −, com display de temperatura. A página oficial também cita cromoterapia, com cores e função strobo.</p><h3>Segurança</h3><ul><li>Sensor de nível, que impede o aquecimento sem água suficiente.</li><li>Display que mostra códigos de erro, descritos no manual.</li><li>Certificação voluntária Inmetro (Portaria 371), com ensaios conforme NBR 60335-1 e IEC 60335-2-35.</li></ul><h3>Instalação</h3><p>A instalação deve ter aterramento e circuito exclusivo com disjuntor DR. O site do produto indica disjuntor DR de 30 mA. Confirme no manual a bitola e a tabela de fiação antes de instalar, e siga a NBR 5410 com eletricista qualificado.</p><h3>O que vem na caixa</h3><ul><li>Bojo</li><li>Acionador (painel) Duo</li><li>Sensor de nível</li><li>4 abraçadeiras de metal</li><li>2 mangotes</li><li>Manual de instruções</li></ul><h3>Perguntas frequentes</h3><p><strong>Qual disjuntor usar?</strong><br>O site do produto indica disjuntor DR de 63 A com diferencial de 30 mA, exclusivo para o aquecedor, e bitola mínima de 10 mm². Confirme no manual e com eletricista (NBR 5410).</p><p><strong>Pode ligar sem água na banheira?</strong><br>Não. O sensor de nível impede o aquecimento sem água suficiente.</p><p><strong>Qual a distância máxima entre disjuntor e aparelho?</strong><br>Acima disso a bitola deve ser redimensionada por profissional.</p><p><strong>Qual a faixa de temperatura e a precisão?</strong><br>De 20 °C a 40 °C, em passos de 1 °C. Depois que a água estabiliza, a variação é de cerca de ±1 °C.</p><p><strong>Precisa de manutenção?</strong><br>Não há manutenção específica para o aquecedor. Se a banheira ficar parada por muito tempo, circule a água e drene.</p><p><strong>Qual a garantia?</strong><br>1 ano de fábrica contra defeitos de fabricação, mais 90 dias do CDC.</p>",
+    "resumo": "<ul><li>Aquecedor de 8000 W em 220 V para banheiras e spas, resistência blindada de aço inox 304</li><li>Controle de temperatura de 20 °C a 40 °C, em passos de 1 °C, variação de cerca de ±1 °C</li><li>Painel com comando de duas hidromassagens (Hidro 1 e Hidro 2), luz e ajuste de temperatura</li><li>Certificação voluntária Inmetro (Portaria 371), NBR 60335-1 e IEC 60335-2-35</li><li>Garantia de fábrica de 1 ano, mais 90 dias do CDC</li></ul>",
+    "ficha": [
+      [
+        "Potência",
+        "8000 W"
+      ],
+      [
+        "Tensão",
+        "220 V"
+      ],
+      [
+        "Frequência",
+        "50 a 60 Hz"
+      ],
+      [
+        "Faixa de temperatura",
+        "20 °C a 40 °C, em passos de 1 °C"
+      ],
+      [
+        "Precisão",
+        "Variação de cerca de ±1 °C após estabilizar"
+      ],
+      [
+        "Corrente nominal",
+        "36,4 A (8000 W / 220 V)"
+      ],
+      [
+        "Bitola mínima da alimentação",
+        "10 mm²"
+      ],
+      [
+        "Disjuntor DR",
+        "63 A, diferencial de 30 mA"
+      ],
+      [
+        "Resistência",
+        "Blindada, aço inox 304"
+      ],
+      [
+        "Conexões de água",
+        "Entrada e saída de 40 mm"
+      ],
+      [
+        "Certificação",
+        "Inmetro voluntária, Portaria 371; NBR 60335-1; IEC 60335-2-35"
+      ],
+      [
+        "Peso",
+        "1,7 kg"
+      ],
+      [
+        "Dimensões",
+        "25,5 × 12,5 × 19 cm"
+      ],
+      [
+        "Garantia de fábrica",
+        "1 ano + 90 dias do CDC; 12 meses no site atual"
+      ]
+    ],
+    "wooId": 2403,
+    "sku": "ASDUO8000W220V",
+    "precoLd": 971.38,
+    "tipo": "simple",
+    "galeria": [
+      "assets/img/produtos/aquecedor-sanspray-duo-digital-8000-w-220v-1.webp",
+      "assets/img/produtos/aquecedor-sanspray-duo-digital-8000-w-220v-2.webp",
+      "assets/img/produtos/aquecedor-sanspray-duo-digital-8000-w-220v-3.webp",
+      "assets/img/produtos/aquecedor-sanspray-duo-digital-8000-w-220v-4.webp",
+      "assets/img/produtos/aquecedor-sanspray-duo-digital-8000-w-220v-5.webp",
+      "assets/img/produtos/aquecedor-sanspray-duo-digital-8000-w-220v-p1.webp",
+      "assets/img/produtos/aquecedor-sanspray-duo-digital-8000-w-220v-p2.webp",
+      "assets/img/produtos/aquecedor-sanspray-duo-digital-8000-w-220v-p3.webp"
+    ],
+    "opcao": null
+  },
+  "kit-motobomba-lepono-lspa-1-5-cv-aquecedor-sanspray-3-funcoes-digital-220v": {
+    "descricao": "<h3>Kit Lepono LSPA1300 + Aquecedor Sanspray 3F</h3><p>Conjunto para banheira de hidromassagem e spa com a motobomba Lepono LSPA1300, de 1,5 CV (1,1 kW), 220 V monofásica, e o aquecedor Sanspray 3F, com opção de 5000 W ou 8000 W em 220 V.</p><h3>Motobomba Lepono LSPA1300</h3><ul><li>Potência de 1,5 CV (1,1 kW), monofásica, 220 V.</li><li>Conexões de 32 mm ou 40 mm.</li></ul><h3>Aquecedor Sanspray 3F</h3><ul><li>Potências de 5000 W ou 8000 W em 220 V.</li><li>Resistência elétrica blindada em aço inox 304.</li><li>Painel digital com controle de temperatura grau a grau.</li><li>Sensor de nível incluso no kit.</li><li>Certificação voluntária do INMETRO (Portaria 371), com as normas NBR 60335-1 e IEC 60335-2-35.</li></ul><h3>Instalação</h3><p>Antes de instalar, confira a bitola mínima da fiação na tabela do manual do aquecedor, conforme a potência escolhida. O aquecedor é compatível com banheiras e spas desde que a tubulação hidráulica siga as especificações do manual.</p><h3>O que vem na caixa</h3><ul><li>Motobomba Lepono LSPA1300</li><li>Bojo</li><li>Painel acionador</li><li>Sensor de nível</li><li>4 abraçadeiras de metal</li><li>2 mangotes</li><li>Manual de instruções</li></ul><h3>Perguntas frequentes</h3><p><strong>Qual a potência do aquecedor 3F?</strong><br>Segundo o fabricante, 4700 W (127 V), 5000 W (220 V) e 8000 W (220 V).</p><p><strong>Qual a voltagem e a frequência de operação?</strong><br>4700 W para 127 V; 5000 W e 8000 W para 220 V; 50 a 60 Hz. A bitola mínima da fiação está na tabela do item 2.1 do manual.</p><p><strong>Quanto tempo leva para aquecer a água?</strong><br>Exemplo do fabricante: banheira de 400 litros com aquecedor de 8000 W, de 25 °C a 35 °C, em cerca de 1 h 06 min. Temperatura ambiente e ventilação alteram o tempo.</p><p><strong>O aquecedor é compatível com qualquer banheira?</strong><br>O fabricante informa compatibilidade com SPAs e banheiras, desde que a tubulação hidráulica siga as especificações do manual.</p><p><strong>O aquecedor tem certificação?</strong><br>Certificação voluntária do INMETRO (Portaria 371), com as normas NBR 60335-1 e IEC 60335-2-35.</p>",
+    "resumo": "Marca: Lepono",
+    "ficha": [
+      [
+        "Motobomba – Modelo",
+        "Lepono LSPA1300"
+      ],
+      [
+        "Motobomba – Potência",
+        "1,5 CV; 1,1 kW"
+      ],
+      [
+        "Motobomba – Tensão",
+        "220 V monofásico"
+      ],
+      [
+        "Motobomba – Vazão máxima",
+        "26,0 m³/h a 4 mca"
+      ],
+      [
+        "Motobomba – Pressão máxima",
+        "16 mca"
+      ],
+      [
+        "Motobomba – Vazão mínima",
+        "0,6 m³/h a 16 m"
+      ],
+      [
+        "Motobomba – Conexões",
+        "32 mm ou 40 mm (sucção/recalque)"
+      ],
+      [
+        "Motobomba – Garantia",
+        "18 meses"
+      ],
+      [
+        "Aquecedor – Modelo",
+        "Sanspray 3F (3 funções digital)"
+      ],
+      [
+        "Aquecedor – Potências",
+        "4700 W (127 V); 5000 W e 8000 W (220 V)"
+      ],
+      [
+        "Aquecedor – Frequência",
+        "50 a 60 Hz"
+      ],
+      [
+        "Aquecedor – Resistência",
+        "elétrica blindada, aço inox 304"
+      ],
+      [
+        "Aquecedor – Dimensões",
+        "112 × 82 × 176 mm"
+      ],
+      [
+        "Aquecedor – Conexões de água",
+        "Ø 42 mm; 40 mm no site, ver conflitos"
+      ],
+      [
+        "Aquecedor – Certificação",
+        "INMETRO, voluntária (Portaria 371); NBR 60335-1; IEC 60335-2-35"
+      ],
+      [
+        "Aquecedor – Garantia",
+        "12 meses"
+      ],
+      [
+        "Kit – Peso",
+        "10 kg"
+      ],
+      [
+        "Kit – Dimensões",
+        "37 × 37 × 20 cm"
+      ]
+    ],
+    "wooId": 4307,
+    "sku": "",
+    "precoLd": 1712.25,
+    "tipo": "variable",
+    "galeria": [
+      "assets/img/produtos/kit-motobomba-lepono-lspa-1-5-cv-aquecedor-sanspray-3-funcoe-1.webp",
+      "assets/img/produtos/kit-motobomba-lepono-lspa-1-5-cv-aquecedor-sanspray-3-funcoes-digital-220v-p1.webp",
+      "assets/img/produtos/kit-motobomba-lepono-lspa-1-5-cv-aquecedor-sanspray-3-funcoes-digital-220v-p2.webp",
+      "assets/img/produtos/kit-motobomba-lepono-lspa-1-5-cv-aquecedor-sanspray-3-funcoes-digital-220v-p3.webp"
+    ],
+    "opcao": {
+      "nome": "Potência do aquecedor",
+      "itens": [
+        {
+          "valor": "5000-whatts",
+          "rotulo": "5.000 W",
+          "cheio": 1712.25,
+          "estoque": true
+        },
+        {
+          "valor": "8000-watts",
+          "rotulo": "8.000 W",
+          "cheio": 1712.25,
+          "estoque": true
+        }
+      ]
+    }
+  },
+  "kit-motobomba-syllent-3-4-cv-aquecedor-sanspray-3-funcoes-digital-220v": {
+    "descricao": "<h3>Kit motobomba Syllent Super 3/4 CV + aquecedor Sanspray 3F digital 220 V</h3><p>Kit para aquecer e fazer circular a água de banheiras de hidromassagem e spas. Reúne a motobomba Syllent Super de 3/4 CV ao aquecedor Sanspray de 3 funções com painel digital, em 220 V.</p><h3>Motobomba Syllent Super 3/4 CV (MB42E0213AS)</h3><p>Motobomba de 3/4 CV, em 220 V e 60 Hz, com corrente nominal de 4,5 A e fator de potência 0,99. Segundo o manual do fabricante, ela entrega 21,6 m³/h com 2 m de altura manométrica, 18,4 m³/h com 4 m e 14,8 m³/h com 6 m. A pressão máxima é de 12,0 mca. A sucção é de 50 mm (externo) e o recalque de 40 mm (externo). A motobomba pesa 6,55 kg.</p><h3>Aquecedor Sanspray 3F</h3><p>Aquecedor com resistência blindada em aço inox 304 e painel digital à prova d'água. Você programa a temperatura entre 20 °C e 40 °C, em passos de 1 °C. Trabalha com 5.000 W ou 8.000 W, em 220 V, e tem certificação Inmetro. Tem sensor de nível, que impede o funcionamento sem água. Segundo o fabricante, o painel também liga e desliga a motobomba, a saída auxiliar e o borbulhador.</p><h3>Instalação</h3><ul><li>Circuito exclusivo com disjuntor DR de 30 mA, conforme a NBR 5410 e o manual.</li><li>Fiação flexível mínima: 6 mm² para 5.000 W e 10 mm² para 8.000 W.</li><li>Corrente nominal da motobomba de no máximo 10,9 A.</li><li>Aterramento obrigatório do equipamento.</li></ul><h3>O que vem na caixa</h3><ul><li>Motobomba Syllent MB42E0213AS</li><li>Bojo</li><li>Acionador</li><li>Sensor de nível</li><li>4 abraçadeiras de metal</li><li>2 mangotes</li><li>Manual de instruções</li></ul><h3>Perguntas frequentes</h3><p><strong>Qual o modelo exato da motobomba?</strong><br>MB42E0213AS, 3/4 CV, 220 V, segundo a tabela do manual Super Syllent.</p><p><strong>Qual a vazão da motobomba?</strong><br>21,6 m³/h com 2 m de altura manométrica, segundo o manual. Com 12 m a vazão é zero.</p><p><strong>O aquecedor liga sem água?</strong><br>Não. O sensor de nível impede que o aquecimento e a motobomba funcionem sem água suficiente na banheira. O LED do sensor acende quando a água chega à altura dele.</p><p><strong>Qual a voltagem do kit?</strong><br>220 V. As potências são 5.000 W ou 8.000 W.</p><p><strong>Qual fiação e disjuntor preciso?</strong><br>Para 5.000 W: fio flexível de 6 mm² e disjuntor DR de 40 A. Para 8.000 W: fio flexível de 10 mm² e disjuntor DR de 63 A. O manual exige um DR de 30 mA exclusivo para o aquecedor, conforme a NBR 5410.</p><p><strong>A motobomba do kit pode ser ligada no aquecedor?</strong><br>Sim, desde que a corrente nominal da motobomba seja de no máximo 10,9 A. As três motobombas do kit ficam abaixo desse limite: 2,6 A (1/3 CV), 3,2 A (1/2 CV) e 4,5 A (3/4 CV).</p><p><strong>Qual a temperatura programável?</strong><br>Entre 20 °C e 40 °C, em passos de 1 °C, pelo painel digital.</p><p><strong>Qual a garantia do aquecedor?</strong><br>1 ano contra defeitos de fabricação, segundo o manual e o site da Sanspray. A garantia não vale se o disjuntor DR não for usado.</p>",
+    "resumo": "<ul><li>Motobomba Syllent Super de 3/4 CV, modelo MB42E0213AS, 220 V, 60 Hz</li><li>Vazão de 21,6 m³/h a 2 m de altura manométrica e pressão máxima de 12,0 mca</li><li>Aquecedor Sanspray 3F digital, 5.000 W ou 8.000 W em 220 V</li><li>Temperatura programável de 20 °C a 40 °C, em passos de 1 °C</li><li>Sensor de nível impede o aquecedor de funcionar sem água</li></ul>",
+    "ficha": [
+      [
+        "Motobomba – Linha",
+        "Super Syllent"
+      ],
+      [
+        "Motobomba – Modelo",
+        "MB42E0213AS"
+      ],
+      [
+        "Motobomba – Potência",
+        "3/4 CV"
+      ],
+      [
+        "Motobomba – Tensão e frequência",
+        "220 V · 60 Hz"
+      ],
+      [
+        "Motobomba – Corrente",
+        "4,5 A"
+      ],
+      [
+        "Motobomba – Fator de potência",
+        "0,99"
+      ],
+      [
+        "Motobomba – Pressão máxima",
+        "12,0 mca (120 kPa)"
+      ],
+      [
+        "Motobomba – Vazão",
+        "21,6 m³/h a 2 m · 18,4 m³/h a 4 m · 14,8 m³/h a 6 m · 10,9 m³/h a 8 m · 7,5 m³/h a 10 m · 0 m³/h a 12 m"
+      ],
+      [
+        "Motobomba – Tubulação",
+        "sucção 50 mm externo / 40 mm interno; recalque 40 mm externo"
+      ],
+      [
+        "Motobomba – Peso",
+        "6,55 kg"
+      ],
+      [
+        "Motobomba – Condições do ensaio",
+        "nível do mar, 20 °C, sucção 0 kPa, sem perdas de carga"
+      ],
+      [
+        "Aquecedor – Linha",
+        "Sanspray 3F (3 funções digital), linha Line Clean"
+      ],
+      [
+        "Aquecedor – Potências disponíveis no kit",
+        "5.000 W e 8.000 W (220 V)"
+      ],
+      [
+        "Aquecedor – Corrente em 220 V",
+        "5.000 W: 22,7 A · 8.000 W: 36,4 A"
+      ],
+      [
+        "Aquecedor – Fiação mínima (fio flexível)",
+        "5.000 W: 6 mm², disjuntor DR de 40 A · 8.000 W: 10 mm², disjuntor DR de 63 A"
+      ],
+      [
+        "Aquecedor – Conexões de água",
+        "40 mm (entrada e saída)"
+      ],
+      [
+        "Aquecedor – Dimensões",
+        "aprox. 168 × 112 × 176 mm (comprimento × largura × altura)"
+      ],
+      [
+        "Aquecedor – Faixa de temperatura",
+        "20 °C a 40 °C, em passos de 1 °C"
+      ],
+      [
+        "Aquecedor – Estabilidade",
+        "cerca de ±1 °C após a água estabilizar"
+      ],
+      [
+        "Aquecedor – Resistência",
+        "blindada, com parte em contato com a água em aço inox 304"
+      ],
+      [
+        "Aquecedor – Demais peças em contato com a água",
+        "nylon com fibra de alta resistência"
+      ],
+      [
+        "Aquecedor – Certificação",
+        "Inmetro (Portaria 371); NBR 60335-1 e IEC 60335-2-35"
+      ],
+      [
+        "Aquecedor – Proteção",
+        "contra respingos e raios solares"
+      ],
+      [
+        "Aquecedor – Corrente máxima da motobomba",
+        "10,9 A (acima disso a garantia não vale)"
+      ],
+      [
+        "Aquecedor – Painel acionador",
+        "Ø 58 mm × 45 mm de profundidade"
+      ],
+      [
+        "Aquecedor – Garantia",
+        "1 ano contra defeitos de fabricação"
+      ]
+    ],
+    "wooId": 4321,
+    "sku": "",
+    "precoLd": 1984.01,
+    "tipo": "variable",
+    "galeria": [
+      "assets/img/produtos/kit-motobomba-syllent-3-4-cv-aquecedor-sanspray-3-funcoes-di-1.webp",
+      "assets/img/produtos/kit-motobomba-syllent-3-4-cv-aquecedor-sanspray-3-funcoes-digital-220v-p1.webp",
+      "assets/img/produtos/kit-motobomba-syllent-3-4-cv-aquecedor-sanspray-3-funcoes-digital-220v-p2.webp",
+      "assets/img/produtos/kit-motobomba-syllent-3-4-cv-aquecedor-sanspray-3-funcoes-digital-220v-p3.webp",
+      "assets/img/produtos/kit-motobomba-syllent-3-4-cv-aquecedor-sanspray-3-funcoes-digital-220v-p4.webp"
+    ],
+    "opcao": {
+      "nome": "Potência do aquecedor",
+      "itens": [
+        {
+          "valor": "5000-whatts",
+          "rotulo": "5.000 W",
+          "cheio": 1984.01,
+          "estoque": true
+        },
+        {
+          "valor": "8000-watts",
+          "rotulo": "8.000 W",
+          "cheio": 1984.01,
+          "estoque": true
+        }
+      ]
+    }
+  },
+  "kit-motobomba-syllent-1-3-cv-aquecedor-sanspray-3-funcoes-digital-220v": {
+    "descricao": "<h3>Kit motobomba Syllent 1/3 CV + aquecedor Sanspray 3F digital 220 V</h3><p>Kit para aquecer e fazer circular a água de banheiras de hidromassagem e spas. Reúne a motobomba Syllent de 1/3 CV, da linha Geração II, ao aquecedor Sanspray de 3 funções com painel digital, em 220 V.</p><h3>Motobomba Syllent 1/3 CV (MB63E0114A/P)</h3><p>Motobomba de 1/3 CV, em 220 V e 60 Hz, com corrente nominal de 2,6 A e fator de potência 1,00. Segundo o manual do fabricante, ela entrega 10,3 m³/h com 2 m de altura manométrica, e 8,4 m³/h com 4 m. A pressão máxima é de 10,0 mca. A sucção é de 50 mm (externo) e o recalque de 40 mm (externo). A motobomba pesa 3,52 kg. O fabricante indica o uso em banheiras de hidromassagem e spas.</p><h3>Aquecedor Sanspray 3F</h3><p>Aquecedor com resistência blindada em aço inox 304 e painel digital à prova d'água. Você programa a temperatura entre 20 °C e 40 °C, em passos de 1 °C. Trabalha com 5.000 W ou 8.000 W, em 220 V, e tem certificação Inmetro. Tem sensor de nível, que impede o funcionamento sem água. Segundo o fabricante, o painel também liga e desliga a motobomba, a saída auxiliar e o borbulhador.</p><h3>Instalação</h3><ul><li>Circuito exclusivo com disjuntor DR de 30 mA, conforme a NBR 5410 e o manual.</li><li>Fiação flexível mínima: 6 mm² para 5.000 W e 10 mm² para 8.000 W.</li><li>Corrente nominal da motobomba de no máximo 10,9 A.</li><li>Aterramento obrigatório do equipamento.</li></ul><h3>O que vem na caixa</h3><ul><li>Motobomba Syllent MB63E0114A/P</li><li>Bojo</li><li>Painel acionador</li><li>Sensor de nível</li><li>4 abraçadeiras de metal</li><li>2 mangotes</li><li>Manual de instruções</li></ul><h3>Perguntas frequentes</h3><p><strong>Qual o modelo exato da motobomba?</strong><br>MB63E0114A/P, 1/3 CV, 220 V, segundo a tabela do manual do fabricante.</p><p><strong>Qual a vazão da motobomba?</strong><br>10,3 m³/h com 2 m de altura manométrica, segundo o manual. Com 10 m a vazão é zero.</p><p><strong>O aquecedor liga sem água?</strong><br>Não. O sensor de nível impede que o aquecimento e a motobomba funcionem sem água suficiente na banheira. O LED do sensor acende quando a água chega à altura dele.</p><p><strong>Qual a voltagem do kit?</strong><br>220 V. As potências são 5.000 W ou 8.000 W.</p><p><strong>Qual fiação e disjuntor preciso?</strong><br>Para 5.000 W: fio flexível de 6 mm² e disjuntor DR de 40 A. Para 8.000 W: fio flexível de 10 mm² e disjuntor DR de 63 A. O manual exige um DR de 30 mA exclusivo para o aquecedor, conforme a NBR 5410.</p><p><strong>A motobomba do kit pode ser ligada no aquecedor?</strong><br>Sim, desde que a corrente nominal da motobomba seja de no máximo 10,9 A. As três motobombas do kit ficam abaixo desse limite: 2,6 A (1/3 CV), 3,2 A (1/2 CV) e 4,5 A (3/4 CV).</p><p><strong>Qual a temperatura programável?</strong><br>Entre 20 °C e 40 °C, em passos de 1 °C, pelo painel digital.</p><p><strong>Qual a garantia do aquecedor?</strong><br>1 ano contra defeitos de fabricação, segundo o manual e o site da Sanspray. A garantia não vale se o disjuntor DR não for usado.</p>",
+    "resumo": "<ul><li>Motobomba Syllent Geração II de 1/3 CV, modelo MB63E0114A/P, 220 V, 60 Hz</li><li>Vazão de 10,3 m³/h a 2 m de altura manométrica e pressão máxima de 10,0 mca</li><li>Aquecedor Sanspray 3F digital, 5.000 W ou 8.000 W em 220 V</li><li>Temperatura programável de 20 °C a 40 °C, em passos de 1 °C</li><li>Sensor de nível impede o aquecedor de funcionar sem água</li></ul>",
+    "ficha": [
+      [
+        "Motobomba – Linha",
+        "Geração II (Syllent)"
+      ],
+      [
+        "Motobomba – Modelo",
+        "MB63E0114A/P"
+      ],
+      [
+        "Motobomba – Potência",
+        "1/3 CV"
+      ],
+      [
+        "Motobomba – Tensão e frequência",
+        "220 V · 60 Hz"
+      ],
+      [
+        "Motobomba – Corrente",
+        "2,6 A"
+      ],
+      [
+        "Motobomba – Fator de potência",
+        "1,00"
+      ],
+      [
+        "Motobomba – Pressão máxima",
+        "10,0 mca (100 kPa)"
+      ],
+      [
+        "Motobomba – Vazão",
+        "10,3 m³/h a 2 m · 8,4 m³/h a 4 m · 5,9 m³/h a 6 m · 3,1 m³/h a 8 m · 0 m³/h a 10 m"
+      ],
+      [
+        "Motobomba – Tubulação",
+        "sucção 50 mm externo / 40 mm interno; recalque 40 mm externo / 32 mm interno"
+      ],
+      [
+        "Motobomba – Peso",
+        "3,52 kg"
+      ],
+      [
+        "Motobomba – Condições do ensaio",
+        "nível do mar, 20 °C, sucção 0 kPa, sem perdas de carga"
+      ],
+      [
+        "Aquecedor – Linha",
+        "Sanspray 3F (3 funções digital), linha Line Clean"
+      ],
+      [
+        "Aquecedor – Potências disponíveis no kit",
+        "5.000 W e 8.000 W (220 V)"
+      ],
+      [
+        "Aquecedor – Corrente em 220 V",
+        "5.000 W: 22,7 A · 8.000 W: 36,4 A"
+      ],
+      [
+        "Aquecedor – Fiação mínima (fio flexível)",
+        "5.000 W: 6 mm², disjuntor DR de 40 A · 8.000 W: 10 mm², disjuntor DR de 63 A"
+      ],
+      [
+        "Aquecedor – Conexões de água",
+        "40 mm (entrada e saída)"
+      ],
+      [
+        "Aquecedor – Dimensões",
+        "aprox. 168 × 112 × 176 mm (comprimento × largura × altura)"
+      ],
+      [
+        "Aquecedor – Faixa de temperatura",
+        "20 °C a 40 °C, em passos de 1 °C"
+      ],
+      [
+        "Aquecedor – Estabilidade",
+        "cerca de ±1 °C após a água estabilizar"
+      ],
+      [
+        "Aquecedor – Resistência",
+        "blindada, com parte em contato com a água em aço inox 304"
+      ],
+      [
+        "Aquecedor – Demais peças em contato com a água",
+        "nylon com fibra de alta resistência"
+      ],
+      [
+        "Aquecedor – Certificação",
+        "Inmetro (Portaria 371); NBR 60335-1 e IEC 60335-2-35"
+      ],
+      [
+        "Aquecedor – Proteção",
+        "contra respingos e raios solares"
+      ],
+      [
+        "Aquecedor – Corrente máxima da motobomba",
+        "10,9 A (acima disso a garantia não vale)"
+      ],
+      [
+        "Aquecedor – Painel acionador",
+        "Ø 58 mm × 45 mm de profundidade"
+      ],
+      [
+        "Aquecedor – Garantia",
+        "1 ano contra defeitos de fabricação"
+      ]
+    ],
+    "wooId": 4341,
+    "sku": "",
+    "precoLd": 1805.47,
+    "tipo": "variable",
+    "galeria": [
+      "assets/img/produtos/kit-motobomba-syllent-1-3-cv-aquecedor-sanspray-3-funcoes-di-1.webp",
+      "assets/img/produtos/kit-motobomba-syllent-1-3-cv-aquecedor-sanspray-3-funcoes-di-3.webp",
+      "assets/img/produtos/kit-motobomba-syllent-1-3-cv-aquecedor-sanspray-3-funcoes-di-4.webp",
+      "assets/img/produtos/kit-motobomba-syllent-1-3-cv-aquecedor-sanspray-3-funcoes-digital-220v-p1.webp",
+      "assets/img/produtos/kit-motobomba-syllent-1-3-cv-aquecedor-sanspray-3-funcoes-digital-220v-p2.webp",
+      "assets/img/produtos/kit-motobomba-syllent-1-3-cv-aquecedor-sanspray-3-funcoes-digital-220v-p3.webp",
+      "assets/img/produtos/kit-motobomba-syllent-1-3-cv-aquecedor-sanspray-3-funcoes-digital-220v-p4.webp",
+      "assets/img/produtos/kit-motobomba-syllent-1-3-cv-aquecedor-sanspray-3-funcoes-digital-220v-p5.webp",
+      "assets/img/produtos/kit-motobomba-syllent-1-3-cv-aquecedor-sanspray-3-funcoes-digital-220v-p6.webp"
+    ],
+    "opcao": {
+      "nome": "Potência do aquecedor",
+      "itens": [
+        {
+          "valor": "5000-whatts",
+          "rotulo": "5.000 W",
+          "cheio": 1805.47,
+          "estoque": true
+        },
+        {
+          "valor": "8000-watts",
+          "rotulo": "8.000 W",
+          "cheio": 1806.21,
+          "estoque": true
+        }
+      ]
+    }
+  },
+  "kit-motobomba-syllent-1-5-cv-aquecedor-sanspray-3-funcoes-digital-220v": {
+    "descricao": "<h3>Kit motobomba Syllent Super 1,5 CV com aquecedor Sanspray 3 Funções Digital 220V</h3><p>Kit para banheiras de hidromassagem e spas de fibra ou acrílico, com motobomba Syllent da linha Super de 1,5 CV para a circulação da água e aquecedor Sanspray de três funções com painel digital para manter a temperatura programada.</p><h3>Motobomba</h3><p>Motobomba Syllent Super de 1,5 CV (modelo MB42E0215AS em 220 V), com pressão máxima de 14,4 mca e vazão máxima de 25,0 m³/h a 2 m, segundo o manual da Syllent. Corrente de 5,4 A e proteção IP68. Conexões de 50 mm na sucção e de 40 mm no recalque.</p><h3>Aquecedor</h3><ul><li>Painel digital 3F para ajuste da temperatura do banho.</li><li>Sensor de nível, que protege a motobomba e a resistência contra falta de água.</li><li>Proteção contra superaquecimento.</li><li>Potência de 5.000 W ou 8.000 W em 220 V, conforme a versão do kit.</li></ul><h3>Instalação</h3><p>A instalação exige aterramento e disjuntor DR de 30 mA exclusivo para o aquecedor. Para 5.000 W, o manual indica fiação de 6 mm² com disjuntor de 40 A. Para 8.000 W, 10 mm² com disjuntor de 63 A. Confira a corrente da motobomba antes da instalação: o limite é 10,9 A.</p><h3>O que vem na caixa</h3><ul><li>01 Motobomba Syllent</li><li>01 Bojo</li><li>01 Acionador Line Clean</li><li>01 Sensor de Nível</li><li>04 Abraçadeiras de Metal</li><li>02 Mangote</li><li>01 Manual de Instruções</li></ul><h3>Perguntas frequentes</h3><p><strong>Qual potência do aquecedor vem no kit, 5.000 W ou 8.000 W?</strong><br>O aquecedor 3 funções digital existe em 5.000 W e 8.000 W, ambos em 220 V. Nem o site da Syllent nem o da Sanspray informam qual vem no kit. Confirme antes da venda.</p><p><strong>Preciso de disjuntor DR?</strong><br>Sim. O manual exige disjuntor DR de 30 mA exclusivo para o aquecedor, além do aterramento. Sem ele, a garantia do produto se extingue.</p><p><strong>Qual corrente máxima da motobomba?</strong><br>O manual do aquecedor indica no máximo 10,9 A. As motobombas deste kit consomem entre 4,9 A e 6,5 A em 220 V. Mais de uma motobomba na mesma saída também extingue a garantia.</p><p><strong>O kit serve para banheira de alvenaria ou piscina?</strong><br>Não. O manual indica uso apenas em banheiras de hidromassagem de fibra e/ou acrílico, vedado o uso em banheiras de alvenaria e em piscinas.</p><p><strong>Qual é a garantia?</strong><br>Motobomba: 2 anos. Aquecedor: 1 ano, incluído o prazo legal de 90 dias.</p>",
+    "resumo": "<ul><li>Motobomba Syllent Super de 1,5 CV (MB42E0215AS), 220 V, corrente de 5,4 A, IP68</li><li>Pressão máxima de 14,4 mca e vazão máxima de 25,0 m³/h a 2 m</li><li>Aquecedor 3 funções digital, 5.000 W ou 8.000 W em 220 V</li><li>Corrente de 5,4 A fica abaixo do limite de 10,9 A do aquecedor</li><li>Garantia: motobomba 2 anos (certificado Syllent) e aquecedor 1 ano</li></ul>",
+    "ficha": [
+      [
+        "Motobomba – Código",
+        "MB42E0215AS (220 V), segundo manual Syllent"
+      ],
+      [
+        "Motobomba – Potência",
+        "1,5 CV"
+      ],
+      [
+        "Motobomba – Tensão e fase",
+        "220 V, monofásica, 60 Hz"
+      ],
+      [
+        "Motobomba – Corrente",
+        "5,4 A, fator de potência 0,99"
+      ],
+      [
+        "Motobomba – Proteção",
+        "IP68"
+      ],
+      [
+        "Motobomba – Conexão sucção/recalque",
+        "sucção 50 mm ext. / 40 mm int.; recalque 40 mm ext."
+      ],
+      [
+        "Motobomba – Pressão máxima",
+        "14,4 mca (144 kPa)"
+      ],
+      [
+        "Motobomba – Vazão máxima",
+        "25,0 m³/h a 2 m"
+      ],
+      [
+        "Motobomba – Vazão a 4 m / 8 m / 12 m / 14 m",
+        "20,8 / 15,5 / 7,9 / 1,8 m³/h"
+      ],
+      [
+        "Motobomba – Vazão mínima",
+        "7,9 m³/h a 12 m"
+      ],
+      [
+        "Motobomba – Peso",
+        "8,20 kg"
+      ],
+      [
+        "Motobomba – Temperatura da água",
+        "5 °C a 45 °C"
+      ],
+      [
+        "Motobomba – Garantia de fábrica",
+        "2 anos"
+      ],
+      [
+        "Aquecedor – Modelo",
+        "Sanspray 3 Funções Digital 220V (linha Line Clean, etiqueta CLEAN-3F na foto)"
+      ],
+      [
+        "Dimensões",
+        "30 × 30 × 45 cm"
+      ]
+    ],
+    "wooId": 4344,
+    "sku": "",
+    "precoLd": 2066.17,
+    "tipo": "variable",
+    "galeria": [
+      "assets/img/produtos/kit-motobomba-syllent-1-5-cv-aquecedor-sanspray-3-funcoes-di-1.webp",
+      "assets/img/produtos/kit-motobomba-syllent-1-5-cv-aquecedor-sanspray-3-funcoes-digital-220v-p1.webp"
+    ],
+    "opcao": {
+      "nome": "Potência do aquecedor",
+      "itens": [
+        {
+          "valor": "5000-whatts",
+          "rotulo": "5.000 W",
+          "cheio": 2066.17,
+          "estoque": false
+        },
+        {
+          "valor": "8000-watts",
+          "rotulo": "8.000 W",
+          "cheio": 2066.17,
+          "estoque": false
+        }
+      ]
+    }
+  },
+  "kit-motobomba-syllent-2-0-cv-aquecedor-sanspray-3-funcoes-digital-220v": {
+    "descricao": "<h3>Kit motobomba Syllent Super 2 CV com aquecedor Sanspray 3 Funções Digital 220V</h3><p>Kit para banheiras de hidromassagem e spas de fibra ou acrílico. Reúne a motobomba Syllent da linha Super, de 2 CV, para a circulação da água, e o aquecedor Sanspray de três funções com painel digital, que mantém a temperatura programada.</p><h3>Motobomba</h3><p>Motobomba monofásica de 220 V, com potência de 1.491 W (2 CV). Pressão máxima de 16,5 mca e vazão de 6,5 m³/h a 14 m. Corrente de 6,5 A em 220 V e proteção IP68.</p><h3>Aquecedor</h3><ul><li>Painel digital 3F para ajuste da temperatura do banho.</li><li>Sensor de nível, que protege a motobomba e a resistência contra falta de água.</li><li>Proteção contra superaquecimento.</li><li>Potência de 5.000 W ou 8.000 W em 220 V, conforme a versão do kit.</li></ul><h3>Instalação</h3><p>A instalação exige aterramento e disjuntor DR de 30 mA exclusivo para o aquecedor. Para 5.000 W, o manual indica fiação de 6 mm² com disjuntor de 40 A. Para 8.000 W, 10 mm² com disjuntor de 63 A. A corrente da motobomba não pode passar de 10,9 A; verifique a etiqueta da motobomba antes de ligar.</p><h3>O que vem na caixa</h3><ul><li>01 Motobomba Syllent</li><li>01 Bojo</li><li>01 Acionador Line Clean</li><li>01 Sensor de Nível</li><li>04 Abraçadeiras de Metal</li><li>02 Mangote</li><li>01 Manual de Instruções</li></ul><h3>Perguntas frequentes</h3><p><strong>Qual potência do aquecedor vem no kit, 5.000 W ou 8.000 W?</strong><br>O aquecedor 3 funções digital existe em 5.000 W e 8.000 W, ambos em 220 V. Nem o site da Syllent nem o da Sanspray informam qual vem no kit. Confirme antes da venda.</p><p><strong>Preciso de disjuntor DR?</strong><br>Sim. O manual exige disjuntor DR de 30 mA exclusivo para o aquecedor, além do aterramento. Sem ele, a garantia do produto se extingue.</p><p><strong>Qual corrente máxima da motobomba?</strong><br>O manual do aquecedor indica no máximo 10,9 A. As motobombas deste kit consomem entre 4,9 A e 6,5 A em 220 V. Mais de uma motobomba na mesma saída também extingue a garantia.</p><p><strong>O kit serve para banheira de alvenaria ou piscina?</strong><br>Não. O manual indica uso apenas em banheiras de hidromassagem de fibra e/ou acrílico, vedado o uso em banheiras de alvenaria e em piscinas.</p><p><strong>Qual é a garantia?</strong><br>Motobomba: 2 anos. Aquecedor: 1 ano, incluído o prazo legal de 90 dias.</p>",
+    "resumo": "<ul><li>Motobomba Syllent Super de 2,0 CV (MB42E0216AS), 220 V monofásica, corrente de 6,5 A, IP68</li><li>Vazão máxima de 26,8 m³/h a 2 m e pressão máxima de 16,5 mca</li><li>Aquecedor 3 funções digital, 5.000 W ou 8.000 W em 220 V</li><li>Corrente de 6,5 A fica abaixo do limite de 10,9 A do aquecedor</li><li>Garantia: motobomba 2 anos (certificado Syllent) e aquecedor 1 ano</li></ul>",
+    "ficha": [
+      [
+        "Motobomba – Código",
+        "MB42E0216AS (220 V), segundo manual Syllent"
+      ],
+      [
+        "Motobomba – Potência",
+        "2,0 CV (1.491 W)"
+      ],
+      [
+        "Motobomba – Tensão e fase",
+        "220 V, monofásica, 60 Hz"
+      ],
+      [
+        "Motobomba – Corrente",
+        "6,5 A, fator de potência 0,99"
+      ],
+      [
+        "Motobomba – Proteção",
+        "IP68"
+      ],
+      [
+        "Motobomba – Conexão sucção/recalque",
+        "sucção 50 mm ext. / 40 mm int.; recalque 40 mm ext."
+      ],
+      [
+        "Motobomba – Pressão máxima",
+        "16,5 mca (165 kPa)"
+      ],
+      [
+        "Motobomba – Vazão máxima",
+        "26,8 m³/h a 2 m"
+      ],
+      [
+        "Motobomba – Vazão a 4 m / 10 m / 14 m / 16 m",
+        "23,1 / 14,4 / 6,5 / 1,4 m³/h"
+      ],
+      [
+        "Motobomba – Vazão mínima",
+        "6,5 m³/h a 14 m"
+      ],
+      [
+        "Motobomba – Autoescorvante",
+        "Sim"
+      ],
+      [
+        "Motobomba – Peso",
+        "8,30 kg"
+      ],
+      [
+        "Motobomba – Temperatura da água",
+        "5 °C a 45 °C"
+      ],
+      [
+        "Motobomba – Garantia de fábrica",
+        "2 anos"
+      ],
+      [
+        "Aquecedor – Modelo",
+        "Sanspray 3 Funções Digital 220V (linha Line Clean, etiqueta CLEAN-3F na foto)"
+      ],
+      [
+        "Dimensões",
+        "Não aplicável"
+      ]
+    ],
+    "wooId": 4347,
+    "sku": "",
+    "precoLd": 2232.07,
+    "tipo": "variable",
+    "galeria": [
+      "assets/img/produtos/kit-motobomba-syllent-2-0-cv-aquecedor-sanspray-3-funcoes-di-1.webp",
+      "assets/img/produtos/kit-motobomba-syllent-2-0-cv-aquecedor-sanspray-3-funcoes-digital-220v-p1.webp",
+      "assets/img/produtos/kit-motobomba-syllent-2-0-cv-aquecedor-sanspray-3-funcoes-digital-220v-p2.webp",
+      "assets/img/produtos/kit-motobomba-syllent-2-0-cv-aquecedor-sanspray-3-funcoes-digital-220v-p3.webp"
+    ],
+    "opcao": {
+      "nome": "Potência do aquecedor",
+      "itens": [
+        {
+          "valor": "5000-whatts",
+          "rotulo": "5.000 W",
+          "cheio": 2232.07,
+          "estoque": true
+        },
+        {
+          "valor": "8000-watts",
+          "rotulo": "8.000 W",
+          "cheio": 2232.07,
+          "estoque": true
+        }
+      ]
+    }
+  }
+}

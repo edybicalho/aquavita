@@ -1,0 +1,47 @@
+# AquaVita Peças — configuração do servidor (Apache / LiteSpeed, o padrão da maioria das hospedagens).
+# Em outro tipo de servidor (Nginx, Netlify, Vercel...) peça o equivalente: compressão, cache e os cabeçalhos abaixo.
+# Se algo der errado ao publicar, apagar este arquivo volta o site ao comportamento padrão.
+
+# ---------- Compressão: o texto (HTML, CSS, JS, feeds) viaja ~70% menor ----------
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain text/csv text/xml application/xml application/javascript text/javascript application/json image/svg+xml
+</IfModule>
+
+# ---------- Cache no navegador ----------
+# Fotos e fontes: 1 ano (só mudam com nome novo). CSS e JS: 1 dia (os nomes não mudam a cada versão).
+# HTML e feeds: sempre conferir se há versão nova (preço e estoque precisam estar sempre atualizados).
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType text/css "access plus 1 day"
+  ExpiresByType application/javascript "access plus 1 day"
+  ExpiresByType text/javascript "access plus 1 day"
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType application/xml "access plus 0 seconds"
+  ExpiresByType text/xml "access plus 0 seconds"
+  ExpiresByType text/csv "access plus 0 seconds"
+</IfModule>
+
+# ---------- Segurança ----------
+<IfModule mod_headers.c>
+  # o navegador não "adivinha" o tipo de arquivo (evita executar algo como script por engano)
+  Header always set X-Content-Type-Options "nosniff"
+  # o site não pode ser aberto dentro de outro site (proteção contra clique enganoso)
+  Header always set X-Frame-Options "SAMEORIGIN"
+  # ao clicar num link externo, o outro site só sabe que veio de aquavitapecas.com.br, não a página exata
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  # câmera só para "Fotografe sua peça"; microfone e localização desligados
+  Header always set Permissions-Policy "camera=(self), microphone=(), geolocation=()"
+  # com HTTPS ativo, o navegador passa a usar sempre HTTPS (descomente quando o certificado estiver funcionando)
+  # Header always set Strict-Transport-Security "max-age=31536000"
+</IfModule>
+
+# ---------- Não servir arquivos internos ----------
+<FilesMatch "\.(py|md|mjs|cjs|json\.orig|gitignore|gitattributes)$|^package(-lock)?\.json$">
+  Require all denied
+</FilesMatch>
+RedirectMatch 404 ^/(\.git|server|tools|tests|pesquisa)(/|$)
